@@ -24,7 +24,7 @@ FACTION_DESC = {
 # 特殊链接：有真实页面的角色
 SPECIAL_LINK = {
     'Alain': '/characters/alain/',
-    'Scarlett': '/teams/alain-frontline/',
+    'Scarlett': '/characters/scarlett/',
     'Berenice': '/teams/alain-frontline/',
     'Clive': '/teams/alain-frontline/',
     'Josef': '/teams/alain-frontline/',
