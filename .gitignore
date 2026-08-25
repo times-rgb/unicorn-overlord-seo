@@ -1,0 +1,10 @@
+# 提交用截图（不属于仓库代码）
+screenshots/
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统
+Thumbs.db
+.DS_Store

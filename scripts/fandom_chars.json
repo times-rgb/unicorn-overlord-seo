@@ -1,0 +1,541 @@
+{
+ "Cornia": [
+  {
+   "name": "Alain",
+   "classes": [
+    "Lord",
+    "High Lord"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/f/f2/Alain_close.webp/revision/latest/scale-to-width-down/160?cb=20250101225421"
+  },
+  {
+   "name": "Scarlett",
+   "classes": [
+    "Priestess",
+    "High Priestess"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/5/5d/Scarlett_close.webp/revision/latest/scale-to-width-down/160?cb=20250101231143"
+  },
+  {
+   "name": "Lex",
+   "classes": [
+    "Fighter",
+    "Vanguard"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/f/f4/Lex_close.webp/revision/latest/scale-to-width-down/160?cb=20250101231200"
+  },
+  {
+   "name": "Josef",
+   "classes": [
+    "Paladin"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/c/ce/Josef_close.webp/revision/latest/scale-to-width-down/160?cb=20250101225923"
+  },
+  {
+   "name": "Chloe",
+   "classes": [
+    "Soldier",
+    "Sergeant"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/9/9e/Chloe_close.webp/revision/latest/scale-to-width-down/160?cb=20250101231215"
+  },
+  {
+   "name": "Hodrick",
+   "classes": [
+    "Hoplite",
+    "Legionnaire"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/0/03/Hodrick_close.webp/revision/latest/scale-to-width-down/160?cb=20250101231230"
+  },
+  {
+   "name": "Clive",
+   "classes": [
+    "Knight",
+    "Great Knight"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/5/52/Clive_close.webp/revision/latest/scale-to-width-down/160?cb=20250101231246"
+  },
+  {
+   "name": "Rolf",
+   "classes": [
+    "Hunter",
+    "Sniper"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/7/7a/Rolf_close.webp/revision/latest/scale-to-width-down/160?cb=20250102003434"
+  },
+  {
+   "name": "Sharon",
+   "classes": [
+    "Cleric",
+    "Bishop"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/c/c8/Sharon_close.webp/revision/latest/scale-to-width-down/160?cb=20250102003825"
+  },
+  {
+   "name": "Yahna",
+   "classes": [
+    "Witch",
+    "Sorceress"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/2/23/Yahna_close.webp/revision/latest/scale-to-width-down/160?cb=20250102003906"
+  },
+  {
+   "name": "Auch",
+   "classes": [
+    "Wizard",
+    "Warlock"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/a/ae/Auch_close.webp/revision/latest/scale-to-width-down/160?cb=20250102003922"
+  },
+  {
+   "name": "Mordon",
+   "classes": [
+    "Warrior",
+    "Breaker"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/3/37/Mordon_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004033"
+  },
+  {
+   "name": "Berenice",
+   "classes": [
+    "Sellsword",
+    "Landsknecht"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/3/3e/Berenice_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004141"
+  },
+  {
+   "name": "Adel",
+   "classes": [
+    "Knight",
+    "Great Knight"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/3/36/Adel_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004101"
+  },
+  {
+   "name": "Miriam",
+   "classes": [
+    "Radiant Knight",
+    "Sainted Knight"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/d/d1/Miriam_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004310"
+  },
+  {
+   "name": "Fran",
+   "classes": [
+    "Gryphon Knight",
+    "Gryphon Master"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/6/6f/Fran_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004252"
+  },
+  {
+   "name": "Kitra",
+   "classes": [
+    "Warrior",
+    "Breaker"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/0/05/Kitra_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004329"
+  },
+  {
+   "name": "Nina",
+   "classes": [
+    "Warrior",
+    "Breaker"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/9/9e/Nina_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004233"
+  },
+  {
+   "name": "Melisandre",
+   "classes": [
+    "Swordfighter",
+    "Swordmaster"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/4/4e/Melisandre_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004348"
+  },
+  {
+   "name": "Colm",
+   "classes": [
+    "Fighter",
+    "Vanguard"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/9/90/Colm_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004404"
+  },
+  {
+   "name": "Monica",
+   "classes": [
+    "Radiant Knight",
+    "Sainted Knight"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/7/71/Monica_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004420"
+  },
+  {
+   "name": "Tatiana",
+   "classes": [
+    "Cleric",
+    "Bishop"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/8/8f/Tatiana_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004458"
+  },
+  {
+   "name": "Virginia",
+   "classes": [
+    "Crusader",
+    "Valkyria"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/5/52/Virginia_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004542"
+  },
+  {
+   "name": "Selvie",
+   "classes": [
+    "Shaman",
+    "Druid"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/1/13/Selvie_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004212"
+  },
+  {
+   "name": "Renault",
+   "classes": [
+    "Great Knight"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/3/31/Renault_close.webp/revision/latest/scale-to-width-down/160?cb=20250102004519"
+  },
+  {
+   "name": "Gammel",
+   "classes": [
+    "Thief",
+    "Rogue"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/b/b7/Gammel_close.webp/revision/latest/scale-to-width-down/160?cb=20250102010130"
+  },
+  {
+   "name": "Mandrin",
+   "classes": [
+    "Hunter",
+    "Sniper"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/9/90/Mandrin_close.webp/revision/latest/scale-to-width-down/160?cb=20250102010146"
+  },
+  {
+   "name": "Ilenia",
+   "classes": [
+    "Valkyria"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/7/7a/Ilenia_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011302"
+  },
+  {
+   "name": "Millé",
+   "classes": [
+    "Warrior",
+    "Breaker"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/5/54/Mille_close.webp/revision/latest/scale-to-width-down/160?cb=20250102005704"
+  },
+  {
+   "name": "Gailey",
+   "classes": [
+    "Sergeant"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/c/cc/Gailey_close.webp/revision/latest/scale-to-width-down/160?cb=20250102021626"
+  },
+  {
+   "name": "Alcina",
+   "classes": [
+    "Dark Marquess (Staff)"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/5/50/Alcina_close.webp/revision/latest/scale-to-width-down/160?cb=20250102021642"
+  },
+  {
+   "name": "Beaumont",
+   "classes": [
+    "Hoplite",
+    "Legionnaire"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/b/b8/Beaumont.webp/revision/latest/scale-to-width-down/160?cb=20250102021733"
+  }
+ ],
+ "Drakenhold": [
+  {
+   "name": "Travis",
+   "classes": [
+    "Thief",
+    "Rogue"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/b/b5/Travis_close.webp/revision/latest/scale-to-width-down/160?cb=20250101231300"
+  },
+  {
+   "name": "Aubin",
+   "classes": [
+    "Housecarl",
+    "Viking"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/2/29/Aubin_close.webp/revision/latest/scale-to-width-down/160?cb=20250102003349"
+  },
+  {
+   "name": "Bruno",
+   "classes": [
+    "Gladiator",
+    "Berserker"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/3/3f/Bruno_close.webp/revision/latest/scale-to-width-down/160?cb=20250102003716"
+  },
+  {
+   "name": "Leah",
+   "classes": [
+    "Swordfighter",
+    "Swordmaster"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/d/d7/Leah_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011355"
+  },
+  {
+   "name": "Primm",
+   "classes": [
+    "Cleric",
+    "Bishop"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/9/91/Primm_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011412"
+  },
+  {
+   "name": "Aramis",
+   "classes": [
+    "Swordfighter",
+    "Swordmaster"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/b/b8/Aramis_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011453"
+  },
+  {
+   "name": "Berengaria",
+   "classes": [
+    "Dark Marquess (Axe)"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/2/20/Berengaria_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011430"
+  },
+  {
+   "name": "Magellan",
+   "classes": [
+    "Sellsword",
+    "Landsknecht"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/a/a5/Magellan_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011544"
+  },
+  {
+   "name": "Liza",
+   "classes": [
+    "Arbalist",
+    "Shieldshooter"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/5/56/Liza_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011657"
+  },
+  {
+   "name": "Gloucester",
+   "classes": [
+    "Dark Knight",
+    "Doom Knight"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/4/47/Gloucester_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011639"
+  },
+  {
+   "name": "Hilda",
+   "classes": [
+    "Wyvern Knight",
+    "Wyvern Master"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/0/06/Hilda_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011526"
+  },
+  {
+   "name": "Gilbert",
+   "classes": [
+    "Prince"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/d/d7/Gilbert_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011714"
+  },
+  {
+   "name": "Jeremy",
+   "classes": [
+    "Sellsword",
+    "Landsknecht"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/3/34/Jeremy_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011613"
+  },
+  {
+   "name": "Amalia",
+   "classes": [
+    "Dreadnought"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/d/de/Amalia_close.webp/revision/latest/scale-to-width-down/160?cb=20250102011744"
+  },
+  {
+   "name": "Bryce",
+   "classes": [
+    "Hoplite",
+    "Legionnaire"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/3/34/Bryce_close.webp/revision/latest/scale-to-width-down/160?cb=20250102021816"
+  },
+  {
+   "name": "Hermann",
+   "classes": [
+    "Legionnaire"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/e/ea/Hermann_Legionnaire.webp/revision/latest/scale-to-width-down/160?cb=20260505000352"
+  }
+ ],
+ "Elheim": [
+  {
+   "name": "Rosalinde",
+   "classes": [
+    "Elven Augur"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/a/aa/Rosalinde_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022033"
+  },
+  {
+   "name": "Lhinalagos",
+   "classes": [
+    "Elven Archer"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/3/35/Lhinalagos_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022051"
+  },
+  {
+   "name": "Celeste",
+   "classes": [
+    "Gryphon Master"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/e/ed/Celeste_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022126"
+  },
+  {
+   "name": "Ridiel",
+   "classes": [
+    "Elven Archer"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/9/93/Ridiel_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022151"
+  },
+  {
+   "name": "Eltolinde",
+   "classes": [
+    "Elven Sibyl"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/8/86/Eltolinde_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022207"
+  },
+  {
+   "name": "Ithilion",
+   "classes": [
+    "Elven Fencer"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/7/78/Ithilion_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022223"
+  },
+  {
+   "name": "Galadmir",
+   "classes": [
+    "Elven Archer"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/d/da/Galadmir_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022246"
+  },
+  {
+   "name": "Railanor",
+   "classes": [
+    "Elven Fencer"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/c/c5/Railanor_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022300"
+  }
+ ],
+ "Bastorias": [
+  {
+   "name": "Yunifi",
+   "classes": [
+    "Snow Ranger"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/0/03/Yunifi_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022720"
+  },
+  {
+   "name": "Morard",
+   "classes": [
+    "Werelion"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/1/1e/Morard_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022733"
+  },
+  {
+   "name": "Ramona",
+   "classes": [
+    "Wereowl"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/0/02/Ramona_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022747"
+  },
+  {
+   "name": "Dinah",
+   "classes": [
+    "Werefox"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/5/52/Dinah_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022802"
+  },
+  {
+   "name": "Govil",
+   "classes": [
+    "Werewolf"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/9/9f/Govil_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022819"
+  },
+  {
+   "name": "Bertrand",
+   "classes": [
+    "Werebear"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/4/45/Bertrand_close.webp/revision/latest/scale-to-width-down/160?cb=20250102022832"
+  },
+  {
+   "name": "Elgor",
+   "classes": [
+    "Dark Marquess (Spear)"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/0/0d/Elgor_close.webp/revision/latest/scale-to-width-down/160?cb=20250102023030"
+  }
+ ],
+ "Albion": [
+  {
+   "name": "Ochlys",
+   "classes": [
+    "Feathersword"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/4/48/Ochlys_close.webp/revision/latest/scale-to-width-down/160?cb=20250102003846"
+  },
+  {
+   "name": "Raenys",
+   "classes": [
+    "Featherbow"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/3/3f/Raenys_close.webp/revision/latest/scale-to-width-down/160?cb=20250102023339"
+  },
+  {
+   "name": "Jerome",
+   "classes": [
+    "Great Knight"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/c/c5/Jerome_close.webp/revision/latest/scale-to-width-down/160?cb=20250102023353"
+  },
+  {
+   "name": "Umerus",
+   "classes": [
+    "Feathersword"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/0/03/Umerus_close.webp/revision/latest/scale-to-width-down/160?cb=20250102023405"
+  },
+  {
+   "name": "Fodoquia",
+   "classes": [
+    "Feathershield"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/1/11/Fodoquia_close.webp/revision/latest/scale-to-width-down/160?cb=20250102023431"
+  },
+  {
+   "name": "Sanatio",
+   "classes": [
+    "Featherstaff"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/4/42/Sanatio_close.webp/revision/latest/scale-to-width-down/160?cb=20250102023444"
+  },
+  {
+   "name": "Nigel",
+   "classes": [
+    "Dark Marquess (Sword)"
+   ],
+   "img": "https://static.wikia.nocookie.net/unicornoverlord/images/7/7f/Nigel_close.webp/revision/latest/scale-to-width-down/160?cb=20250102023501"
+  }
+ ]
+}
