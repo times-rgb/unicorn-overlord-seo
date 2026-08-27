@@ -6,4 +6,37 @@
   gtag('js', new Date());
 
   gtag('config', 'G-21H6402X2H');
-</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Build, save and share Unicorn Overlord squads."><title>Unicorn Overlord Team Builder</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/site.css"><script src="/assets/data.js"></script></head><body><header class="nav"><a class="brand" href="/">UNICORN <i>OVERLORD</i><small>SEO ENGINE</small></a><nav><a href="/guides/">Guides</a><a href="/guides/#playable">Characters</a><a href="/guides/#classes">Classes</a><a href="/guides/#equipment">Equipment</a><a class="button small" href="/team-builder/">Team Builder</a></nav></header><main class="builder"><p class="eyebrow">INTERACTIVE SQUAD PLANNER</p><h1>Team Builder</h1><p class="lede">Select five units, save the formation in this browser, then create a portable URL that restores the exact squad.</p><div class="builder-grid"><section class="formation"><h2>Formation</h2><div class="slots"><div class="slot" id="front-left"></div><div class="slot" id="front-center"></div><div class="slot" id="front-right"></div><div class="slot" id="back-left"></div><div class="slot" id="back-right"></div></div></section><aside class="side-panel"><h2>Squad record</h2><label for="team-name">Formation name</label><input id="team-name" maxlength="40"><div class="builder-actions"><button class="button" id="save">Save squad</button><button class="ghost" id="share">Generate share URL</button><button class="ghost" id="reset">Reset</button></div><p class="notice" id="notice" aria-live="polite"></p><p>Start with the <a class="text-link" href="/characters/alain/">Alain build</a> or review the <a class="text-link" href="/classes/warrior/">Warrior counter guide</a>.</p></aside></div></main><footer>Unofficial tactical reference · <a href="/version-history/">Changelog</a> · Unicorn Overlord SEO Engine</footer><script src="/assets/builder.js"></script></body></html>
+</script><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Build, save and share Unicorn Overlord squads."><title>Unicorn Overlord Team Builder</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Inter:wght@400;500;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/site.css"><script src="/assets/data.js"></script><script src="/assets/calc.js"></script></head><body><header class="nav"><a class="brand" href="/">UNICORN <i>OVERLORD</i><small>SEO ENGINE</small></a><nav><a href="/guides/">Guides</a><a href="/guides/#playable">Characters</a><a href="/guides/#classes">Classes</a><a href="/guides/#equipment">Equipment</a><a class="button small" href="/team-builder/">Team Builder</a></nav></header><main class="builder"><p class="eyebrow">INTERACTIVE SQUAD PLANNER</p><h1>Team Builder</h1><p class="lede">Select five units, save the formation in this browser, then create a portable URL that restores the exact squad.</p><div class="builder-grid"><section class="formation"><h2>Formation</h2><div class="slots"><div class="slot" id="front-left"></div><div class="slot" id="front-center"></div><div class="slot" id="front-right"></div><div class="slot" id="back-left"></div><div class="slot" id="back-right"></div></div></section><aside class="side-panel"><h2>Squad record</h2><label for="team-name">Formation name</label><input id="team-name" maxlength="40"><div class="builder-actions"><button class="button" id="save">Save squad</button><button class="ghost" id="share">Generate share URL</button><button class="ghost" id="reset">Reset</button></div><p class="notice" id="notice" aria-live="polite"></p><p>Start with the <a class="text-link" href="/characters/alain/">Alain build</a> or review the <a class="text-link" href="/classes/warrior/">Warrior counter guide</a>.</p></aside></div><section class="ul-lab" id="ul-lab"><div class="crumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / Unit Lab</div><p class="eyebrow">UNIT LAB · NUMERIC SIMULATOR</p><h2>Level 50 Stat Lab</h2><p class="lede">See the exact level-50 stats of any unit — with and without full dews. More units are being added.</p><div class="ul-controls"><label>Unit
+<select id="ul-unit"></select></label><label>Class
+<select id="ul-class"></select></label><label>Level
+<select id="ul-level"></select></label><label class="ul-dew"><input type="checkbox" id="ul-dew" checked> Full dews (all 11)</label></div><div id="ul-out"></div><p class="notice">Formulas from HyperWiki(JP): base = Round(Lv/100×A + B), accuracy +100 display, + dews.</p></section></main><footer>Unofficial tactical reference · <a href="/version-history/">Changelog</a> · Unicorn Overlord SEO Engine</footer><script src="/assets/builder.js"></script><script>
+(async function () {
+  const lab = window.UOLab;
+  if (!lab) return;
+  const data = await lab.loadUOData();
+  const unitSel = document.getElementById('ul-unit');
+  const clsSel = document.getElementById('ul-class');
+  const lvSel = document.getElementById('ul-level');
+  const dewChk = document.getElementById('ul-dew');
+  const out = document.getElementById('ul-out');
+  const units = Object.entries(data.characters).filter(([,c]) => c.growth1);
+  units.sort((a,b) => a[1].name.localeCompare(b[1].name));
+  units.forEach(([k,c]) => unitSel.add(new Option(c.name + ' (' + c.growth1 + '/' + c.growth2 + ')', k)));
+  for (let lv = 50; lv >= 40; lv--) lvSel.add(new Option('Lv ' + lv, lv));
+  // 职业（用角色默认 class，先给 Alain 的高/下级选项）
+  function render() {
+    const key = unitSel.value; if (!key) { out.innerHTML = ''; return; }
+    const ch = data.characters[key];
+    // 类选择：用已知英→日映射里的候选（简易：优先 High 级）
+    const cand = Object.keys(lab.CLS_JP).filter(c => /High|Great|Saint|Master|Lord/.test(c));
+    clsSel.innerHTML = '';
+    cand.forEach(c => clsSel.add(new Option(c, c)));
+    const cls = clsSel.value;
+    const lv = parseInt(lvSel.value, 10);
+    const stats = lab.calcUnit(data, key, cls, lv, dewChk.checked);
+    out.innerHTML = lab.statsPanel(stats, cls + ' · ' + ch.name);
+  }
+  [unitSel, clsSel, lvSel, dewChk].forEach(el => el && el.addEventListener('change', render));
+  render();
+})();
+</script></body></html>
