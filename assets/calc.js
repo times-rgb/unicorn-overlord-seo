@@ -44,6 +44,7 @@ function calcUnit(data, charKey, clsEn, level, useDew, equipBonus) {
   if (!cls || !lv) return null;
   const g1 = data.growthTypes.A[ch.growth1], g2 = data.growthTypes.A[ch.growth2];
   const b1 = data.growthTypes.B[ch.growth1], b2 = data.growthTypes.B[ch.growth2];
+  if (!g1 || !g2) return null;  // 类型未收录：不估算，宁缺毋滥
   const out = {};
   for (let i = 0; i < 10; i++) {
     const A = Math.round((g1[i] + g2[i]) / 2) + cls[STAT_KEYS[i]];
@@ -58,15 +59,24 @@ function calcUnit(data, charKey, clsEn, level, useDew, equipBonus) {
   return out;
 }
 
-// 生成属性面板 HTML（给定最终属性）
-function statsPanel(stats, clsEn) {
-  let h = '<div class="ul-panel"><h4>Final Stats — Level 50</h4><p class="ul-sub">' + (clsEn || '') + ' · full dew ' +
-    '<label><input type="checkbox" id="ul-dew" checked> all dews</label></p><table class="ul-stats">';
+// 生成卡牌风属性面板（RPG/TCG 风）
+function statsPanel(ch, stats, clsEn, level, dew) {
+  const ava = (ch && ch.img) || (ch ? '/assets/chars/' + (ch.faction || '') + '_' + ch.name + '.webp' : '');
+  const maxes = { hp: 150, pAtk: 80, pDef: 70, mAtk: 80, mDef: 70, acc: 190, eva: 100, crit: 40, guard: 50, spd: 80, mov: 100 };
+  const ic = { hp: '❤️', pAtk: '⚔️', pDef: '🛡️', mAtk: '🔮', mDef: '🛡', acc: '🎯', eva: '💨', crit: '💥', guard: '🗡️', spd: '⚡', mov: '👢' };
+  let rows = '';
   for (const k of STAT_KEYS) {
-    h += '<tr><td>' + STAT_LABEL[k] + '</td><td><b>' + (stats ? stats[k] : '—') + '</b></td></tr>';
+    const w = stats ? Math.min(100, Math.round(stats[k] / maxes[k] * 100)) : 0;
+    const col = w >= 75 ? 'gold' : w >= 45 ? 'silver' : 'dim';
+    rows += '<tr><td class="ul-ic">' + ic[k] + '</td><td>' + STAT_LABEL[k] + '</td><td class="ul-val"><b>' + (stats ? stats[k] : '—') + '</b></td>' +
+      '<td class="ul-bar"><i class="' + col + '" style="width:' + w + '%"></i></td></tr>';
   }
-  h += '</table></div>';
-  return h;
+  return '<div class="ul-card"><div class="ul-head"><img class="ul-ava" src="' + ava + '" alt="' + (ch ? ch.name : '') + '">' +
+    '<div class="ul-id"><b>' + (ch ? ch.name : '?') + '</b><span>' + (clsEn || '') + ' · ' + ((ch && ch.faction) || '') + '</span>' +
+    '<span class="ul-gt">' + ((ch && ch.growth1) || '?') + ' / ' + ((ch && ch.growth2) || '?') + '</span></div>' +
+    '<div class="ul-lv">LV ' + level + (dew ? '<small>+ full dews</small>' : '<small>base</small>') + '</div></div>' +
+    '<table class="ul-stats">' + rows + '</table>' +
+    '<div class="ul-foot">Precise level-' + level + ' stats · formula from HyperWiki(JP)</div></div>';
 }
 
 window.UOLab = { loadUOData, calcUnit, statsPanel, STAT_LABEL, STAT_KEYS, CLS_JP, DEW_FULL };

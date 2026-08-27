@@ -1848,6 +1848,12 @@
  "characters": {
   "alain": {
    "name": "Alain",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Alain.webp",
+   "classes": [
+    "Lord",
+    "High Lord"
+   ],
    "growth1": "AllRounder",
    "growth2": "AllRounder",
    "baseStats": {},
@@ -1855,29 +1861,867 @@
   },
   "scarlett": {
    "name": "Scarlett",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Scarlett.webp",
+   "classes": [
+    "Priestess",
+    "High Priestess"
+   ],
    "growth1": "Guardian",
    "growth2": "HighLuck",
    "baseStats": {},
    "startingEquip": []
   },
-  "yunifi": {
-   "name": "Yunifi",
-   "growth1": null,
-   "growth2": null,
+  "lex": {
+   "name": "Lex",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Lex.webp",
+   "classes": [
+    "Fighter",
+    "Vanguard"
+   ],
+   "growth1": "Toughness",
+   "growth2": "Attacker",
    "baseStats": {},
    "startingEquip": []
   },
   "josef": {
    "name": "Josef",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Josef.webp",
+   "classes": [
+    "Paladin"
+   ],
    "growth1": "Toughness",
    "growth2": "Guardian",
    "baseStats": {},
    "startingEquip": []
   },
+  "chloe": {
+   "name": "Chloe",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Chloe.webp",
+   "classes": [
+    "Soldier",
+    "Sergeant"
+   ],
+   "growth1": "Guardian",
+   "growth2": "HighLuck",
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "hodrick": {
+   "name": "Hodrick",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Hodrick.webp",
+   "classes": [
+    "Hoplite",
+    "Legionnaire"
+   ],
+   "growth1": "Technical",
+   "growth2": "Attacker",
+   "baseStats": {},
+   "startingEquip": []
+  },
   "clive": {
    "name": "Clive",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Clive.webp",
+   "classes": [
+    "Knight",
+    "Great Knight"
+   ],
    "growth1": "Technical",
    "growth2": "Defender",
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "rolf": {
+   "name": "Rolf",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Rolf.webp",
+   "classes": [
+    "Hunter",
+    "Sniper"
+   ],
+   "growth1": "Attacker",
+   "growth2": "Guardian",
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "sharon": {
+   "name": "Sharon",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Sharon.webp",
+   "classes": [
+    "Cleric",
+    "Bishop"
+   ],
+   "growth1": "HighLuck",
+   "growth2": "Guardian",
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "yahna": {
+   "name": "Yahna",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Yahna.webp",
+   "classes": [
+    "Witch",
+    "Sorceress"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "auch": {
+   "name": "Auch",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Auch.webp",
+   "classes": [
+    "Wizard",
+    "Warlock"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "mordon": {
+   "name": "Mordon",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Mordon.webp",
+   "classes": [
+    "Warrior",
+    "Breaker"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "berenice": {
+   "name": "Berenice",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Berenice.webp",
+   "classes": [
+    "Sellsword",
+    "Landsknecht"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "adel": {
+   "name": "Adel",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Adel.webp",
+   "classes": [
+    "Knight",
+    "Great Knight"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "miriam": {
+   "name": "Miriam",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Miriam.webp",
+   "classes": [
+    "Radiant Knight",
+    "Sainted Knight"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "fran": {
+   "name": "Fran",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Fran.webp",
+   "classes": [
+    "Gryphon Knight",
+    "Gryphon Master"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "kitra": {
+   "name": "Kitra",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Kitra.webp",
+   "classes": [
+    "Warrior",
+    "Breaker"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "nina": {
+   "name": "Nina",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Nina.webp",
+   "classes": [
+    "Warrior",
+    "Breaker"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "melisandre": {
+   "name": "Melisandre",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Melisandre.webp",
+   "classes": [
+    "Swordfighter",
+    "Swordmaster"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "colm": {
+   "name": "Colm",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Colm.webp",
+   "classes": [
+    "Fighter",
+    "Vanguard"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "monica": {
+   "name": "Monica",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Monica.webp",
+   "classes": [
+    "Radiant Knight",
+    "Sainted Knight"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "tatiana": {
+   "name": "Tatiana",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Tatiana.webp",
+   "classes": [
+    "Cleric",
+    "Bishop"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "virginia": {
+   "name": "Virginia",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Virginia.webp",
+   "classes": [
+    "Crusader",
+    "Valkyria"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "selvie": {
+   "name": "Selvie",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Selvie.webp",
+   "classes": [
+    "Shaman",
+    "Druid"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "renault": {
+   "name": "Renault",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Renault.webp",
+   "classes": [
+    "Great Knight"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "gammel": {
+   "name": "Gammel",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Gammel.webp",
+   "classes": [
+    "Thief",
+    "Rogue"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "mandrin": {
+   "name": "Mandrin",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Mandrin.webp",
+   "classes": [
+    "Hunter",
+    "Sniper"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "ilenia": {
+   "name": "Ilenia",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Ilenia.webp",
+   "classes": [
+    "Valkyria"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "millé": {
+   "name": "Millé",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Millé.webp",
+   "classes": [
+    "Warrior",
+    "Breaker"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "gailey": {
+   "name": "Gailey",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Gailey.webp",
+   "classes": [
+    "Sergeant"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "alcina": {
+   "name": "Alcina",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Alcina.webp",
+   "classes": [
+    "Dark Marquess (Staff)"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "beaumont": {
+   "name": "Beaumont",
+   "faction": "Cornia",
+   "img": "/assets/chars/cornia_Beaumont.webp",
+   "classes": [
+    "Hoplite",
+    "Legionnaire"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "travis": {
+   "name": "Travis",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Travis.webp",
+   "classes": [
+    "Thief",
+    "Rogue"
+   ],
+   "growth1": "Attacker",
+   "growth2": "Speedster",
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "aubin": {
+   "name": "Aubin",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Aubin.webp",
+   "classes": [
+    "Housecarl",
+    "Viking"
+   ],
+   "growth1": "Technical",
+   "growth2": "Attacker",
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "bruno": {
+   "name": "Bruno",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Bruno.webp",
+   "classes": [
+    "Gladiator",
+    "Berserker"
+   ],
+   "growth1": "Defender",
+   "growth2": "Technical",
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "leah": {
+   "name": "Leah",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Leah.webp",
+   "classes": [
+    "Swordfighter",
+    "Swordmaster"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "primm": {
+   "name": "Primm",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Primm.webp",
+   "classes": [
+    "Cleric",
+    "Bishop"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "aramis": {
+   "name": "Aramis",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Aramis.webp",
+   "classes": [
+    "Swordfighter",
+    "Swordmaster"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "berengaria": {
+   "name": "Berengaria",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Berengaria.webp",
+   "classes": [
+    "Dark Marquess (Axe)"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "magellan": {
+   "name": "Magellan",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Magellan.webp",
+   "classes": [
+    "Sellsword",
+    "Landsknecht"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "liza": {
+   "name": "Liza",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Liza.webp",
+   "classes": [
+    "Arbalist",
+    "Shieldshooter"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "gloucester": {
+   "name": "Gloucester",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Gloucester.webp",
+   "classes": [
+    "Dark Knight",
+    "Doom Knight"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "hilda": {
+   "name": "Hilda",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Hilda.webp",
+   "classes": [
+    "Wyvern Knight",
+    "Wyvern Master"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "gilbert": {
+   "name": "Gilbert",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Gilbert.webp",
+   "classes": [
+    "Prince"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "jeremy": {
+   "name": "Jeremy",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Jeremy.webp",
+   "classes": [
+    "Sellsword",
+    "Landsknecht"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "amalia": {
+   "name": "Amalia",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Amalia.webp",
+   "classes": [
+    "Dreadnought"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "bryce": {
+   "name": "Bryce",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Bryce.webp",
+   "classes": [
+    "Hoplite",
+    "Legionnaire"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "hermann": {
+   "name": "Hermann",
+   "faction": "Drakenhold",
+   "img": "/assets/chars/drakenhold_Hermann.webp",
+   "classes": [
+    "Legionnaire"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "rosalinde": {
+   "name": "Rosalinde",
+   "faction": "Elheim",
+   "img": "/assets/chars/elheim_Rosalinde.webp",
+   "classes": [
+    "Elven Augur"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "lhinalagos": {
+   "name": "Lhinalagos",
+   "faction": "Elheim",
+   "img": "/assets/chars/elheim_Lhinalagos.webp",
+   "classes": [
+    "Elven Archer"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "celeste": {
+   "name": "Celeste",
+   "faction": "Elheim",
+   "img": "/assets/chars/elheim_Celeste.webp",
+   "classes": [
+    "Gryphon Master"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "ridiel": {
+   "name": "Ridiel",
+   "faction": "Elheim",
+   "img": "/assets/chars/elheim_Ridiel.webp",
+   "classes": [
+    "Elven Archer"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "eltolinde": {
+   "name": "Eltolinde",
+   "faction": "Elheim",
+   "img": "/assets/chars/elheim_Eltolinde.webp",
+   "classes": [
+    "Elven Sibyl"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "ithilion": {
+   "name": "Ithilion",
+   "faction": "Elheim",
+   "img": "/assets/chars/elheim_Ithilion.webp",
+   "classes": [
+    "Elven Fencer"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "galadmir": {
+   "name": "Galadmir",
+   "faction": "Elheim",
+   "img": "/assets/chars/elheim_Galadmir.webp",
+   "classes": [
+    "Elven Archer"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "railanor": {
+   "name": "Railanor",
+   "faction": "Elheim",
+   "img": "/assets/chars/elheim_Railanor.webp",
+   "classes": [
+    "Elven Fencer"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "yunifi": {
+   "name": "Yunifi",
+   "faction": "Bastorias",
+   "img": "/assets/chars/bastorias_Yunifi.webp",
+   "classes": [
+    "Snow Ranger"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "morard": {
+   "name": "Morard",
+   "faction": "Bastorias",
+   "img": "/assets/chars/bastorias_Morard.webp",
+   "classes": [
+    "Werelion"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "ramona": {
+   "name": "Ramona",
+   "faction": "Bastorias",
+   "img": "/assets/chars/bastorias_Ramona.webp",
+   "classes": [
+    "Wereowl"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "dinah": {
+   "name": "Dinah",
+   "faction": "Bastorias",
+   "img": "/assets/chars/bastorias_Dinah.webp",
+   "classes": [
+    "Werefox"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "govil": {
+   "name": "Govil",
+   "faction": "Bastorias",
+   "img": "/assets/chars/bastorias_Govil.webp",
+   "classes": [
+    "Werewolf"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "bertrand": {
+   "name": "Bertrand",
+   "faction": "Bastorias",
+   "img": "/assets/chars/bastorias_Bertrand.webp",
+   "classes": [
+    "Werebear"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "elgor": {
+   "name": "Elgor",
+   "faction": "Bastorias",
+   "img": "/assets/chars/bastorias_Elgor.webp",
+   "classes": [
+    "Dark Marquess (Spear)"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "ochlys": {
+   "name": "Ochlys",
+   "faction": "Albion",
+   "img": "/assets/chars/albion_Ochlys.webp",
+   "classes": [
+    "Feathersword"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "raenys": {
+   "name": "Raenys",
+   "faction": "Albion",
+   "img": "/assets/chars/albion_Raenys.webp",
+   "classes": [
+    "Featherbow"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "jerome": {
+   "name": "Jerome",
+   "faction": "Albion",
+   "img": "/assets/chars/albion_Jerome.webp",
+   "classes": [
+    "Great Knight"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "umerus": {
+   "name": "Umerus",
+   "faction": "Albion",
+   "img": "/assets/chars/albion_Umerus.webp",
+   "classes": [
+    "Feathersword"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "fodoquia": {
+   "name": "Fodoquia",
+   "faction": "Albion",
+   "img": "/assets/chars/albion_Fodoquia.webp",
+   "classes": [
+    "Feathershield"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "sanatio": {
+   "name": "Sanatio",
+   "faction": "Albion",
+   "img": "/assets/chars/albion_Sanatio.webp",
+   "classes": [
+    "Featherstaff"
+   ],
+   "growth1": null,
+   "growth2": null,
+   "baseStats": {},
+   "startingEquip": []
+  },
+  "nigel": {
+   "name": "Nigel",
+   "faction": "Albion",
+   "img": "/assets/chars/albion_Nigel.webp",
+   "classes": [
+    "Dark Marquess (Sword)"
+   ],
+   "growth1": null,
+   "growth2": null,
    "baseStats": {},
    "startingEquip": []
   }
