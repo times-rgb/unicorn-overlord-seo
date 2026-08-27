@@ -6,89 +6,18 @@
   gtag('js', new Date());
   gtag('config', 'G-21H6402X2H');
 </script>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Version and maintenance log for Unicorn Overlord SEO Engine: every issue found, the decision to fix it, before/after changes and measured impact."><title>Version &amp; Maintenance Log | Unicorn Overlord</title><link rel="stylesheet" href="/assets/site.css"><script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Version & Maintenance Log | Unicorn Overlord","description":"Version and maintenance log for Unicorn Overlord SEO Engine.","mainEntity":{"@type":"ItemPage","name":"Version Log","game":"Unicorn Overlord"}}</script><style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><meta name="description" content="Changelog for Unicorn Overlord SEO Engine - what's new, based on player and community suggestions."><title>Changelog | Unicorn Overlord</title><link rel="stylesheet" href="/assets/site.css"><script type="application/ld+json">{"@context":"https://schema.org","@type":"TechArticle","headline":"Version & Maintenance Log | Unicorn Overlord","description":"Version and maintenance log for Unicorn Overlord SEO Engine.","mainEntity":{"@type":"ItemPage","name":"Version Log","game":"Unicorn Overlord"}}</script><style>
 .article table{font-size:13px}
 .article table td,.article table th{vertical-align:top;padding:8px 10px}
 .vn{font-weight:800;white-space:nowrap;color:var(--accent-gold,#c9a45c)}
 .tag-yes{color:#7bc47f}.tag-no{color:#e08a8a}.tag-wait{color:#d9b36c}
 .howto{background:var(--card-bg,#1b1f27);border:1px solid var(--border,#333);border-radius:10px;padding:14px 18px;margin:16px 0}
 .howto li{margin:4px 0;font-size:14px}
-</style></head><body><header class="nav"><a class="brand" href="/">UNICORN <i>OVERLORD</i><small>SEO ENGINE</small></a><nav><a href="/guides/">Guides</a><a href="/guides/#playable">Characters</a><a href="/guides/#classes">Classes</a><a href="/guides/#equipment">Equipment</a><a class="button small" href="/team-builder/">Team Builder</a></nav></header><article class="article wiki"><div class="crumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / Version Log</div><p class="eyebrow">MAINTENANCE LOG</p><h1>Version &amp; Maintenance Log</h1><p class="lede">Every change to this site, logged the same way: <b>why we went looking</b> → <b>what we found</b> → <b>whether it's worth fixing (and why)</b> → <b>before vs after</b> → <b>measured impact</b>. Data cells are filled in once GSC/GA4 has numbers.</p>
-
-<div class="howto"><b>How to use this log (update rule):</b>
-<ol>
-<li>Whenever you investigate a problem, add one row below (newest on top).</li>
-<li><b>Why</b> = the trigger (user report / data / review / assumption).</li>
-<li><b>Decision</b> = the reasoning: P0 (must fix) / P1 (worth it) / P2 (later) / Won't fix + one-line basis.</li>
-<li><b>Before / After</b> = concrete content change, not "fixed something".</li>
-<li><b>Data</b> = fill later from GSC (impressions/clicks) &amp; GA4 (UV/PV) — leave empty until numbers exist.</li>
-</ol></div>
-
+</style></head><body><header class="nav"><a class="brand" href="/">UNICORN <i>OVERLORD</i><small>SEO ENGINE</small></a><nav><a href="/guides/">Guides</a><a href="/guides/#playable">Characters</a><a href="/guides/#classes">Classes</a><a href="/guides/#equipment">Equipment</a><a class="button small" href="/team-builder/">Team Builder</a></nav></header><article class="article wiki"><div class="crumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / Changelog</div><p class="eyebrow">CHANGELOG</p><h1>Changelog — What's New</h1><p class="lede">Updates are driven by player suggestions and the community meta. Check back for new builds, expanded coverage and fresh data.</p>
 <table>
-<tr><th>Version</th><th>Date</th><th>Why we looked</th><th>Issue found</th><th>Decision &amp; basis</th><th>Before</th><th>After</th><th>Data before → after (GSC / GA4)</th></tr>
-
-<tr>
-<td class="vn">v1.2.1</td><td>2026-08-27</td>
-<td>Goal: package the build method so the next site can be cloned fast (SOP objective).</td>
-<td>Experience scattered across chat / files; no reusable pipeline.</td>
-<td><span class="tag-yes">P1 — do it</span><br>Methodology is the product; low cost, high reuse.</td>
-<td>No skill, no knowledge pack, no pitfall log.</td>
-<td>Skill <code>tactics-site-architect</code> (phases 1–9 incl. GEO); clone pack zip; pitfall log; decision-chain doc.</td>
-<td>(pending data)</td>
-</tr>
-
-<tr>
-<td class="vn">v1.2</td><td>2026-08-27</td>
-<td>Simulated a real visitor navigating the site; checked nav + categories.</td>
-<td>Navigation was inconsistent: 5 different nav layouts across 79 pages; "Characters/Classes/Equipment" jumped to a single example page instead of a list.</td>
-<td><span class="tag-yes">P0 — fix now</span><br>Directly breaks discovery &amp; crawl; 5-minute fix.</td>
-<td>79 pages, 5 nav variants, categories → single entity pages.</td>
-<td>All 79 pages share one 5-item nav; categories → guides list anchors (#playable/#classes/#equipment).</td>
-<td>(pending data)</td>
-</tr>
-
-<tr>
-<td class="vn">v1.1.1</td><td>2026-08-25</td>
-<td>User feedback: inner-page H1 looked huge (88px).</td>
-<td>Global <code>h1</code> clamp() for the homepage hero was inherited by every inner page.</td>
-<td><span class="tag-yes">P1 — fix</span><br>Visual hierarchy issue, low risk.</td>
-<td>Inner-page H1 = 88px (hero size).</td>
-<td><code>.article h1</code> override → inner pages 35px; homepage hero unchanged 62px.</td>
-<td>(pending data)</td>
-</tr>
-
-<tr>
-<td class="vn">v1.1</td><td>2026-08-25</td>
-<td>Content depth gap: character pages were data-only; no "teams / recruitment / builds" strong-intent content.</td>
-<td>No long-form guide; users searching "best team / how to recruit" had nothing deep.</td>
-<td><span class="tag-yes">P1 — do it</span><br>Team/recruit guides are core intent for tactics games; differentiates from Fandom.</td>
-<td>No deep guide page.</td>
-<td>Added <code>/guides/complete-team-recruitment/</code> — 70 companions + 8 team builds, EN rewrite with source credit, 78 screenshots localized.</td>
-<td>(pending data)</td>
-</tr>
-
-<tr>
-<td class="vn">v1.0</td><td>2026-08-24</td>
-<td>Blank-slate build: need a site that can rank.</td>
-<td>No site, no data, no pipeline.</td>
-<td><span class="tag-yes">P0 — build</span><br>Core objective (exercise + SOP).</td>
-<td>Nothing.</td>
-<td>80 pages live on Vercel; GSC verified + sitemap (79 URLs); GA4 + funnel events (<code>team_builder_use/save/share</code>).</td>
-<td>GSC ≈ 1 impression / 0 clicks (new site, normal).</td>
-</tr>
-
-<!-- ===== TEMPLATE — copy for the next entry =====
-<tr>
-<td class="vn">vX.X</td><td>YYYY-MM-DD</td>
-<td>Why we looked: (trigger: report / data / review / assumption)</td>
-<td>Issue found: (what it actually is)</td>
-<td><span class="tag-wait">P0/P1/P2/Won't fix — decision</span><br>Basis: (one line of reasoning)</td>
-<td>Before: (concrete before)</td>
-<td>After: (concrete after)</td>
-<td>Data before → after: (fill later from GSC / GA4)</td>
-</tr>
--->
+<tr><th>Version</th><th>Date</th><th>What's new</th><th>Suggested by</th></tr>
+<tr><td class="vn">v1.1</td><td>2026-08-25</td><td>New long-form guide — <b>All 70 Companions &amp; Best Team Compositions</b>: every unit's recruitment, world map &amp; leveling order, 8 tested team builds (T0–T2) with gear &amp; tactics, and PVP lineups.</td><td>Community · Bilibili guide (lzlzmc)</td></tr>
+<tr><td class="vn">v1.0</td><td>2026-08-24</td><td>Site launch: 70 character build pages, class &amp; equipment guides, and the interactive Team Builder (build / save / share squads).</td><td>Community requests</td></tr>
 </table>
-
-<footer style="margin-top:24px;font-size:12px;color:var(--text-muted,#889)">Unofficial fan reference · maintenance log is a working document, update as you iterate.</footer>
-</article><footer>Unofficial tactical reference · Unicorn Overlord SEO Engine</footer></body></html>
+</article>
+<footer>Unofficial tactical reference · <a href="/version-history/">Changelog</a> · Unicorn Overlord SEO Engine</footer></body></html>
