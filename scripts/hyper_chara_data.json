@@ -1,0 +1,2371 @@
+[
+ {
+  "jp": "アレイン",
+  "stats": {
+   "hp": 104,
+   "pAtk": 45,
+   "pDef": 39,
+   "mAtk": 43,
+   "mDef": 42,
+   "acc": 152,
+   "eva": 67,
+   "crit": 21,
+   "guard": 30,
+   "spd": 44,
+   "mov": 300
+  },
+  "cls_jp": "ハイロード",
+  "detail": "https://hyperwiki.jp/unicorn/chara/aln/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c2/",
+  "init_cls": "ロード",
+  "adv_cls": "ハイロード",
+  "gt1": "オールマイティ",
+  "gt2": "オールマイティ",
+  "equip": [
+   "一角獣の指輪"
+  ],
+  "slots": [
+   "剣",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Alain"
+ },
+ {
+  "jp": "スカーレット",
+  "stats": {
+   "hp": 76,
+   "pAtk": 23,
+   "pDef": 29,
+   "mAtk": 47,
+   "mDef": 56,
+   "acc": 142,
+   "eva": 71,
+   "crit": 7,
+   "guard": 12,
+   "spd": 23,
+   "mov": 100
+  },
+  "cls_jp": "ハイプリーステス",
+  "detail": "https://hyperwiki.jp/unicorn/chara/scr/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c54/",
+  "init_cls": "プリーステス",
+  "adv_cls": "ハイプリーステス",
+  "gt1": "ガーディアン",
+  "gt2": "ハイラック",
+  "equip": [
+   "スカーレットのリボン"
+  ],
+  "slots": [
+   "杖",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Scarlett"
+ },
+ {
+  "jp": "レックス",
+  "stats": {
+   "hp": 96,
+   "pAtk": 43,
+   "pDef": 41,
+   "mAtk": 31,
+   "mDef": 17,
+   "acc": 137,
+   "eva": 30,
+   "crit": 16,
+   "guard": 34,
+   "spd": 29,
+   "mov": 100
+  },
+  "cls_jp": "ヴァンガード",
+  "detail": "https://hyperwiki.jp/unicorn/chara/lex/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c4/",
+  "init_cls": "ファイター",
+  "adv_cls": "ヴァンガード",
+  "gt1": "タフネス",
+  "gt2": "アタッカー",
+  "equip": [
+   "新兵の盾"
+  ],
+  "slots": [
+   "剣",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Lex"
+ },
+ {
+  "jp": "クロエ",
+  "stats": {
+   "hp": 84,
+   "pAtk": 43,
+   "pDef": 35,
+   "mAtk": 33,
+   "mDef": 35,
+   "acc": 138,
+   "eva": 56,
+   "crit": 15,
+   "guard": 16,
+   "spd": 33,
+   "mov": 100
+  },
+  "cls_jp": "サージェント",
+  "detail": "https://hyperwiki.jp/unicorn/chara/clo/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c6/",
+  "init_cls": "ソルジャー",
+  "adv_cls": "サージェント",
+  "gt1": "ガーディアン",
+  "gt2": "ハイラック",
+  "equip": [
+   "クロエのお守り"
+  ],
+  "slots": [
+   "槍",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Chloe"
+ },
+ {
+  "jp": "ジョセフ",
+  "stats": {
+   "hp": 107,
+   "pAtk": 46,
+   "pDef": 31,
+   "mAtk": 44,
+   "mDef": 56,
+   "acc": 139,
+   "eva": 30,
+   "crit": 12,
+   "guard": 28,
+   "spd": 29,
+   "mov": 300
+  },
+  "cls_jp": "パラディン",
+  "detail": "https://hyperwiki.jp/unicorn/chara/jsf/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c61/",
+  "init_cls": "パラディン",
+  "adv_cls": "なし",
+  "gt1": "タフネス",
+  "gt2": "ガーディアン",
+  "equip": [
+   "神殿騎士の剣",
+   "神殿騎士の盾"
+  ],
+  "slots": [
+   "剣",
+   "盾",
+   "アクセ１",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Josef"
+ },
+ {
+  "jp": "ホドリック",
+  "stats": {
+   "hp": 103,
+   "pAtk": 41,
+   "pDef": 56,
+   "mAtk": 29,
+   "mDef": 2,
+   "acc": 130,
+   "eva": 5,
+   "crit": 13,
+   "guard": 39,
+   "spd": 10,
+   "mov": 50
+  },
+  "cls_jp": "カタフラクト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/hod/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c14/",
+  "init_cls": "ホプリタイ",
+  "adv_cls": "カタフラクト",
+  "gt1": "スレイヤー",
+  "gt2": "アタッカー",
+  "equip": [
+   "ガントレット"
+  ],
+  "slots": [
+   "槍",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Hodrick"
+ },
+ {
+  "jp": "クライブ",
+  "stats": {
+   "hp": 97,
+   "pAtk": 52,
+   "pDef": 41,
+   "mAtk": 30,
+   "mDef": 37,
+   "acc": 132,
+   "eva": 15,
+   "crit": 23,
+   "guard": 23,
+   "spd": 32,
+   "mov": 300
+  },
+  "cls_jp": "グレートナイト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/clv/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c26/",
+  "init_cls": "ナイト",
+  "adv_cls": "グレートナイト",
+  "gt1": "テクニカル",
+  "gt2": "ディフェンダー",
+  "equip": [
+   "ガントレット"
+  ],
+  "slots": [
+   "槍",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Clive"
+ },
+ {
+  "jp": "トラヴィス",
+  "stats": {
+   "hp": 55,
+   "pAtk": 30,
+   "pDef": 11,
+   "mAtk": 34,
+   "mDef": 34,
+   "acc": 156,
+   "eva": 102,
+   "crit": 32,
+   "guard": 4,
+   "spd": 54,
+   "mov": 170
+  },
+  "cls_jp": "ローグ",
+  "detail": "https://hyperwiki.jp/unicorn/chara/trv/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c24/",
+  "init_cls": "シーフ",
+  "adv_cls": "ローグ",
+  "gt1": "アタッカー",
+  "gt2": "スピードスター",
+  "equip": [
+   "シルクスカーフ"
+  ],
+  "slots": [
+   "剣",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Travis"
+ },
+ {
+  "jp": "オーバン",
+  "stats": {
+   "hp": 75,
+   "pAtk": 59,
+   "pDef": 27,
+   "mAtk": 21,
+   "mDef": 20,
+   "acc": 142,
+   "eva": 38,
+   "crit": 15,
+   "guard": 20,
+   "spd": 36,
+   "mov": 100
+  },
+  "cls_jp": "ヴァイキング",
+  "detail": "https://hyperwiki.jp/unicorn/chara/obn/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c8/",
+  "init_cls": "ハスカール",
+  "adv_cls": "ヴァイキング",
+  "gt1": "テクニカル",
+  "gt2": "アタッカー",
+  "equip": [
+   "クラッシュアックス"
+  ],
+  "slots": [
+   "斧",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Aubin"
+ },
+ {
+  "jp": "ブルーノ",
+  "stats": {
+   "hp": 145,
+   "pAtk": 50,
+   "pDef": 14,
+   "mAtk": 2,
+   "mDef": 20,
+   "acc": 126,
+   "eva": 15,
+   "crit": 11,
+   "guard": 15,
+   "spd": 15,
+   "mov": 80
+  },
+  "cls_jp": "バーサーカー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/bru/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c16/",
+  "init_cls": "グラディエーター",
+  "adv_cls": "バーサーカー",
+  "gt1": "ディフェンダー",
+  "gt2": "テクニカル",
+  "equip": [],
+  "slots": [
+   "斧",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Bruno"
+ },
+ {
+  "jp": "オクリース",
+  "stats": {
+   "hp": 72,
+   "pAtk": 37,
+   "pDef": 27,
+   "mAtk": 29,
+   "mDef": 42,
+   "acc": 146,
+   "eva": 80,
+   "crit": 12,
+   "guard": 22,
+   "spd": 37,
+   "mov": 150
+  },
+  "cls_jp": "フェザーソード",
+  "detail": "https://hyperwiki.jp/unicorn/chara/ocl/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c49/",
+  "init_cls": "フェザーソード",
+  "adv_cls": "なし",
+  "gt1": "スピードスター",
+  "gt2": "スピードスター",
+  "equip": [
+   "天翼騎士の剣",
+   "天翼騎士の盾"
+  ],
+  "slots": [
+   "剣",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Ochlys"
+ },
+ {
+  "jp": "シャロン",
+  "stats": {
+   "hp": 80,
+   "pAtk": 15,
+   "pDef": 23,
+   "mAtk": 39,
+   "mDef": 63,
+   "acc": 142,
+   "eva": 61,
+   "crit": 3,
+   "guard": 10,
+   "spd": 17,
+   "mov": 80
+  },
+  "cls_jp": "ビショップ",
+  "detail": "https://hyperwiki.jp/unicorn/chara/sha/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c32/",
+  "init_cls": "クレリック",
+  "adv_cls": "ビショップ",
+  "gt1": "ハイラック",
+  "gt2": "ガーディアン",
+  "equip": [
+   "幸運のコイン"
+  ],
+  "slots": [
+   "杖",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Sharon"
+ },
+ {
+  "jp": "モルドン",
+  "stats": {
+   "hp": 100,
+   "pAtk": 75,
+   "pDef": 36,
+   "mAtk": 23,
+   "mDef": 31,
+   "acc": 132,
+   "eva": 38,
+   "crit": 4,
+   "guard": 22,
+   "spd": 32,
+   "mov": 100
+  },
+  "cls_jp": "ブレイカー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/mol/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c18/",
+  "init_cls": "ウォーリア",
+  "adv_cls": "ブレイカー",
+  "gt1": "アタッカー",
+  "gt2": "アタッカー",
+  "equip": [
+   "ウォーハンマー"
+  ],
+  "slots": [
+   "斧",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Mordon"
+ },
+ {
+  "jp": "ヤーナ",
+  "stats": {
+   "hp": 60,
+   "pAtk": 11,
+   "pDef": 12,
+   "mAtk": 59,
+   "mDef": 52,
+   "acc": 134,
+   "eva": 50,
+   "crit": 8,
+   "guard": 4,
+   "spd": 20,
+   "mov": 80
+  },
+  "cls_jp": "ソーサレス",
+  "detail": "https://hyperwiki.jp/unicorn/chara/yna/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c36/",
+  "init_cls": "ウィッチ",
+  "adv_cls": "ソーサレス",
+  "gt1": "アタッカー",
+  "gt2": "アタッカー",
+  "equip": [
+   "蝙蝠の杖",
+   "レザーフード"
+  ],
+  "slots": [
+   "杖",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Yahna"
+ },
+ {
+  "jp": "アデル",
+  "stats": {
+   "hp": 103,
+   "pAtk": 56,
+   "pDef": 38,
+   "mAtk": 34,
+   "mDef": 34,
+   "acc": 126,
+   "eva": 18,
+   "crit": 24,
+   "guard": 22,
+   "spd": 33,
+   "mov": 300
+  },
+  "cls_jp": "グレートナイト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/adl/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c26/",
+  "init_cls": "ナイト",
+  "adv_cls": "グレートナイト",
+  "gt1": "アタッカー",
+  "gt2": "スピードスター",
+  "equip": [
+   "バトルシールド",
+   "傭兵の眼帯"
+  ],
+  "slots": [
+   "槍",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Adel"
+ },
+ {
+  "jp": "キトラ",
+  "stats": {
+   "hp": 99,
+   "pAtk": 70,
+   "pDef": 38,
+   "mAtk": 18,
+   "mDef": 34,
+   "acc": 132,
+   "eva": 40,
+   "crit": 6,
+   "guard": 22,
+   "spd": 34,
+   "mov": 100
+  },
+  "cls_jp": "ブレイカー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/ktr/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c18/",
+  "init_cls": "ウォーリア",
+  "adv_cls": "ブレイカー",
+  "gt1": "アタッカー",
+  "gt2": "スピードスター",
+  "equip": [
+   "薔薇騎士の槌",
+   "ブロンズバングル"
+  ],
+  "slots": [
+   "斧",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Kitra"
+ },
+ {
+  "jp": "ミリアム",
+  "stats": {
+   "hp": 103,
+   "pAtk": 39,
+   "pDef": 28,
+   "mAtk": 53,
+   "mDef": 62,
+   "acc": 136,
+   "eva": 15,
+   "crit": 5,
+   "guard": 28,
+   "spd": 29,
+   "mov": 300
+  },
+  "cls_jp": "セイントナイト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/mri/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c28/",
+  "init_cls": "ホワイトナイト",
+  "adv_cls": "セイントナイト",
+  "gt1": "アタッカー",
+  "gt2": "ガーディアン",
+  "equip": [
+   "薔薇騎士の剣",
+   "祝福の円盾",
+   "解毒のアミュレット"
+  ],
+  "slots": [
+   "剣",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Miriam"
+ },
+ {
+  "jp": "フラウ",
+  "stats": {
+   "hp": 75,
+   "pAtk": 53,
+   "pDef": 26,
+   "mAtk": 29,
+   "mDef": 46,
+   "acc": 132,
+   "eva": 80,
+   "crit": 18,
+   "guard": 7,
+   "spd": 26,
+   "mov": 150
+  },
+  "cls_jp": "グリフォンルーラー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/fru/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c42/",
+  "init_cls": "グリフォンナイト",
+  "adv_cls": "グリフォンルーラー",
+  "gt1": "スレイヤー",
+  "gt2": "アタッカー",
+  "equip": [
+   "薔薇騎士の斧",
+   "シルクスカーフ"
+  ],
+  "slots": [
+   "斧",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Fran"
+ },
+ {
+  "jp": "ベレニス",
+  "stats": {
+   "hp": 103,
+   "pAtk": 79,
+   "pDef": 33,
+   "mAtk": 17,
+   "mDef": 21,
+   "acc": 132,
+   "eva": 28,
+   "crit": 21,
+   "guard": 24,
+   "spd": 18,
+   "mov": 80
+  },
+  "cls_jp": "ランツクネヒト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/brn/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c12/",
+  "init_cls": "マーセナリー",
+  "adv_cls": "ランツクネヒト",
+  "gt1": "アタッカー",
+  "gt2": "テクニカル",
+  "equip": [
+   "ブラウンベレー"
+  ],
+  "slots": [
+   "剣",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Berenice"
+ },
+ {
+  "jp": "ニーナ",
+  "stats": {
+   "hp": 96,
+   "pAtk": 71,
+   "pDef": 39,
+   "mAtk": 19,
+   "mDef": 35,
+   "acc": 133,
+   "eva": 39,
+   "crit": 8,
+   "guard": 21,
+   "spd": 31,
+   "mov": 100
+  },
+  "cls_jp": "ブレイカー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/nin/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c18/",
+  "init_cls": "ウォーリア",
+  "adv_cls": "ブレイカー",
+  "gt1": "スレイヤー",
+  "gt2": "オールマイティ",
+  "equip": [
+   "バロックアクス"
+  ],
+  "slots": [
+   "斧",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Nina"
+ },
+ {
+  "jp": "ブリス",
+  "stats": {
+   "hp": 107,
+   "pAtk": 34,
+   "pDef": 61,
+   "mAtk": 22,
+   "mDef": 8,
+   "acc": 129,
+   "eva": 5,
+   "crit": 9,
+   "guard": 41,
+   "spd": 11,
+   "mov": 50
+  },
+  "cls_jp": "カタフラクト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/bls/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c14/",
+  "init_cls": "カタフラクト",
+  "adv_cls": "なし",
+  "gt1": "ディフェンダー",
+  "gt2": "タフネス",
+  "equip": [],
+  "slots": [
+   "槍",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Bryce"
+ },
+ {
+  "jp": "ロルフ",
+  "stats": {
+   "hp": 75,
+   "pAtk": 47,
+   "pDef": 14,
+   "mAtk": 33,
+   "mDef": 44,
+   "acc": 180,
+   "eva": 58,
+   "crit": 25,
+   "guard": 14,
+   "spd": 30,
+   "mov": 100
+  },
+  "cls_jp": "スナイパー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/rlf/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c20/",
+  "init_cls": "ハンター",
+  "adv_cls": "スナイパー",
+  "gt1": "アタッカー",
+  "gt2": "ガーディアン",
+  "equip": [
+   "ブロンズバングル"
+  ],
+  "slots": [
+   "弓",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Rolf"
+ },
+ {
+  "jp": "メリザンド",
+  "stats": {
+   "hp": 60,
+   "pAtk": 42,
+   "pDef": 15,
+   "mAtk": 28,
+   "mDef": 40,
+   "acc": 164,
+   "eva": 98,
+   "crit": 44,
+   "guard": 9,
+   "spd": 56,
+   "mov": 100
+  },
+  "cls_jp": "ソードマスター",
+  "detail": "https://hyperwiki.jp/unicorn/chara/mls/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c10/",
+  "init_cls": "ソードマン",
+  "adv_cls": "ソードマスター",
+  "gt1": "スレイヤー",
+  "gt2": "スピードスター",
+  "equip": [],
+  "slots": [
+   "剣",
+   "剣",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Melisandre"
+ },
+ {
+  "jp": "コーム",
+  "stats": {
+   "hp": 85,
+   "pAtk": 42,
+   "pDef": 41,
+   "mAtk": 30,
+   "mDef": 17,
+   "acc": 145,
+   "eva": 32,
+   "crit": 17,
+   "guard": 34,
+   "spd": 30,
+   "mov": 100
+  },
+  "cls_jp": "ヴァンガード",
+  "detail": "https://hyperwiki.jp/unicorn/chara/crm/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c4/",
+  "init_cls": "ファイター",
+  "adv_cls": "ヴァンガード",
+  "gt1": "テクニカル",
+  "gt2": "オールマイティ",
+  "equip": [
+   "エイドキット"
+  ],
+  "slots": [
+   "剣",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Colm"
+ },
+ {
+  "jp": "モニカ",
+  "stats": {
+   "hp": 107,
+   "pAtk": 36,
+   "pDef": 31,
+   "mAtk": 50,
+   "mDef": 65,
+   "acc": 135,
+   "eva": 15,
+   "crit": 4,
+   "guard": 28,
+   "spd": 29,
+   "mov": 300
+  },
+  "cls_jp": "セイントナイト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/mnc/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c28/",
+  "init_cls": "ホワイトナイト",
+  "adv_cls": "セイントナイト",
+  "gt1": "タフネス",
+  "gt2": "ガーディアン",
+  "equip": [],
+  "slots": [
+   "剣",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Monica"
+ },
+ {
+  "jp": "タチアナ",
+  "stats": {
+   "hp": 83,
+   "pAtk": 19,
+   "pDef": 20,
+   "mAtk": 43,
+   "mDef": 62,
+   "acc": 140,
+   "eva": 55,
+   "crit": 3,
+   "guard": 10,
+   "spd": 17,
+   "mov": 80
+  },
+  "cls_jp": "ビショップ",
+  "detail": "https://hyperwiki.jp/unicorn/chara/tta/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c32/",
+  "init_cls": "クレリック",
+  "adv_cls": "ビショップ",
+  "gt1": "アタッカー",
+  "gt2": "ガーディアン",
+  "equip": [],
+  "slots": [
+   "杖",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Tatiana"
+ },
+ {
+  "jp": "オーシュ",
+  "stats": {
+   "hp": 57,
+   "pAtk": 7,
+   "pDef": 16,
+   "mAtk": 59,
+   "mDef": 54,
+   "acc": 133,
+   "eva": 41,
+   "crit": 10,
+   "guard": 2,
+   "spd": 20,
+   "mov": 80
+  },
+  "cls_jp": "ウォーロック",
+  "detail": "https://hyperwiki.jp/unicorn/chara/osh/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c34/",
+  "init_cls": "ウィザード",
+  "adv_cls": "ウォーロック",
+  "gt1": "テクニカル",
+  "gt2": "ハイラック",
+  "equip": [
+   "シルクフード"
+  ],
+  "slots": [
+   "杖",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Auch"
+ },
+ {
+  "jp": "セルヴィ",
+  "stats": {
+   "hp": 97,
+   "pAtk": 34,
+   "pDef": 30,
+   "mAtk": 32,
+   "mDef": 69,
+   "acc": 146,
+   "eva": 63,
+   "crit": 20,
+   "guard": 10,
+   "spd": 41,
+   "mov": 100
+  },
+  "cls_jp": "ドルイド",
+  "detail": "https://hyperwiki.jp/unicorn/chara/slv/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c38/",
+  "init_cls": "シャーマン",
+  "adv_cls": "ドルイド",
+  "gt1": "ガーディアン",
+  "gt2": "テクニカル",
+  "equip": [
+   "白鳥の羽飾り"
+  ],
+  "slots": [
+   "杖",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Selvie"
+ },
+ {
+  "jp": "ヴァージニア",
+  "stats": {
+   "hp": 111,
+   "pAtk": 54,
+   "pDef": 43,
+   "mAtk": 22,
+   "mDef": 40,
+   "acc": 139,
+   "eva": 28,
+   "crit": 15,
+   "guard": 39,
+   "spd": 21,
+   "mov": 80
+  },
+  "cls_jp": "ヴァルキュリア",
+  "detail": "https://hyperwiki.jp/unicorn/chara/vgn/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c56/",
+  "init_cls": "クルセイダー",
+  "adv_cls": "ヴァルキュリア",
+  "gt1": "ディフェンダー",
+  "gt2": "タフネス",
+  "equip": [
+   "黒鉄の剣",
+   "青薔薇の盾",
+   "黒鉄の盾"
+  ],
+  "slots": [
+   "剣",
+   "盾",
+   "盾",
+   "アクセ１"
+  ],
+  "lv50": {},
+  "en_name": "Virginia"
+ },
+ {
+  "jp": "リア",
+  "stats": {
+   "hp": 60,
+   "pAtk": 39,
+   "pDef": 15,
+   "mAtk": 25,
+   "mDef": 40,
+   "acc": 166,
+   "eva": 104,
+   "crit": 42,
+   "guard": 10,
+   "spd": 57,
+   "mov": 100
+  },
+  "cls_jp": "ソードマスター",
+  "detail": "https://hyperwiki.jp/unicorn/chara/ria/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c10/",
+  "init_cls": "ソードマン",
+  "adv_cls": "ソードマスター",
+  "gt1": "スピードスター",
+  "gt2": "ハイラック",
+  "equip": [
+   "飛竜の細剣",
+   "蒼石のペンダント"
+  ],
+  "slots": [
+   "剣",
+   "剣",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Leah"
+ },
+ {
+  "jp": "プリム",
+  "stats": {
+   "hp": 87,
+   "pAtk": 16,
+   "pDef": 23,
+   "mAtk": 40,
+   "mDef": 65,
+   "acc": 139,
+   "eva": 55,
+   "crit": 2,
+   "guard": 10,
+   "spd": 17,
+   "mov": 80
+  },
+  "cls_jp": "ビショップ",
+  "detail": "https://hyperwiki.jp/unicorn/chara/prm/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c32/",
+  "init_cls": "クレリック",
+  "adv_cls": "ビショップ",
+  "gt1": "タフネス",
+  "gt2": "ガーディアン",
+  "equip": [
+   "レリア司祭の儀仗",
+   "命のタリスマン"
+  ],
+  "slots": [
+   "杖",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Primm"
+ },
+ {
+  "jp": "アラミス",
+  "stats": {
+   "hp": 63,
+   "pAtk": 47,
+   "pDef": 14,
+   "mAtk": 33,
+   "mDef": 39,
+   "acc": 165,
+   "eva": 97,
+   "crit": 40,
+   "guard": 10,
+   "spd": 54,
+   "mov": 100
+  },
+  "cls_jp": "ソードマスター",
+  "detail": "https://hyperwiki.jp/unicorn/chara/ara/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c10/",
+  "init_cls": "ソードマン",
+  "adv_cls": "ソードマスター",
+  "gt1": "オールマイティ",
+  "gt2": "アタッカー",
+  "equip": [
+   "飛竜の細剣"
+  ],
+  "slots": [
+   "剣",
+   "剣",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Aramis"
+ },
+ {
+  "jp": "マゼラン",
+  "stats": {
+   "hp": 108,
+   "pAtk": 83,
+   "pDef": 33,
+   "mAtk": 21,
+   "mDef": 21,
+   "acc": 126,
+   "eva": 28,
+   "crit": 20,
+   "guard": 24,
+   "spd": 17,
+   "mov": 80
+  },
+  "cls_jp": "ランツクネヒト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/mln/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c12/",
+  "init_cls": "マーセナリー",
+  "adv_cls": "ランツクネヒト",
+  "gt1": "アタッカー",
+  "gt2": "アタッカー",
+  "equip": [
+   "追撃者の腕輪"
+  ],
+  "slots": [
+   "剣",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Magellan"
+ },
+ {
+  "jp": "ジェレミー",
+  "stats": {
+   "hp": 107,
+   "pAtk": 78,
+   "pDef": 35,
+   "mAtk": 16,
+   "mDef": 23,
+   "acc": 126,
+   "eva": 30,
+   "crit": 22,
+   "guard": 24,
+   "spd": 19,
+   "mov": 80
+  },
+  "cls_jp": "ランツクネヒト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/jmy/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c12/",
+  "init_cls": "マーセナリー",
+  "adv_cls": "ランツクネヒト",
+  "gt1": "アタッカー",
+  "gt2": "スピードスター",
+  "equip": [],
+  "slots": [
+   "剣",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Jeremy"
+ },
+ {
+  "jp": "ヒルダ",
+  "stats": {
+   "hp": 88,
+   "pAtk": 52,
+   "pDef": 40,
+   "mAtk": 12,
+   "mDef": 24,
+   "acc": 144,
+   "eva": 75,
+   "crit": 19,
+   "guard": 14,
+   "spd": 33,
+   "mov": 150
+  },
+  "cls_jp": "ワイバーンルーラー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/hld/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c40/",
+  "init_cls": "ワイバーンナイト",
+  "adv_cls": "ワイバーンルーラー",
+  "gt1": "ディフェンダー",
+  "gt2": "ガーディアン",
+  "equip": [],
+  "slots": [
+   "槍",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Hilda"
+ },
+ {
+  "jp": "ギルベルト",
+  "stats": {
+   "hp": 83,
+   "pAtk": 42,
+   "pDef": 32,
+   "mAtk": 42,
+   "mDef": 37,
+   "acc": 140,
+   "eva": 50,
+   "crit": 20,
+   "guard": 21,
+   "spd": 30,
+   "mov": 100
+  },
+  "cls_jp": "プリンス",
+  "detail": "https://hyperwiki.jp/unicorn/chara/glb/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c62/",
+  "init_cls": "プリンス",
+  "adv_cls": "なし",
+  "gt1": "ディフェンダー",
+  "gt2": "アタッカー",
+  "equip": [
+   "王家のサーベル",
+   "解毒のアミュレット",
+   "火消のアミュレット"
+  ],
+  "slots": [
+   "剣",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Gilbert"
+ },
+ {
+  "jp": "アーマリア",
+  "stats": {
+   "hp": 104,
+   "pAtk": 73,
+   "pDef": 32,
+   "mAtk": 7,
+   "mDef": 17,
+   "acc": 149,
+   "eva": 10,
+   "crit": 2,
+   "guard": 28,
+   "spd": 9,
+   "mov": 80
+  },
+  "cls_jp": "ドレッドノート",
+  "detail": "https://hyperwiki.jp/unicorn/chara/amr/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c63/",
+  "init_cls": "ドレッドノート",
+  "adv_cls": "なし",
+  "gt1": "アタッカー",
+  "gt2": "タフネス",
+  "equip": [
+   "グレートソード",
+   "竜岩の氷盾",
+   "緋晶石のペンダント",
+   "蒼晶石のペンダント"
+  ],
+  "slots": [
+   "剣",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Amalia"
+ },
+ {
+  "jp": "ヘルマン",
+  "stats": {
+   "hp": 100,
+   "pAtk": 39,
+   "pDef": 57,
+   "mAtk": 27,
+   "mDef": 4,
+   "acc": 132,
+   "eva": 7,
+   "crit": 9,
+   "guard": 40,
+   "spd": 11,
+   "mov": 50
+  },
+  "cls_jp": "カタフラクト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/hlm/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c14/",
+  "init_cls": "カタフラクト",
+  "adv_cls": "なし",
+  "gt1": "オールマイティ",
+  "gt2": "オールマイティ",
+  "equip": [],
+  "slots": [
+   "槍",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Hermann"
+ },
+ {
+  "jp": "ベレンガリア",
+  "stats": {
+   "hp": 85,
+   "pAtk": 48,
+   "pDef": 31,
+   "mAtk": 38,
+   "mDef": 37,
+   "acc": 160,
+   "eva": 55,
+   "crit": 26,
+   "guard": 17,
+   "spd": 38,
+   "mov": 100
+  },
+  "cls_jp": "ダークマーキス(斧)",
+  "detail": "https://hyperwiki.jp/unicorn/chara/brg/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c70/",
+  "init_cls": "ダークマーキス(斧)",
+  "adv_cls": "なし",
+  "gt1": "ディフェンダー",
+  "gt2": "テクニカル",
+  "equip": [
+   "鉄の斧",
+   "鉄の大盾"
+  ],
+  "slots": [
+   "斧",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Berengaria"
+ },
+ {
+  "jp": "グロスタ",
+  "stats": {
+   "hp": 104,
+   "pAtk": 64,
+   "pDef": 33,
+   "mAtk": 52,
+   "mDef": 28,
+   "acc": 131,
+   "eva": 19,
+   "crit": 12,
+   "guard": 22,
+   "spd": 24,
+   "mov": 300
+  },
+  "cls_jp": "ドゥームナイト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/glo/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c30/",
+  "init_cls": "ブラックナイト",
+  "adv_cls": "ドゥームナイト",
+  "gt1": "オールマイティ",
+  "gt2": "スピードスター",
+  "equip": [
+   "金羊騎士の斧"
+  ],
+  "slots": [
+   "斧",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Gloucester"
+ },
+ {
+  "jp": "リーザ",
+  "stats": {
+   "hp": 80,
+   "pAtk": 56,
+   "pDef": 27,
+   "mAtk": 20,
+   "mDef": 39,
+   "acc": 162,
+   "eva": 31,
+   "crit": 14,
+   "guard": 29,
+   "spd": 20,
+   "mov": 80
+  },
+  "cls_jp": "シールドシューター",
+  "detail": "https://hyperwiki.jp/unicorn/chara/lsa/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c22/",
+  "init_cls": "シューター",
+  "adv_cls": "シールドシューター",
+  "gt1": "ハイラック",
+  "gt2": "スレイヤー",
+  "equip": [
+   "デザートボウ",
+   "解毒のアミュレット"
+  ],
+  "slots": [
+   "弓",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Liza"
+ },
+ {
+  "jp": "ロザリンデ",
+  "stats": {
+   "hp": 68,
+   "pAtk": 51,
+   "pDef": 21,
+   "mAtk": 55,
+   "mDef": 49,
+   "acc": 136,
+   "eva": 65,
+   "crit": 8,
+   "guard": 4,
+   "spd": 32,
+   "mov": 100
+  },
+  "cls_jp": "エルフアウグル",
+  "detail": "https://hyperwiki.jp/unicorn/chara/rsl/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c58/",
+  "init_cls": "エルフアウグル",
+  "adv_cls": "なし",
+  "gt1": "アタッカー",
+  "gt2": "アタッカー",
+  "equip": [
+   "霊樹の双子槍",
+   "シルクフード"
+  ],
+  "slots": [
+   "槍",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Rosalinde"
+ },
+ {
+  "jp": "リナラゴス",
+  "stats": {
+   "hp": 69,
+   "pAtk": 34,
+   "pDef": 22,
+   "mAtk": 54,
+   "mDef": 53,
+   "acc": 166,
+   "eva": 40,
+   "crit": 17,
+   "guard": 9,
+   "spd": 42,
+   "mov": 100
+  },
+  "cls_jp": "エルフアーチャー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/lnr/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c44/",
+  "init_cls": "エルフアーチャー",
+  "adv_cls": "なし",
+  "gt1": "テクニカル",
+  "gt2": "ディフェンダー",
+  "equip": [],
+  "slots": [
+   "魔法弓",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Lhinalagos"
+ },
+ {
+  "jp": "イシリオン",
+  "stats": {
+   "hp": 83,
+   "pAtk": 46,
+   "pDef": 24,
+   "mAtk": 56,
+   "mDef": 45,
+   "acc": 140,
+   "eva": 60,
+   "crit": 16,
+   "guard": 17,
+   "spd": 29,
+   "mov": 100
+  },
+  "cls_jp": "エルフフェンサー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/isi/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c43/",
+  "init_cls": "エルフフェンサー",
+  "adv_cls": "なし",
+  "gt1": "アタッカー",
+  "gt2": "ディフェンダー",
+  "equip": [
+   "大樹の剣",
+   "ブロンズバングル"
+  ],
+  "slots": [
+   "魔法剣",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Ithilion"
+ },
+ {
+  "jp": "セレスト",
+  "stats": {
+   "hp": 79,
+   "pAtk": 46,
+   "pDef": 31,
+   "mAtk": 22,
+   "mDef": 52,
+   "acc": 131,
+   "eva": 80,
+   "crit": 14,
+   "guard": 9,
+   "spd": 27,
+   "mov": 150
+  },
+  "cls_jp": "グリフォンルーラー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/cel/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c42/",
+  "init_cls": "グリフォンルーラー",
+  "adv_cls": "なし",
+  "gt1": "ディフェンダー",
+  "gt2": "タフネス",
+  "equip": [
+   "ラブリュス",
+   "狙撃手のレンズ",
+   "火消のアミュレット"
+  ],
+  "slots": [
+   "斧",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Celeste"
+ },
+ {
+  "jp": "ギャメル",
+  "stats": {
+   "hp": 52,
+   "pAtk": 25,
+   "pDef": 12,
+   "mAtk": 29,
+   "mDef": 35,
+   "acc": 156,
+   "eva": 105,
+   "crit": 32,
+   "guard": 4,
+   "spd": 57,
+   "mov": 170
+  },
+  "cls_jp": "ローグ",
+  "detail": "https://hyperwiki.jp/unicorn/chara/gml/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c24/",
+  "init_cls": "ローグ",
+  "adv_cls": "なし",
+  "gt1": "スピードスター",
+  "gt2": "スピードスター",
+  "equip": [
+   "守銭奴の腕輪",
+   "ゴールデンエッグ"
+  ],
+  "slots": [
+   "剣",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Gammel"
+ },
+ {
+  "jp": "マンドラン",
+  "stats": {
+   "hp": 75,
+   "pAtk": 46,
+   "pDef": 17,
+   "mAtk": 32,
+   "mDef": 47,
+   "acc": 180,
+   "eva": 58,
+   "crit": 26,
+   "guard": 11,
+   "spd": 30,
+   "mov": 100
+  },
+  "cls_jp": "スナイパー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/mdr/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c20/",
+  "init_cls": "スナイパー",
+  "adv_cls": "なし",
+  "gt1": "ディフェンダー",
+  "gt2": "アタッカー",
+  "equip": [
+   "フレイムボウ",
+   "黒鳥の羽飾り",
+   "追撃のイヤリング"
+  ],
+  "slots": [
+   "弓",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Mandrin"
+ },
+ {
+  "jp": "エルトリンデ",
+  "stats": {
+   "hp": 61,
+   "pAtk": 34,
+   "pDef": 26,
+   "mAtk": 54,
+   "mDef": 55,
+   "acc": 142,
+   "eva": 65,
+   "crit": 9,
+   "guard": 5,
+   "spd": 33,
+   "mov": 100
+  },
+  "cls_jp": "エルフシビュラ",
+  "detail": "https://hyperwiki.jp/unicorn/chara/elt/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c57/",
+  "init_cls": "エルフシビュラ",
+  "adv_cls": "なし",
+  "gt1": "ディフェンダー",
+  "gt2": "テクニカル",
+  "equip": [
+   "霊樹の双子槍"
+  ],
+  "slots": [
+   "槍",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Eltolinde"
+ },
+ {
+  "jp": "ガラドミア",
+  "stats": {
+   "hp": 75,
+   "pAtk": 38,
+   "pDef": 21,
+   "mAtk": 58,
+   "mDef": 52,
+   "acc": 160,
+   "eva": 40,
+   "crit": 16,
+   "guard": 9,
+   "spd": 41,
+   "mov": 100
+  },
+  "cls_jp": "エルフアーチャー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/gld/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c44/",
+  "init_cls": "エルフアーチャー",
+  "adv_cls": "なし",
+  "gt1": "アタッカー",
+  "gt2": "ディフェンダー",
+  "equip": [
+   "大樹の霊弓",
+   "解毒のアミュレット"
+  ],
+  "slots": [
+   "魔法弓",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Galadmir"
+ },
+ {
+  "jp": "ララノア",
+  "stats": {
+   "hp": 77,
+   "pAtk": 42,
+   "pDef": 25,
+   "mAtk": 52,
+   "mDef": 46,
+   "acc": 146,
+   "eva": 60,
+   "crit": 17,
+   "guard": 17,
+   "spd": 30,
+   "mov": 100
+  },
+  "cls_jp": "エルフフェンサー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/lln/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c43/",
+  "init_cls": "エルフフェンサー",
+  "adv_cls": "なし",
+  "gt1": "ディフェンダー",
+  "gt2": "テクニカル",
+  "equip": [],
+  "slots": [
+   "魔法剣",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Railanor"
+ },
+ {
+  "jp": "リディエル",
+  "stats": {
+   "hp": 72,
+   "pAtk": 32,
+   "pDef": 22,
+   "mAtk": 52,
+   "mDef": 54,
+   "acc": 160,
+   "eva": 43,
+   "crit": 18,
+   "guard": 9,
+   "spd": 43,
+   "mov": 100
+  },
+  "cls_jp": "エルフアーチャー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/lid/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c44/",
+  "init_cls": "エルフアーチャー",
+  "adv_cls": "なし",
+  "gt1": "スピードスター",
+  "gt2": "ディフェンダー",
+  "equip": [
+   "大樹の弓",
+   "守りの篭手",
+   "白鳥の羽飾り"
+  ],
+  "slots": [
+   "魔法弓",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Ridiel"
+ },
+ {
+  "jp": "ユニフィ",
+  "stats": {
+   "hp": 72,
+   "pAtk": 42,
+   "pDef": 21,
+   "mAtk": 32,
+   "mDef": 35,
+   "acc": 176,
+   "eva": 78,
+   "crit": 34,
+   "guard": 7,
+   "spd": 35,
+   "mov": 100
+  },
+  "cls_jp": "スノーレンジャー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/uni/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c59/",
+  "init_cls": "スノーレンジャー",
+  "adv_cls": "なし",
+  "gt1": "スピードスター",
+  "gt2": "スレイヤー",
+  "equip": [
+   "雪花弓",
+   "もこもこミトン"
+  ],
+  "slots": [
+   "弓",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Yunifi"
+ },
+ {
+  "jp": "モラード",
+  "stats": {
+   "hp": 148,
+   "pAtk": 55,
+   "pDef": 12,
+   "mAtk": 7,
+   "mDef": 18,
+   "acc": 120,
+   "eva": 15,
+   "crit": 16,
+   "guard": 12,
+   "spd": 11,
+   "mov": 80
+  },
+  "cls_jp": "ワーライオン",
+  "detail": "https://hyperwiki.jp/unicorn/chara/mrd/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c60/",
+  "init_cls": "ワーライオン",
+  "adv_cls": "なし",
+  "gt1": "スレイヤー",
+  "gt2": "スレイヤー",
+  "equip": [
+   "凍てついた戦斧",
+   "ライオンハート",
+   "シルバーバングル"
+  ],
+  "slots": [
+   "斧",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Morard"
+ },
+ {
+  "jp": "ダイナ",
+  "stats": {
+   "hp": 56,
+   "pAtk": 37,
+   "pDef": 20,
+   "mAtk": 27,
+   "mDef": 35,
+   "acc": 158,
+   "eva": 96,
+   "crit": 31,
+   "guard": 10,
+   "spd": 53,
+   "mov": 170
+  },
+  "cls_jp": "ワーフォックス",
+  "detail": "https://hyperwiki.jp/unicorn/chara/dna/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c46/",
+  "init_cls": "ワーフォックス",
+  "adv_cls": "なし",
+  "gt1": "ハイラック",
+  "gt2": "ガーディアン",
+  "equip": [
+   "カルナットスピア",
+   "宿り木のチャーム"
+  ],
+  "slots": [
+   "槍",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Dinah"
+ },
+ {
+  "jp": "ラモーナ",
+  "stats": {
+   "hp": 64,
+   "pAtk": 15,
+   "pDef": 15,
+   "mAtk": 39,
+   "mDef": 61,
+   "acc": 142,
+   "eva": 61,
+   "crit": 3,
+   "guard": 6,
+   "spd": 36,
+   "mov": 150
+  },
+  "cls_jp": "ワーオウル",
+  "detail": "https://hyperwiki.jp/unicorn/chara/rmn/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c48/",
+  "init_cls": "ワーオウル",
+  "adv_cls": "なし",
+  "gt1": "ハイラック",
+  "gt2": "ガーディアン",
+  "equip": [
+   "イチイの賢杖"
+  ],
+  "slots": [
+   "杖",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Ramona"
+ },
+ {
+  "jp": "ゴービル",
+  "stats": {
+   "hp": 88,
+   "pAtk": 43,
+   "pDef": 27,
+   "mAtk": 11,
+   "mDef": 23,
+   "acc": 166,
+   "eva": 51,
+   "crit": 22,
+   "guard": 12,
+   "spd": 33,
+   "mov": 100
+  },
+  "cls_jp": "ワーウルフ",
+  "detail": "https://hyperwiki.jp/unicorn/chara/gbl/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c45/",
+  "init_cls": "ワーウルフ",
+  "adv_cls": "なし",
+  "gt1": "ハイラック",
+  "gt2": "ガーディアン",
+  "equip": [],
+  "slots": [
+   "剣",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Govil"
+ },
+ {
+  "jp": "ベルトラン",
+  "stats": {
+   "hp": 157,
+   "pAtk": 50,
+   "pDef": 32,
+   "mAtk": 8,
+   "mDef": 6,
+   "acc": 118,
+   "eva": 10,
+   "crit": 12,
+   "guard": 38,
+   "spd": 8,
+   "mov": 50
+  },
+  "cls_jp": "ワーベア",
+  "detail": "https://hyperwiki.jp/unicorn/chara/blt/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c47/",
+  "init_cls": "ワーベア",
+  "adv_cls": "なし",
+  "gt1": "ガーディアン",
+  "gt2": "テクニカル",
+  "equip": [
+   "エイドキット"
+  ],
+  "slots": [
+   "斧",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Bertrand"
+ },
+ {
+  "jp": "レーニス",
+  "stats": {
+   "hp": 68,
+   "pAtk": 43,
+   "pDef": 18,
+   "mAtk": 37,
+   "mDef": 38,
+   "acc": 160,
+   "eva": 75,
+   "crit": 16,
+   "guard": 8,
+   "spd": 39,
+   "mov": 150
+  },
+  "cls_jp": "フェザーボウ",
+  "detail": "https://hyperwiki.jp/unicorn/chara/rns/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c50/",
+  "init_cls": "フェザーボウ",
+  "adv_cls": "なし",
+  "gt1": "アタッカー",
+  "gt2": "アタッカー",
+  "equip": [
+   "翼紋章の弓",
+   "白鳥の羽飾り"
+  ],
+  "slots": [
+   "弓",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Raenys"
+ },
+ {
+  "jp": "ウメルス",
+  "stats": {
+   "hp": 75,
+   "pAtk": 45,
+   "pDef": 26,
+   "mAtk": 37,
+   "mDef": 41,
+   "acc": 146,
+   "eva": 75,
+   "crit": 14,
+   "guard": 21,
+   "spd": 31,
+   "mov": 150
+  },
+  "cls_jp": "フェザーソード",
+  "detail": "https://hyperwiki.jp/unicorn/chara/uml/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c49/",
+  "init_cls": "フェザーソード",
+  "adv_cls": "なし",
+  "gt1": "スレイヤー",
+  "gt2": "アタッカー",
+  "equip": [],
+  "slots": [
+   "剣",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Umerus"
+ },
+ {
+  "jp": "ナイジェル",
+  "stats": {
+   "hp": 100,
+   "pAtk": 46,
+   "pDef": 37,
+   "mAtk": 38,
+   "mDef": 45,
+   "acc": 152,
+   "eva": 45,
+   "crit": 19,
+   "guard": 28,
+   "spd": 35,
+   "mov": 100
+  },
+  "cls_jp": "ダークマーキス(剣)",
+  "detail": "https://hyperwiki.jp/unicorn/chara/ngl/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c69/",
+  "init_cls": "ダークマーキス(剣)",
+  "adv_cls": "なし",
+  "gt1": "ディフェンダー",
+  "gt2": "ガーディアン",
+  "equip": [],
+  "slots": [
+   "剣",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Nigel"
+ },
+ {
+  "jp": "サナティオ",
+  "stats": {
+   "hp": 60,
+   "pAtk": 13,
+   "pDef": 15,
+   "mAtk": 39,
+   "mDef": 58,
+   "acc": 140,
+   "eva": 85,
+   "crit": 6,
+   "guard": 2,
+   "spd": 48,
+   "mov": 150
+  },
+  "cls_jp": "フェザーロッド",
+  "detail": "https://hyperwiki.jp/unicorn/chara/snt/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c51/",
+  "init_cls": "フェザーロッド",
+  "adv_cls": "なし",
+  "gt1": "スピードスター",
+  "gt2": "スピードスター",
+  "equip": [],
+  "slots": [
+   "杖",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Sanatio"
+ },
+ {
+  "jp": "ジェローム",
+  "stats": {
+   "hp": 104,
+   "pAtk": 61,
+   "pDef": 36,
+   "mAtk": 39,
+   "mDef": 31,
+   "acc": 126,
+   "eva": 15,
+   "crit": 22,
+   "guard": 22,
+   "spd": 30,
+   "mov": 300
+  },
+  "cls_jp": "グレートナイト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/jrm/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c26/",
+  "init_cls": "グレートナイト",
+  "adv_cls": "なし",
+  "gt1": "アタッカー",
+  "gt2": "アタッカー",
+  "equip": [],
+  "slots": [
+   "槍",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Jerome"
+ },
+ {
+  "jp": "フォドキア",
+  "stats": {
+   "hp": 88,
+   "pAtk": 29,
+   "pDef": 32,
+   "mAtk": 27,
+   "mDef": 67,
+   "acc": 140,
+   "eva": 65,
+   "crit": 14,
+   "guard": 24,
+   "spd": 36,
+   "mov": 100
+  },
+  "cls_jp": "フェザーシールド",
+  "detail": "https://hyperwiki.jp/unicorn/chara/fod/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c52/",
+  "init_cls": "フェザーシールド",
+  "adv_cls": "なし",
+  "gt1": "スピードスター",
+  "gt2": "スピードスター",
+  "equip": [],
+  "slots": [
+   "剣",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Fodoquia"
+ },
+ {
+  "jp": "ルノー",
+  "stats": {
+   "hp": 100,
+   "pAtk": 52,
+   "pDef": 43,
+   "mAtk": 30,
+   "mDef": 38,
+   "acc": 126,
+   "eva": 15,
+   "crit": 21,
+   "guard": 26,
+   "spd": 30,
+   "mov": 300
+  },
+  "cls_jp": "グレートナイト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/rno/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c26/",
+  "init_cls": "グレートナイト",
+  "adv_cls": "なし",
+  "gt1": "ディフェンダー",
+  "gt2": "ガーディアン",
+  "equip": [
+   "白馬の騎士盾"
+  ],
+  "slots": [
+   "槍",
+   "盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Renault"
+ },
+ {
+  "jp": "ボーモン",
+  "stats": {
+   "hp": 107,
+   "pAtk": 35,
+   "pDef": 59,
+   "mAtk": 23,
+   "mDef": 5,
+   "acc": 129,
+   "eva": 8,
+   "crit": 9,
+   "guard": 40,
+   "spd": 13,
+   "mov": 50
+  },
+  "cls_jp": "カタフラクト",
+  "detail": "https://hyperwiki.jp/unicorn/chara/bmn/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c14/",
+  "init_cls": "カタフラクト",
+  "adv_cls": "なし",
+  "gt1": "スピードスター",
+  "gt2": "タフネス",
+  "equip": [],
+  "slots": [
+   "槍",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Beaumont"
+ },
+ {
+  "jp": "イレニア",
+  "stats": {
+   "hp": 111,
+   "pAtk": 54,
+   "pDef": 43,
+   "mAtk": 22,
+   "mDef": 40,
+   "acc": 139,
+   "eva": 28,
+   "crit": 15,
+   "guard": 39,
+   "spd": 21,
+   "mov": 80
+  },
+  "cls_jp": "ヴァルキュリア",
+  "detail": "https://hyperwiki.jp/unicorn/chara/ile/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c56/",
+  "init_cls": "ヴァルキュリア",
+  "adv_cls": "なし",
+  "gt1": "ディフェンダー",
+  "gt2": "タフネス",
+  "equip": [],
+  "slots": [
+   "剣",
+   "盾",
+   "盾",
+   "アクセ１"
+  ],
+  "lv50": {},
+  "en_name": "Ilenia"
+ },
+ {
+  "jp": "ゲイリー",
+  "stats": {
+   "hp": 84,
+   "pAtk": 47,
+   "pDef": 33,
+   "mAtk": 37,
+   "mDef": 35,
+   "acc": 136,
+   "eva": 50,
+   "crit": 22,
+   "guard": 10,
+   "spd": 30,
+   "mov": 100
+  },
+  "cls_jp": "サージェント",
+  "detail": "https://hyperwiki.jp/unicorn/chara/gry/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c6/",
+  "init_cls": "サージェント",
+  "adv_cls": "なし",
+  "gt1": "スレイヤー",
+  "gt2": "スレイヤー",
+  "equip": [],
+  "slots": [
+   "槍",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Gailey"
+ },
+ {
+  "jp": "アルチーナ",
+  "stats": {
+   "hp": 76,
+   "pAtk": 11,
+   "pDef": 12,
+   "mAtk": 59,
+   "mDef": 63,
+   "acc": 138,
+   "eva": 40,
+   "crit": 8,
+   "guard": 4,
+   "spd": 30,
+   "mov": 100
+  },
+  "cls_jp": "ダークマーキス(杖)",
+  "detail": "https://hyperwiki.jp/unicorn/chara/alc/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c73/",
+  "init_cls": "ダークマーキス(杖)",
+  "adv_cls": "なし",
+  "gt1": "アタッカー",
+  "gt2": "アタッカー",
+  "equip": [],
+  "slots": [
+   "杖",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Alcina"
+ },
+ {
+  "jp": "エルゴール",
+  "stats": {
+   "hp": 101,
+   "pAtk": 45,
+   "pDef": 20,
+   "mAtk": 39,
+   "mDef": 27,
+   "acc": 162,
+   "eva": 92,
+   "crit": 18,
+   "guard": 9,
+   "spd": 47,
+   "mov": 100
+  },
+  "cls_jp": "ダークマーキス(獣)",
+  "detail": "https://hyperwiki.jp/unicorn/chara/ego/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c72/",
+  "init_cls": "ダークマーキス(獣)",
+  "adv_cls": "なし",
+  "gt1": "スピードスター",
+  "gt2": "テクニカル",
+  "equip": [],
+  "slots": [
+   "槍",
+   "大盾",
+   "アクセ１",
+   "アクセ２"
+  ],
+  "lv50": {},
+  "en_name": "Elgor"
+ },
+ {
+  "jp": "ミレー",
+  "stats": {
+   "hp": 96,
+   "pAtk": 71,
+   "pDef": 39,
+   "mAtk": 19,
+   "mDef": 35,
+   "acc": 133,
+   "eva": 39,
+   "crit": 8,
+   "guard": 21,
+   "spd": 31,
+   "mov": 100
+  },
+  "cls_jp": "ブレイカー",
+  "detail": "https://hyperwiki.jp/unicorn/chara/mil/",
+  "cls_url": "https://hyperwiki.jp/unicorn/class/c18/",
+  "init_cls": "ウォーリア",
+  "adv_cls": "ブレイカー",
+  "gt1": "スレイヤー",
+  "gt2": "オールマイティ",
+  "equip": [],
+  "slots": [
+   "斧",
+   "アクセ１",
+   "アクセ２",
+   "アクセ３"
+  ],
+  "lv50": {},
+  "en_name": "Millé"
+ }
+]

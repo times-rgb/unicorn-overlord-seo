@@ -1,0 +1,799 @@
+{
+ "alain": {
+  "key": "alain",
+  "name": "Alain",
+  "growth1_raw": "All-Rounder",
+  "growth2_raw": "All-Rounder",
+  "growth1": "AllRounder",
+  "growth2": "AllRounder",
+  "baseStats": {
+   "hp": 31,
+   "pAtk": 11,
+   "pDef": 8,
+   "mAtk": 11,
+   "mDef": 11,
+   "acc": 124,
+   "eva": 32,
+   "crit": 10,
+   "guard": 14,
+   "spd": 18
+  },
+  "startingEquip": [
+   "Bronze Sword",
+   "Bronze Shield",
+   "Ring of the Unicorn",
+   "Alain/Rapports"
+  ]
+ },
+ "scarlett": {
+  "key": "scarlett",
+  "name": "Scarlett",
+  "growth1_raw": "Guardian",
+  "growth2_raw": "Lucky",
+  "growth1": "Guardian",
+  "growth2": "HighLuck",
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Staff",
+   "Scarlett's Ribbon",
+   "Scarlett/Rapports",
+   "Alain",
+   "Lex",
+   "Chloe",
+   "Virginia",
+   "Josef",
+   "Melisandre",
+   "Yunifi",
+   "Raenys",
+   "Umerus",
+   "Rosalinde",
+   "Eltolinde"
+  ]
+ },
+ "lex": {
+  "key": "lex",
+  "name": "Lex",
+  "growth1_raw": "Hardy",
+  "growth2_raw": "Offensive",
+  "growth1": "Toughness",
+  "growth2": "Attacker",
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Sword",
+   "Recruit's Shield"
+  ]
+ },
+ "josef": {
+  "key": "josef",
+  "name": "Josef",
+  "growth1_raw": "Hardy",
+  "growth2_raw": "Guardian",
+  "growth1": "Toughness",
+  "growth2": "Guardian",
+  "baseStats": {},
+  "startingEquip": [
+   "Templar's Sword",
+   "Templar's Shield"
+  ]
+ },
+ "chloe": {
+  "key": "chloe",
+  "name": "Chloe",
+  "growth1_raw": "Guardian",
+  "growth2_raw": "Lucky",
+  "growth1": "Guardian",
+  "growth2": "HighLuck",
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Spear",
+   "Chloe's Charm"
+  ]
+ },
+ "hodrick": {
+  "key": "hodrick",
+  "name": "Hodrick",
+  "growth1_raw": "Keen",
+  "growth2_raw": "Offensive",
+  "growth1": "Slayer",
+  "growth2": "Attacker",
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Spear",
+   "Bronze Greatshield",
+   "Gauntlets"
+  ]
+ },
+ "clive": {
+  "key": "clive",
+  "name": "Clive",
+  "growth1_raw": "Precise",
+  "growth2_raw": "Defensive",
+  "growth1": "Technical",
+  "growth2": "Defender",
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Spear",
+   "Bronze Shield",
+   "Gauntlets"
+  ]
+ },
+ "rolf": {
+  "key": "rolf",
+  "name": "Rolf",
+  "growth1_raw": "Offensive",
+  "growth2_raw": "Guardian",
+  "growth1": "Attacker",
+  "growth2": "Guardian",
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Bow",
+   "Bronze Bangle"
+  ]
+ },
+ "sharon": {
+  "key": "sharon",
+  "name": "Sharon",
+  "growth1_raw": "Lucky",
+  "growth2_raw": "Guardian",
+  "growth1": "HighLuck",
+  "growth2": "Guardian",
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Staff",
+   "Lucky Coin"
+  ]
+ },
+ "yahna": {
+  "key": "yahna",
+  "name": "Yahna",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "Chiropteran Staff",
+   "Leather Hood"
+  ]
+ },
+ "auch": {
+  "key": "auch",
+  "name": "Auch",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Staff",
+   "Silk Hood"
+  ]
+ },
+ "mordon": {
+  "key": "mordon",
+  "name": "Mordon",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "Warhammer"
+  ]
+ },
+ "berenice": {
+  "key": "berenice",
+  "name": "Berenice",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Sword",
+   "Brown Beret"
+  ]
+ },
+ "adel": {
+  "key": "adel",
+  "name": "Adel",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Spear",
+   "Battler's Shield",
+   "Mercenary's Eyepatch"
+  ]
+ },
+ "miriam": {
+  "key": "miriam",
+  "name": "Miriam",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "Rose Knight Sword",
+   "Blessed Roundshield",
+   "Detoxifying Amulet"
+  ]
+ },
+ "fran": {
+  "key": "fran",
+  "name": "Fran",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "Rose Knight Axe",
+   "Silken Scarf"
+  ]
+ },
+ "kitra": {
+  "key": "kitra",
+  "name": "Kitra",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "Rose Knight Hammer",
+   "Bronze Bangle"
+  ]
+ },
+ "nina": {
+  "key": "nina",
+  "name": "Nina",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "melisandre": {
+  "key": "melisandre",
+  "name": "Melisandre",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "colm": {
+  "key": "colm",
+  "name": "Colm",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "First Aid Kit"
+  ]
+ },
+ "monica": {
+  "key": "monica",
+  "name": "Monica",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "tatiana": {
+  "key": "tatiana",
+  "name": "Tatiana",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "virginia": {
+  "key": "virginia",
+  "name": "Virginia",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "selvie": {
+  "key": "selvie",
+  "name": "Selvie",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Staff",
+   "Dove Plume"
+  ]
+ },
+ "renault": {
+  "key": "renault",
+  "name": "Renault",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "gammel": {
+  "key": "gammel",
+  "name": "Gammel",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "mandrin": {
+  "key": "mandrin",
+  "name": "Mandrin",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "ilenia": {
+  "key": "ilenia",
+  "name": "Ilenia",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "millé": {
+  "key": "millé",
+  "name": "Millé",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "Baroque Axe",
+   "Bronze Bangle"
+  ]
+ },
+ "gailey": {
+  "key": "gailey",
+  "name": "Gailey",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "alcina": {
+  "key": "alcina",
+  "name": "Alcina",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "beaumont": {
+  "key": "beaumont",
+  "name": "Beaumont",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "travis": {
+  "key": "travis",
+  "name": "Travis",
+  "growth1_raw": "Offensive",
+  "growth2_raw": "Go-Getter",
+  "growth1": "Attacker",
+  "growth2": "Speedster",
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Sword",
+   "Silken Scarf"
+  ]
+ },
+ "aubin": {
+  "key": "aubin",
+  "name": "Aubin",
+  "growth1_raw": "Precise",
+  "growth2_raw": "Offensive",
+  "growth1": "Technical",
+  "growth2": "Attacker",
+  "baseStats": {},
+  "startingEquip": [
+   "Crushing Axe"
+  ]
+ },
+ "bruno": {
+  "key": "bruno",
+  "name": "Bruno",
+  "growth1_raw": "Defensive",
+  "growth2_raw": "Precise",
+  "growth1": "Defender",
+  "growth2": "Technical",
+  "baseStats": {},
+  "startingEquip": [
+   "Bronze Axe"
+  ]
+ },
+ "leah": {
+  "key": "leah",
+  "name": "Leah",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "primm": {
+  "key": "primm",
+  "name": "Primm",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "aramis": {
+  "key": "aramis",
+  "name": "Aramis",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "berengaria": {
+  "key": "berengaria",
+  "name": "Berengaria",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "magellan": {
+  "key": "magellan",
+  "name": "Magellan",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "liza": {
+  "key": "liza",
+  "name": "Liza",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "gloucester": {
+  "key": "gloucester",
+  "name": "Gloucester",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "hilda": {
+  "key": "hilda",
+  "name": "Hilda",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "gilbert": {
+  "key": "gilbert",
+  "name": "Gilbert",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "jeremy": {
+  "key": "jeremy",
+  "name": "Jeremy",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "amalia": {
+  "key": "amalia",
+  "name": "Amalia",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "bryce": {
+  "key": "bryce",
+  "name": "Bryce",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "hermann": {
+  "key": "hermann",
+  "name": "Hermann",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "rosalinde": {
+  "key": "rosalinde",
+  "name": "Rosalinde",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "lhinalagos": {
+  "key": "lhinalagos",
+  "name": "Lhinalagos",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "celeste": {
+  "key": "celeste",
+  "name": "Celeste",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "ridiel": {
+  "key": "ridiel",
+  "name": "Ridiel",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "eltolinde": {
+  "key": "eltolinde",
+  "name": "Eltolinde",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "ithilion": {
+  "key": "ithilion",
+  "name": "Ithilion",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "galadmir": {
+  "key": "galadmir",
+  "name": "Galadmir",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "railanor": {
+  "key": "railanor",
+  "name": "Railanor",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "yunifi": {
+  "key": "yunifi",
+  "name": "Yunifi",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "morard": {
+  "key": "morard",
+  "name": "Morard",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "ramona": {
+  "key": "ramona",
+  "name": "Ramona",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "dinah": {
+  "key": "dinah",
+  "name": "Dinah",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": [
+   "Mistletoe Charm",
+   "File:Dinah.png"
+  ]
+ },
+ "govil": {
+  "key": "govil",
+  "name": "Govil",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "bertrand": {
+  "key": "bertrand",
+  "name": "Bertrand",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "elgor": {
+  "key": "elgor",
+  "name": "Elgor",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "ochlys": {
+  "key": "ochlys",
+  "name": "Ochlys",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "raenys": {
+  "key": "raenys",
+  "name": "Raenys",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "jerome": {
+  "key": "jerome",
+  "name": "Jerome",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "umerus": {
+  "key": "umerus",
+  "name": "Umerus",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "fodoquia": {
+  "key": "fodoquia",
+  "name": "Fodoquia",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "sanatio": {
+  "key": "sanatio",
+  "name": "Sanatio",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ },
+ "nigel": {
+  "key": "nigel",
+  "name": "Nigel",
+  "growth1_raw": null,
+  "growth2_raw": null,
+  "growth1": null,
+  "growth2": null,
+  "baseStats": {},
+  "startingEquip": []
+ }
+}

@@ -18,7 +18,8 @@
    "hyperwiki.jp/unicorn/exptable",
    "hyperwiki.jp/unicorn/growth",
    "unicornoverlord.fandom.com"
-  ]
+  ],
+  "charGrowth": "collected from hyperwiki.jp/unicorn/chara (2026-08-29)"
  },
  "growthTypes": {
   "A": {
@@ -1857,7 +1858,35 @@
    "growth1": "AllRounder",
    "growth2": "AllRounder",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "一角獣の指輪"
+   ],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ロード",
+   "advClsJP": "ハイロード",
+   "lv50Ref": {
+    "hp": 104,
+    "pAtk": 45,
+    "pDef": 39,
+    "mAtk": 43,
+    "mDef": 42,
+    "acc": 152,
+    "eva": 67,
+    "crit": 21,
+    "guard": 30,
+    "spd": 44,
+    "mov": 300
+   },
+   "classJPs": [
+    "ロード",
+    "ハイロード"
+   ]
   },
   "scarlett": {
    "name": "Scarlett",
@@ -1870,7 +1899,35 @@
    "growth1": "Guardian",
    "growth2": "HighLuck",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "スカーレットのリボン"
+   ],
+   "slotsJP": [
+    "杖",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "プリーステス",
+   "advClsJP": "ハイプリーステス",
+   "lv50Ref": {
+    "hp": 76,
+    "pAtk": 23,
+    "pDef": 29,
+    "mAtk": 47,
+    "mDef": 56,
+    "acc": 142,
+    "eva": 71,
+    "crit": 7,
+    "guard": 12,
+    "spd": 23,
+    "mov": 100
+   },
+   "classJPs": [
+    "プリーステス",
+    "ハイプリーステス"
+   ]
   },
   "lex": {
    "name": "Lex",
@@ -1883,7 +1940,35 @@
    "growth1": "Toughness",
    "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "新兵の盾"
+   ],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ファイター",
+   "advClsJP": "ヴァンガード",
+   "lv50Ref": {
+    "hp": 96,
+    "pAtk": 43,
+    "pDef": 41,
+    "mAtk": 31,
+    "mDef": 17,
+    "acc": 137,
+    "eva": 30,
+    "crit": 16,
+    "guard": 34,
+    "spd": 29,
+    "mov": 100
+   },
+   "classJPs": [
+    "ファイター",
+    "ヴァンガード"
+   ]
   },
   "josef": {
    "name": "Josef",
@@ -1895,7 +1980,35 @@
    "growth1": "Toughness",
    "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "神殿騎士の剣",
+    "神殿騎士の盾"
+   ],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "アクセ１",
+    "アクセ３"
+   ],
+   "initClsJP": "パラディン",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 107,
+    "pAtk": 46,
+    "pDef": 31,
+    "mAtk": 44,
+    "mDef": 56,
+    "acc": 139,
+    "eva": 30,
+    "crit": 12,
+    "guard": 28,
+    "spd": 29,
+    "mov": 300
+   },
+   "classJPs": [
+    "パラディン"
+   ]
   },
   "chloe": {
    "name": "Chloe",
@@ -1908,7 +2021,35 @@
    "growth1": "Guardian",
    "growth2": "HighLuck",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "クロエのお守り"
+   ],
+   "slotsJP": [
+    "槍",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ソルジャー",
+   "advClsJP": "サージェント",
+   "lv50Ref": {
+    "hp": 84,
+    "pAtk": 43,
+    "pDef": 35,
+    "mAtk": 33,
+    "mDef": 35,
+    "acc": 138,
+    "eva": 56,
+    "crit": 15,
+    "guard": 16,
+    "spd": 33,
+    "mov": 100
+   },
+   "classJPs": [
+    "ソルジャー",
+    "サージェント"
+   ]
   },
   "hodrick": {
    "name": "Hodrick",
@@ -1918,10 +2059,38 @@
     "Hoplite",
     "Legionnaire"
    ],
-   "growth1": "Technical",
+   "growth1": "Slayer",
    "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "ガントレット"
+   ],
+   "slotsJP": [
+    "槍",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ホプリタイ",
+   "advClsJP": "カタフラクト",
+   "lv50Ref": {
+    "hp": 103,
+    "pAtk": 41,
+    "pDef": 56,
+    "mAtk": 29,
+    "mDef": 2,
+    "acc": 130,
+    "eva": 5,
+    "crit": 13,
+    "guard": 39,
+    "spd": 10,
+    "mov": 50
+   },
+   "classJPs": [
+    "ホプリタイ",
+    "カタフラクト"
+   ]
   },
   "clive": {
    "name": "Clive",
@@ -1934,7 +2103,35 @@
    "growth1": "Technical",
    "growth2": "Defender",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "ガントレット"
+   ],
+   "slotsJP": [
+    "槍",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ナイト",
+   "advClsJP": "グレートナイト",
+   "lv50Ref": {
+    "hp": 97,
+    "pAtk": 52,
+    "pDef": 41,
+    "mAtk": 30,
+    "mDef": 37,
+    "acc": 132,
+    "eva": 15,
+    "crit": 23,
+    "guard": 23,
+    "spd": 32,
+    "mov": 300
+   },
+   "classJPs": [
+    "ナイト",
+    "グレートナイト"
+   ]
   },
   "rolf": {
    "name": "Rolf",
@@ -1947,7 +2144,35 @@
    "growth1": "Attacker",
    "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "ブロンズバングル"
+   ],
+   "slotsJP": [
+    "弓",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ハンター",
+   "advClsJP": "スナイパー",
+   "lv50Ref": {
+    "hp": 75,
+    "pAtk": 47,
+    "pDef": 14,
+    "mAtk": 33,
+    "mDef": 44,
+    "acc": 180,
+    "eva": 58,
+    "crit": 25,
+    "guard": 14,
+    "spd": 30,
+    "mov": 100
+   },
+   "classJPs": [
+    "ハンター",
+    "スナイパー"
+   ]
   },
   "sharon": {
    "name": "Sharon",
@@ -1960,7 +2185,35 @@
    "growth1": "HighLuck",
    "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "幸運のコイン"
+   ],
+   "slotsJP": [
+    "杖",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "クレリック",
+   "advClsJP": "ビショップ",
+   "lv50Ref": {
+    "hp": 80,
+    "pAtk": 15,
+    "pDef": 23,
+    "mAtk": 39,
+    "mDef": 63,
+    "acc": 142,
+    "eva": 61,
+    "crit": 3,
+    "guard": 10,
+    "spd": 17,
+    "mov": 80
+   },
+   "classJPs": [
+    "クレリック",
+    "ビショップ"
+   ]
   },
   "yahna": {
    "name": "Yahna",
@@ -1970,10 +2223,39 @@
     "Witch",
     "Sorceress"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "蝙蝠の杖",
+    "レザーフード"
+   ],
+   "slotsJP": [
+    "杖",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ウィッチ",
+   "advClsJP": "ソーサレス",
+   "lv50Ref": {
+    "hp": 60,
+    "pAtk": 11,
+    "pDef": 12,
+    "mAtk": 59,
+    "mDef": 52,
+    "acc": 134,
+    "eva": 50,
+    "crit": 8,
+    "guard": 4,
+    "spd": 20,
+    "mov": 80
+   },
+   "classJPs": [
+    "ウィッチ",
+    "ソーサレス"
+   ]
   },
   "auch": {
    "name": "Auch",
@@ -1983,10 +2265,38 @@
     "Wizard",
     "Warlock"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Technical",
+   "growth2": "HighLuck",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "シルクフード"
+   ],
+   "slotsJP": [
+    "杖",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ウィザード",
+   "advClsJP": "ウォーロック",
+   "lv50Ref": {
+    "hp": 57,
+    "pAtk": 7,
+    "pDef": 16,
+    "mAtk": 59,
+    "mDef": 54,
+    "acc": 133,
+    "eva": 41,
+    "crit": 10,
+    "guard": 2,
+    "spd": 20,
+    "mov": 80
+   },
+   "classJPs": [
+    "ウィザード",
+    "ウォーロック"
+   ]
   },
   "mordon": {
    "name": "Mordon",
@@ -1996,10 +2306,38 @@
     "Warrior",
     "Breaker"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "ウォーハンマー"
+   ],
+   "slotsJP": [
+    "斧",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ウォーリア",
+   "advClsJP": "ブレイカー",
+   "lv50Ref": {
+    "hp": 100,
+    "pAtk": 75,
+    "pDef": 36,
+    "mAtk": 23,
+    "mDef": 31,
+    "acc": 132,
+    "eva": 38,
+    "crit": 4,
+    "guard": 22,
+    "spd": 32,
+    "mov": 100
+   },
+   "classJPs": [
+    "ウォーリア",
+    "ブレイカー"
+   ]
   },
   "berenice": {
    "name": "Berenice",
@@ -2009,10 +2347,38 @@
     "Sellsword",
     "Landsknecht"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Technical",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "ブラウンベレー"
+   ],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "マーセナリー",
+   "advClsJP": "ランツクネヒト",
+   "lv50Ref": {
+    "hp": 103,
+    "pAtk": 79,
+    "pDef": 33,
+    "mAtk": 17,
+    "mDef": 21,
+    "acc": 132,
+    "eva": 28,
+    "crit": 21,
+    "guard": 24,
+    "spd": 18,
+    "mov": 80
+   },
+   "classJPs": [
+    "マーセナリー",
+    "ランツクネヒト"
+   ]
   },
   "adel": {
    "name": "Adel",
@@ -2022,10 +2388,39 @@
     "Knight",
     "Great Knight"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Speedster",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "バトルシールド",
+    "傭兵の眼帯"
+   ],
+   "slotsJP": [
+    "槍",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ナイト",
+   "advClsJP": "グレートナイト",
+   "lv50Ref": {
+    "hp": 103,
+    "pAtk": 56,
+    "pDef": 38,
+    "mAtk": 34,
+    "mDef": 34,
+    "acc": 126,
+    "eva": 18,
+    "crit": 24,
+    "guard": 22,
+    "spd": 33,
+    "mov": 300
+   },
+   "classJPs": [
+    "ナイト",
+    "グレートナイト"
+   ]
   },
   "miriam": {
    "name": "Miriam",
@@ -2035,10 +2430,40 @@
     "Radiant Knight",
     "Sainted Knight"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "薔薇騎士の剣",
+    "祝福の円盾",
+    "解毒のアミュレット"
+   ],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ホワイトナイト",
+   "advClsJP": "セイントナイト",
+   "lv50Ref": {
+    "hp": 103,
+    "pAtk": 39,
+    "pDef": 28,
+    "mAtk": 53,
+    "mDef": 62,
+    "acc": 136,
+    "eva": 15,
+    "crit": 5,
+    "guard": 28,
+    "spd": 29,
+    "mov": 300
+   },
+   "classJPs": [
+    "ホワイトナイト",
+    "セイントナイト"
+   ]
   },
   "fran": {
    "name": "Fran",
@@ -2048,10 +2473,39 @@
     "Gryphon Knight",
     "Gryphon Master"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Slayer",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "薔薇騎士の斧",
+    "シルクスカーフ"
+   ],
+   "slotsJP": [
+    "斧",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "グリフォンナイト",
+   "advClsJP": "グリフォンルーラー",
+   "lv50Ref": {
+    "hp": 75,
+    "pAtk": 53,
+    "pDef": 26,
+    "mAtk": 29,
+    "mDef": 46,
+    "acc": 132,
+    "eva": 80,
+    "crit": 18,
+    "guard": 7,
+    "spd": 26,
+    "mov": 150
+   },
+   "classJPs": [
+    "グリフォンナイト",
+    "グリフォンルーラー"
+   ]
   },
   "kitra": {
    "name": "Kitra",
@@ -2061,10 +2515,39 @@
     "Warrior",
     "Breaker"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Speedster",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "薔薇騎士の槌",
+    "ブロンズバングル"
+   ],
+   "slotsJP": [
+    "斧",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ウォーリア",
+   "advClsJP": "ブレイカー",
+   "lv50Ref": {
+    "hp": 99,
+    "pAtk": 70,
+    "pDef": 38,
+    "mAtk": 18,
+    "mDef": 34,
+    "acc": 132,
+    "eva": 40,
+    "crit": 6,
+    "guard": 22,
+    "spd": 34,
+    "mov": 100
+   },
+   "classJPs": [
+    "ウォーリア",
+    "ブレイカー"
+   ]
   },
   "nina": {
    "name": "Nina",
@@ -2074,10 +2557,38 @@
     "Warrior",
     "Breaker"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Slayer",
+   "growth2": "AllRounder",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "バロックアクス"
+   ],
+   "slotsJP": [
+    "斧",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ウォーリア",
+   "advClsJP": "ブレイカー",
+   "lv50Ref": {
+    "hp": 96,
+    "pAtk": 71,
+    "pDef": 39,
+    "mAtk": 19,
+    "mDef": 35,
+    "acc": 133,
+    "eva": 39,
+    "crit": 8,
+    "guard": 21,
+    "spd": 31,
+    "mov": 100
+   },
+   "classJPs": [
+    "ウォーリア",
+    "ブレイカー"
+   ]
   },
   "melisandre": {
    "name": "Melisandre",
@@ -2087,10 +2598,36 @@
     "Swordfighter",
     "Swordmaster"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Slayer",
+   "growth2": "Speedster",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "剣",
+    "剣",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ソードマン",
+   "advClsJP": "ソードマスター",
+   "lv50Ref": {
+    "hp": 60,
+    "pAtk": 42,
+    "pDef": 15,
+    "mAtk": 28,
+    "mDef": 40,
+    "acc": 164,
+    "eva": 98,
+    "crit": 44,
+    "guard": 9,
+    "spd": 56,
+    "mov": 100
+   },
+   "classJPs": [
+    "ソードマン",
+    "ソードマスター"
+   ]
   },
   "colm": {
    "name": "Colm",
@@ -2100,10 +2637,38 @@
     "Fighter",
     "Vanguard"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Technical",
+   "growth2": "AllRounder",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "エイドキット"
+   ],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ファイター",
+   "advClsJP": "ヴァンガード",
+   "lv50Ref": {
+    "hp": 85,
+    "pAtk": 42,
+    "pDef": 41,
+    "mAtk": 30,
+    "mDef": 17,
+    "acc": 145,
+    "eva": 32,
+    "crit": 17,
+    "guard": 34,
+    "spd": 30,
+    "mov": 100
+   },
+   "classJPs": [
+    "ファイター",
+    "ヴァンガード"
+   ]
   },
   "monica": {
    "name": "Monica",
@@ -2113,10 +2678,36 @@
     "Radiant Knight",
     "Sainted Knight"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Toughness",
+   "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ホワイトナイト",
+   "advClsJP": "セイントナイト",
+   "lv50Ref": {
+    "hp": 107,
+    "pAtk": 36,
+    "pDef": 31,
+    "mAtk": 50,
+    "mDef": 65,
+    "acc": 135,
+    "eva": 15,
+    "crit": 4,
+    "guard": 28,
+    "spd": 29,
+    "mov": 300
+   },
+   "classJPs": [
+    "ホワイトナイト",
+    "セイントナイト"
+   ]
   },
   "tatiana": {
    "name": "Tatiana",
@@ -2126,10 +2717,36 @@
     "Cleric",
     "Bishop"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "杖",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "クレリック",
+   "advClsJP": "ビショップ",
+   "lv50Ref": {
+    "hp": 83,
+    "pAtk": 19,
+    "pDef": 20,
+    "mAtk": 43,
+    "mDef": 62,
+    "acc": 140,
+    "eva": 55,
+    "crit": 3,
+    "guard": 10,
+    "spd": 17,
+    "mov": 80
+   },
+   "classJPs": [
+    "クレリック",
+    "ビショップ"
+   ]
   },
   "virginia": {
    "name": "Virginia",
@@ -2139,10 +2756,40 @@
     "Crusader",
     "Valkyria"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Toughness",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "黒鉄の剣",
+    "青薔薇の盾",
+    "黒鉄の盾"
+   ],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "盾",
+    "アクセ１"
+   ],
+   "initClsJP": "クルセイダー",
+   "advClsJP": "ヴァルキュリア",
+   "lv50Ref": {
+    "hp": 111,
+    "pAtk": 54,
+    "pDef": 43,
+    "mAtk": 22,
+    "mDef": 40,
+    "acc": 139,
+    "eva": 28,
+    "crit": 15,
+    "guard": 39,
+    "spd": 21,
+    "mov": 80
+   },
+   "classJPs": [
+    "クルセイダー",
+    "ヴァルキュリア"
+   ]
   },
   "selvie": {
    "name": "Selvie",
@@ -2152,10 +2799,38 @@
     "Shaman",
     "Druid"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Guardian",
+   "growth2": "Technical",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "白鳥の羽飾り"
+   ],
+   "slotsJP": [
+    "杖",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "シャーマン",
+   "advClsJP": "ドルイド",
+   "lv50Ref": {
+    "hp": 97,
+    "pAtk": 34,
+    "pDef": 30,
+    "mAtk": 32,
+    "mDef": 69,
+    "acc": 146,
+    "eva": 63,
+    "crit": 20,
+    "guard": 10,
+    "spd": 41,
+    "mov": 100
+   },
+   "classJPs": [
+    "シャーマン",
+    "ドルイド"
+   ]
   },
   "renault": {
    "name": "Renault",
@@ -2164,10 +2839,37 @@
    "classes": [
     "Great Knight"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "白馬の騎士盾"
+   ],
+   "slotsJP": [
+    "槍",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "グレートナイト",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 100,
+    "pAtk": 52,
+    "pDef": 43,
+    "mAtk": 30,
+    "mDef": 38,
+    "acc": 126,
+    "eva": 15,
+    "crit": 21,
+    "guard": 26,
+    "spd": 30,
+    "mov": 300
+   },
+   "classJPs": [
+    "グレートナイト"
+   ]
   },
   "gammel": {
    "name": "Gammel",
@@ -2177,10 +2879,38 @@
     "Thief",
     "Rogue"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Speedster",
+   "growth2": "Speedster",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "守銭奴の腕輪",
+    "ゴールデンエッグ"
+   ],
+   "slotsJP": [
+    "剣",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ローグ",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 52,
+    "pAtk": 25,
+    "pDef": 12,
+    "mAtk": 29,
+    "mDef": 35,
+    "acc": 156,
+    "eva": 105,
+    "crit": 32,
+    "guard": 4,
+    "spd": 57,
+    "mov": 170
+   },
+   "classJPs": [
+    "ローグ"
+   ]
   },
   "mandrin": {
    "name": "Mandrin",
@@ -2190,10 +2920,39 @@
     "Hunter",
     "Sniper"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "フレイムボウ",
+    "黒鳥の羽飾り",
+    "追撃のイヤリング"
+   ],
+   "slotsJP": [
+    "弓",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "スナイパー",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 75,
+    "pAtk": 46,
+    "pDef": 17,
+    "mAtk": 32,
+    "mDef": 47,
+    "acc": 180,
+    "eva": 58,
+    "crit": 26,
+    "guard": 11,
+    "spd": 30,
+    "mov": 100
+   },
+   "classJPs": [
+    "スナイパー"
+   ]
   },
   "ilenia": {
    "name": "Ilenia",
@@ -2202,10 +2961,35 @@
    "classes": [
     "Valkyria"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Toughness",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "盾",
+    "アクセ１"
+   ],
+   "initClsJP": "ヴァルキュリア",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 111,
+    "pAtk": 54,
+    "pDef": 43,
+    "mAtk": 22,
+    "mDef": 40,
+    "acc": 139,
+    "eva": 28,
+    "crit": 15,
+    "guard": 39,
+    "spd": 21,
+    "mov": 80
+   },
+   "classJPs": [
+    "ヴァルキュリア"
+   ]
   },
   "millé": {
    "name": "Millé",
@@ -2215,10 +2999,36 @@
     "Warrior",
     "Breaker"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Slayer",
+   "growth2": "AllRounder",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "斧",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ウォーリア",
+   "advClsJP": "ブレイカー",
+   "lv50Ref": {
+    "hp": 96,
+    "pAtk": 71,
+    "pDef": 39,
+    "mAtk": 19,
+    "mDef": 35,
+    "acc": 133,
+    "eva": 39,
+    "crit": 8,
+    "guard": 21,
+    "spd": 31,
+    "mov": 100
+   },
+   "classJPs": [
+    "ウォーリア",
+    "ブレイカー"
+   ]
   },
   "gailey": {
    "name": "Gailey",
@@ -2227,10 +3037,35 @@
    "classes": [
     "Sergeant"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Slayer",
+   "growth2": "Slayer",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "槍",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "サージェント",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 84,
+    "pAtk": 47,
+    "pDef": 33,
+    "mAtk": 37,
+    "mDef": 35,
+    "acc": 136,
+    "eva": 50,
+    "crit": 22,
+    "guard": 10,
+    "spd": 30,
+    "mov": 100
+   },
+   "classJPs": [
+    "サージェント"
+   ]
   },
   "alcina": {
    "name": "Alcina",
@@ -2239,10 +3074,35 @@
    "classes": [
     "Dark Marquess (Staff)"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "杖",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ダークマーキス(杖)",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 76,
+    "pAtk": 11,
+    "pDef": 12,
+    "mAtk": 59,
+    "mDef": 63,
+    "acc": 138,
+    "eva": 40,
+    "crit": 8,
+    "guard": 4,
+    "spd": 30,
+    "mov": 100
+   },
+   "classJPs": [
+    "ダークマーキス(杖)"
+   ]
   },
   "beaumont": {
    "name": "Beaumont",
@@ -2252,10 +3112,35 @@
     "Hoplite",
     "Legionnaire"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Speedster",
+   "growth2": "Toughness",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "槍",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "カタフラクト",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 107,
+    "pAtk": 35,
+    "pDef": 59,
+    "mAtk": 23,
+    "mDef": 5,
+    "acc": 129,
+    "eva": 8,
+    "crit": 9,
+    "guard": 40,
+    "spd": 13,
+    "mov": 50
+   },
+   "classJPs": [
+    "カタフラクト"
+   ]
   },
   "travis": {
    "name": "Travis",
@@ -2268,7 +3153,35 @@
    "growth1": "Attacker",
    "growth2": "Speedster",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "シルクスカーフ"
+   ],
+   "slotsJP": [
+    "剣",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "シーフ",
+   "advClsJP": "ローグ",
+   "lv50Ref": {
+    "hp": 55,
+    "pAtk": 30,
+    "pDef": 11,
+    "mAtk": 34,
+    "mDef": 34,
+    "acc": 156,
+    "eva": 102,
+    "crit": 32,
+    "guard": 4,
+    "spd": 54,
+    "mov": 170
+   },
+   "classJPs": [
+    "シーフ",
+    "ローグ"
+   ]
   },
   "aubin": {
    "name": "Aubin",
@@ -2281,7 +3194,35 @@
    "growth1": "Technical",
    "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "クラッシュアックス"
+   ],
+   "slotsJP": [
+    "斧",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ハスカール",
+   "advClsJP": "ヴァイキング",
+   "lv50Ref": {
+    "hp": 75,
+    "pAtk": 59,
+    "pDef": 27,
+    "mAtk": 21,
+    "mDef": 20,
+    "acc": 142,
+    "eva": 38,
+    "crit": 15,
+    "guard": 20,
+    "spd": 36,
+    "mov": 100
+   },
+   "classJPs": [
+    "ハスカール",
+    "ヴァイキング"
+   ]
   },
   "bruno": {
    "name": "Bruno",
@@ -2294,7 +3235,33 @@
    "growth1": "Defender",
    "growth2": "Technical",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "斧",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "グラディエーター",
+   "advClsJP": "バーサーカー",
+   "lv50Ref": {
+    "hp": 145,
+    "pAtk": 50,
+    "pDef": 14,
+    "mAtk": 2,
+    "mDef": 20,
+    "acc": 126,
+    "eva": 15,
+    "crit": 11,
+    "guard": 15,
+    "spd": 15,
+    "mov": 80
+   },
+   "classJPs": [
+    "グラディエーター",
+    "バーサーカー"
+   ]
   },
   "leah": {
    "name": "Leah",
@@ -2304,10 +3271,39 @@
     "Swordfighter",
     "Swordmaster"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Speedster",
+   "growth2": "HighLuck",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "飛竜の細剣",
+    "蒼石のペンダント"
+   ],
+   "slotsJP": [
+    "剣",
+    "剣",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ソードマン",
+   "advClsJP": "ソードマスター",
+   "lv50Ref": {
+    "hp": 60,
+    "pAtk": 39,
+    "pDef": 15,
+    "mAtk": 25,
+    "mDef": 40,
+    "acc": 166,
+    "eva": 104,
+    "crit": 42,
+    "guard": 10,
+    "spd": 57,
+    "mov": 100
+   },
+   "classJPs": [
+    "ソードマン",
+    "ソードマスター"
+   ]
   },
   "primm": {
    "name": "Primm",
@@ -2317,10 +3313,39 @@
     "Cleric",
     "Bishop"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Toughness",
+   "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "レリア司祭の儀仗",
+    "命のタリスマン"
+   ],
+   "slotsJP": [
+    "杖",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "クレリック",
+   "advClsJP": "ビショップ",
+   "lv50Ref": {
+    "hp": 87,
+    "pAtk": 16,
+    "pDef": 23,
+    "mAtk": 40,
+    "mDef": 65,
+    "acc": 139,
+    "eva": 55,
+    "crit": 2,
+    "guard": 10,
+    "spd": 17,
+    "mov": 80
+   },
+   "classJPs": [
+    "クレリック",
+    "ビショップ"
+   ]
   },
   "aramis": {
    "name": "Aramis",
@@ -2330,10 +3355,38 @@
     "Swordfighter",
     "Swordmaster"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "AllRounder",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "飛竜の細剣"
+   ],
+   "slotsJP": [
+    "剣",
+    "剣",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ソードマン",
+   "advClsJP": "ソードマスター",
+   "lv50Ref": {
+    "hp": 63,
+    "pAtk": 47,
+    "pDef": 14,
+    "mAtk": 33,
+    "mDef": 39,
+    "acc": 165,
+    "eva": 97,
+    "crit": 40,
+    "guard": 10,
+    "spd": 54,
+    "mov": 100
+   },
+   "classJPs": [
+    "ソードマン",
+    "ソードマスター"
+   ]
   },
   "berengaria": {
    "name": "Berengaria",
@@ -2342,10 +3395,38 @@
    "classes": [
     "Dark Marquess (Axe)"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Technical",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "鉄の斧",
+    "鉄の大盾"
+   ],
+   "slotsJP": [
+    "斧",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ダークマーキス(斧)",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 85,
+    "pAtk": 48,
+    "pDef": 31,
+    "mAtk": 38,
+    "mDef": 37,
+    "acc": 160,
+    "eva": 55,
+    "crit": 26,
+    "guard": 17,
+    "spd": 38,
+    "mov": 100
+   },
+   "classJPs": [
+    "ダークマーキス(斧)"
+   ]
   },
   "magellan": {
    "name": "Magellan",
@@ -2355,10 +3436,38 @@
     "Sellsword",
     "Landsknecht"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "追撃者の腕輪"
+   ],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "マーセナリー",
+   "advClsJP": "ランツクネヒト",
+   "lv50Ref": {
+    "hp": 108,
+    "pAtk": 83,
+    "pDef": 33,
+    "mAtk": 21,
+    "mDef": 21,
+    "acc": 126,
+    "eva": 28,
+    "crit": 20,
+    "guard": 24,
+    "spd": 17,
+    "mov": 80
+   },
+   "classJPs": [
+    "マーセナリー",
+    "ランツクネヒト"
+   ]
   },
   "liza": {
    "name": "Liza",
@@ -2368,10 +3477,39 @@
     "Arbalist",
     "Shieldshooter"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "HighLuck",
+   "growth2": "Slayer",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "デザートボウ",
+    "解毒のアミュレット"
+   ],
+   "slotsJP": [
+    "弓",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "シューター",
+   "advClsJP": "シールドシューター",
+   "lv50Ref": {
+    "hp": 80,
+    "pAtk": 56,
+    "pDef": 27,
+    "mAtk": 20,
+    "mDef": 39,
+    "acc": 162,
+    "eva": 31,
+    "crit": 14,
+    "guard": 29,
+    "spd": 20,
+    "mov": 80
+   },
+   "classJPs": [
+    "シューター",
+    "シールドシューター"
+   ]
   },
   "gloucester": {
    "name": "Gloucester",
@@ -2381,10 +3519,38 @@
     "Dark Knight",
     "Doom Knight"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "AllRounder",
+   "growth2": "Speedster",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "金羊騎士の斧"
+   ],
+   "slotsJP": [
+    "斧",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ブラックナイト",
+   "advClsJP": "ドゥームナイト",
+   "lv50Ref": {
+    "hp": 104,
+    "pAtk": 64,
+    "pDef": 33,
+    "mAtk": 52,
+    "mDef": 28,
+    "acc": 131,
+    "eva": 19,
+    "crit": 12,
+    "guard": 22,
+    "spd": 24,
+    "mov": 300
+   },
+   "classJPs": [
+    "ブラックナイト",
+    "ドゥームナイト"
+   ]
   },
   "hilda": {
    "name": "Hilda",
@@ -2394,10 +3560,36 @@
     "Wyvern Knight",
     "Wyvern Master"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "槍",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ワイバーンナイト",
+   "advClsJP": "ワイバーンルーラー",
+   "lv50Ref": {
+    "hp": 88,
+    "pAtk": 52,
+    "pDef": 40,
+    "mAtk": 12,
+    "mDef": 24,
+    "acc": 144,
+    "eva": 75,
+    "crit": 19,
+    "guard": 14,
+    "spd": 33,
+    "mov": 150
+   },
+   "classJPs": [
+    "ワイバーンナイト",
+    "ワイバーンルーラー"
+   ]
   },
   "gilbert": {
    "name": "Gilbert",
@@ -2406,10 +3598,39 @@
    "classes": [
     "Prince"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "王家のサーベル",
+    "解毒のアミュレット",
+    "火消のアミュレット"
+   ],
+   "slotsJP": [
+    "剣",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "プリンス",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 83,
+    "pAtk": 42,
+    "pDef": 32,
+    "mAtk": 42,
+    "mDef": 37,
+    "acc": 140,
+    "eva": 50,
+    "crit": 20,
+    "guard": 21,
+    "spd": 30,
+    "mov": 100
+   },
+   "classJPs": [
+    "プリンス"
+   ]
   },
   "jeremy": {
    "name": "Jeremy",
@@ -2419,10 +3640,36 @@
     "Sellsword",
     "Landsknecht"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Speedster",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "マーセナリー",
+   "advClsJP": "ランツクネヒト",
+   "lv50Ref": {
+    "hp": 107,
+    "pAtk": 78,
+    "pDef": 35,
+    "mAtk": 16,
+    "mDef": 23,
+    "acc": 126,
+    "eva": 30,
+    "crit": 22,
+    "guard": 24,
+    "spd": 19,
+    "mov": 80
+   },
+   "classJPs": [
+    "マーセナリー",
+    "ランツクネヒト"
+   ]
   },
   "amalia": {
    "name": "Amalia",
@@ -2431,10 +3678,40 @@
    "classes": [
     "Dreadnought"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Toughness",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "グレートソード",
+    "竜岩の氷盾",
+    "緋晶石のペンダント",
+    "蒼晶石のペンダント"
+   ],
+   "slotsJP": [
+    "剣",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ドレッドノート",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 104,
+    "pAtk": 73,
+    "pDef": 32,
+    "mAtk": 7,
+    "mDef": 17,
+    "acc": 149,
+    "eva": 10,
+    "crit": 2,
+    "guard": 28,
+    "spd": 9,
+    "mov": 80
+   },
+   "classJPs": [
+    "ドレッドノート"
+   ]
   },
   "bryce": {
    "name": "Bryce",
@@ -2444,10 +3721,35 @@
     "Hoplite",
     "Legionnaire"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Toughness",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "槍",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "カタフラクト",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 107,
+    "pAtk": 34,
+    "pDef": 61,
+    "mAtk": 22,
+    "mDef": 8,
+    "acc": 129,
+    "eva": 5,
+    "crit": 9,
+    "guard": 41,
+    "spd": 11,
+    "mov": 50
+   },
+   "classJPs": [
+    "カタフラクト"
+   ]
   },
   "hermann": {
    "name": "Hermann",
@@ -2456,10 +3758,35 @@
    "classes": [
     "Legionnaire"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "AllRounder",
+   "growth2": "AllRounder",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "槍",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "カタフラクト",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 100,
+    "pAtk": 39,
+    "pDef": 57,
+    "mAtk": 27,
+    "mDef": 4,
+    "acc": 132,
+    "eva": 7,
+    "crit": 9,
+    "guard": 40,
+    "spd": 11,
+    "mov": 50
+   },
+   "classJPs": [
+    "カタフラクト"
+   ]
   },
   "rosalinde": {
    "name": "Rosalinde",
@@ -2468,10 +3795,37 @@
    "classes": [
     "Elven Augur"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "霊樹の双子槍",
+    "シルクフード"
+   ],
+   "slotsJP": [
+    "槍",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "エルフアウグル",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 68,
+    "pAtk": 51,
+    "pDef": 21,
+    "mAtk": 55,
+    "mDef": 49,
+    "acc": 136,
+    "eva": 65,
+    "crit": 8,
+    "guard": 4,
+    "spd": 32,
+    "mov": 100
+   },
+   "classJPs": [
+    "エルフアウグル"
+   ]
   },
   "lhinalagos": {
    "name": "Lhinalagos",
@@ -2480,10 +3834,35 @@
    "classes": [
     "Elven Archer"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Technical",
+   "growth2": "Defender",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "魔法弓",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "エルフアーチャー",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 69,
+    "pAtk": 34,
+    "pDef": 22,
+    "mAtk": 54,
+    "mDef": 53,
+    "acc": 166,
+    "eva": 40,
+    "crit": 17,
+    "guard": 9,
+    "spd": 42,
+    "mov": 100
+   },
+   "classJPs": [
+    "エルフアーチャー"
+   ]
   },
   "celeste": {
    "name": "Celeste",
@@ -2492,10 +3871,39 @@
    "classes": [
     "Gryphon Master"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Toughness",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "ラブリュス",
+    "狙撃手のレンズ",
+    "火消のアミュレット"
+   ],
+   "slotsJP": [
+    "斧",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "グリフォンルーラー",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 79,
+    "pAtk": 46,
+    "pDef": 31,
+    "mAtk": 22,
+    "mDef": 52,
+    "acc": 131,
+    "eva": 80,
+    "crit": 14,
+    "guard": 9,
+    "spd": 27,
+    "mov": 150
+   },
+   "classJPs": [
+    "グリフォンルーラー"
+   ]
   },
   "ridiel": {
    "name": "Ridiel",
@@ -2504,10 +3912,39 @@
    "classes": [
     "Elven Archer"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Speedster",
+   "growth2": "Defender",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "大樹の弓",
+    "守りの篭手",
+    "白鳥の羽飾り"
+   ],
+   "slotsJP": [
+    "魔法弓",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "エルフアーチャー",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 72,
+    "pAtk": 32,
+    "pDef": 22,
+    "mAtk": 52,
+    "mDef": 54,
+    "acc": 160,
+    "eva": 43,
+    "crit": 18,
+    "guard": 9,
+    "spd": 43,
+    "mov": 100
+   },
+   "classJPs": [
+    "エルフアーチャー"
+   ]
   },
   "eltolinde": {
    "name": "Eltolinde",
@@ -2516,10 +3953,37 @@
    "classes": [
     "Elven Sibyl"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Technical",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "霊樹の双子槍"
+   ],
+   "slotsJP": [
+    "槍",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "エルフシビュラ",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 61,
+    "pAtk": 34,
+    "pDef": 26,
+    "mAtk": 54,
+    "mDef": 55,
+    "acc": 142,
+    "eva": 65,
+    "crit": 9,
+    "guard": 5,
+    "spd": 33,
+    "mov": 100
+   },
+   "classJPs": [
+    "エルフシビュラ"
+   ]
   },
   "ithilion": {
    "name": "Ithilion",
@@ -2528,10 +3992,38 @@
    "classes": [
     "Elven Fencer"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Defender",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "大樹の剣",
+    "ブロンズバングル"
+   ],
+   "slotsJP": [
+    "魔法剣",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "エルフフェンサー",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 83,
+    "pAtk": 46,
+    "pDef": 24,
+    "mAtk": 56,
+    "mDef": 45,
+    "acc": 140,
+    "eva": 60,
+    "crit": 16,
+    "guard": 17,
+    "spd": 29,
+    "mov": 100
+   },
+   "classJPs": [
+    "エルフフェンサー"
+   ]
   },
   "galadmir": {
    "name": "Galadmir",
@@ -2540,10 +4032,38 @@
    "classes": [
     "Elven Archer"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Defender",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "大樹の霊弓",
+    "解毒のアミュレット"
+   ],
+   "slotsJP": [
+    "魔法弓",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "エルフアーチャー",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 75,
+    "pAtk": 38,
+    "pDef": 21,
+    "mAtk": 58,
+    "mDef": 52,
+    "acc": 160,
+    "eva": 40,
+    "crit": 16,
+    "guard": 9,
+    "spd": 41,
+    "mov": 100
+   },
+   "classJPs": [
+    "エルフアーチャー"
+   ]
   },
   "railanor": {
    "name": "Railanor",
@@ -2552,10 +4072,35 @@
    "classes": [
     "Elven Fencer"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Technical",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "魔法剣",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "エルフフェンサー",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 77,
+    "pAtk": 42,
+    "pDef": 25,
+    "mAtk": 52,
+    "mDef": 46,
+    "acc": 146,
+    "eva": 60,
+    "crit": 17,
+    "guard": 17,
+    "spd": 30,
+    "mov": 100
+   },
+   "classJPs": [
+    "エルフフェンサー"
+   ]
   },
   "yunifi": {
    "name": "Yunifi",
@@ -2564,10 +4109,38 @@
    "classes": [
     "Snow Ranger"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Speedster",
+   "growth2": "Slayer",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "雪花弓",
+    "もこもこミトン"
+   ],
+   "slotsJP": [
+    "弓",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "スノーレンジャー",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 72,
+    "pAtk": 42,
+    "pDef": 21,
+    "mAtk": 32,
+    "mDef": 35,
+    "acc": 176,
+    "eva": 78,
+    "crit": 34,
+    "guard": 7,
+    "spd": 35,
+    "mov": 100
+   },
+   "classJPs": [
+    "スノーレンジャー"
+   ]
   },
   "morard": {
    "name": "Morard",
@@ -2576,10 +4149,39 @@
    "classes": [
     "Werelion"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Slayer",
+   "growth2": "Slayer",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "凍てついた戦斧",
+    "ライオンハート",
+    "シルバーバングル"
+   ],
+   "slotsJP": [
+    "斧",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ワーライオン",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 148,
+    "pAtk": 55,
+    "pDef": 12,
+    "mAtk": 7,
+    "mDef": 18,
+    "acc": 120,
+    "eva": 15,
+    "crit": 16,
+    "guard": 12,
+    "spd": 11,
+    "mov": 80
+   },
+   "classJPs": [
+    "ワーライオン"
+   ]
   },
   "ramona": {
    "name": "Ramona",
@@ -2588,10 +4190,37 @@
    "classes": [
     "Wereowl"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "HighLuck",
+   "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "イチイの賢杖"
+   ],
+   "slotsJP": [
+    "杖",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ワーオウル",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 64,
+    "pAtk": 15,
+    "pDef": 15,
+    "mAtk": 39,
+    "mDef": 61,
+    "acc": 142,
+    "eva": 61,
+    "crit": 3,
+    "guard": 6,
+    "spd": 36,
+    "mov": 150
+   },
+   "classJPs": [
+    "ワーオウル"
+   ]
   },
   "dinah": {
    "name": "Dinah",
@@ -2600,10 +4229,38 @@
    "classes": [
     "Werefox"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "HighLuck",
+   "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "カルナットスピア",
+    "宿り木のチャーム"
+   ],
+   "slotsJP": [
+    "槍",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ワーフォックス",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 56,
+    "pAtk": 37,
+    "pDef": 20,
+    "mAtk": 27,
+    "mDef": 35,
+    "acc": 158,
+    "eva": 96,
+    "crit": 31,
+    "guard": 10,
+    "spd": 53,
+    "mov": 170
+   },
+   "classJPs": [
+    "ワーフォックス"
+   ]
   },
   "govil": {
    "name": "Govil",
@@ -2612,10 +4269,35 @@
    "classes": [
     "Werewolf"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "HighLuck",
+   "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "剣",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "ワーウルフ",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 88,
+    "pAtk": 43,
+    "pDef": 27,
+    "mAtk": 11,
+    "mDef": 23,
+    "acc": 166,
+    "eva": 51,
+    "crit": 22,
+    "guard": 12,
+    "spd": 33,
+    "mov": 100
+   },
+   "classJPs": [
+    "ワーウルフ"
+   ]
   },
   "bertrand": {
    "name": "Bertrand",
@@ -2624,10 +4306,37 @@
    "classes": [
     "Werebear"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Guardian",
+   "growth2": "Technical",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "エイドキット"
+   ],
+   "slotsJP": [
+    "斧",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ワーベア",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 157,
+    "pAtk": 50,
+    "pDef": 32,
+    "mAtk": 8,
+    "mDef": 6,
+    "acc": 118,
+    "eva": 10,
+    "crit": 12,
+    "guard": 38,
+    "spd": 8,
+    "mov": 50
+   },
+   "classJPs": [
+    "ワーベア"
+   ]
   },
   "elgor": {
    "name": "Elgor",
@@ -2636,10 +4345,35 @@
    "classes": [
     "Dark Marquess (Spear)"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Speedster",
+   "growth2": "Technical",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "槍",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ダークマーキス(獣)",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 101,
+    "pAtk": 45,
+    "pDef": 20,
+    "mAtk": 39,
+    "mDef": 27,
+    "acc": 162,
+    "eva": 92,
+    "crit": 18,
+    "guard": 9,
+    "spd": 47,
+    "mov": 100
+   },
+   "classJPs": [
+    "ダークマーキス(獣)"
+   ]
   },
   "ochlys": {
    "name": "Ochlys",
@@ -2648,10 +4382,38 @@
    "classes": [
     "Feathersword"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Speedster",
+   "growth2": "Speedster",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "天翼騎士の剣",
+    "天翼騎士の盾"
+   ],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "フェザーソード",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 72,
+    "pAtk": 37,
+    "pDef": 27,
+    "mAtk": 29,
+    "mDef": 42,
+    "acc": 146,
+    "eva": 80,
+    "crit": 12,
+    "guard": 22,
+    "spd": 37,
+    "mov": 150
+   },
+   "classJPs": [
+    "フェザーソード"
+   ]
   },
   "raenys": {
    "name": "Raenys",
@@ -2660,10 +4422,38 @@
    "classes": [
     "Featherbow"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [
+    "翼紋章の弓",
+    "白鳥の羽飾り"
+   ],
+   "slotsJP": [
+    "弓",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "フェザーボウ",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 68,
+    "pAtk": 43,
+    "pDef": 18,
+    "mAtk": 37,
+    "mDef": 38,
+    "acc": 160,
+    "eva": 75,
+    "crit": 16,
+    "guard": 8,
+    "spd": 39,
+    "mov": 150
+   },
+   "classJPs": [
+    "フェザーボウ"
+   ]
   },
   "jerome": {
    "name": "Jerome",
@@ -2672,10 +4462,35 @@
    "classes": [
     "Great Knight"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Attacker",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "槍",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "グレートナイト",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 104,
+    "pAtk": 61,
+    "pDef": 36,
+    "mAtk": 39,
+    "mDef": 31,
+    "acc": 126,
+    "eva": 15,
+    "crit": 22,
+    "guard": 22,
+    "spd": 30,
+    "mov": 300
+   },
+   "classJPs": [
+    "グレートナイト"
+   ]
   },
   "umerus": {
    "name": "Umerus",
@@ -2684,10 +4499,35 @@
    "classes": [
     "Feathersword"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Slayer",
+   "growth2": "Attacker",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "剣",
+    "盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "フェザーソード",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 75,
+    "pAtk": 45,
+    "pDef": 26,
+    "mAtk": 37,
+    "mDef": 41,
+    "acc": 146,
+    "eva": 75,
+    "crit": 14,
+    "guard": 21,
+    "spd": 31,
+    "mov": 150
+   },
+   "classJPs": [
+    "フェザーソード"
+   ]
   },
   "fodoquia": {
    "name": "Fodoquia",
@@ -2696,10 +4536,35 @@
    "classes": [
     "Feathershield"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Speedster",
+   "growth2": "Speedster",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "剣",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "フェザーシールド",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 88,
+    "pAtk": 29,
+    "pDef": 32,
+    "mAtk": 27,
+    "mDef": 67,
+    "acc": 140,
+    "eva": 65,
+    "crit": 14,
+    "guard": 24,
+    "spd": 36,
+    "mov": 100
+   },
+   "classJPs": [
+    "フェザーシールド"
+   ]
   },
   "sanatio": {
    "name": "Sanatio",
@@ -2708,10 +4573,35 @@
    "classes": [
     "Featherstaff"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Speedster",
+   "growth2": "Speedster",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "杖",
+    "アクセ１",
+    "アクセ２",
+    "アクセ３"
+   ],
+   "initClsJP": "フェザーロッド",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 60,
+    "pAtk": 13,
+    "pDef": 15,
+    "mAtk": 39,
+    "mDef": 58,
+    "acc": 140,
+    "eva": 85,
+    "crit": 6,
+    "guard": 2,
+    "spd": 48,
+    "mov": 150
+   },
+   "classJPs": [
+    "フェザーロッド"
+   ]
   },
   "nigel": {
    "name": "Nigel",
@@ -2720,10 +4610,6503 @@
    "classes": [
     "Dark Marquess (Sword)"
    ],
-   "growth1": null,
-   "growth2": null,
+   "growth1": "Defender",
+   "growth2": "Guardian",
    "baseStats": {},
-   "startingEquip": []
+   "startingEquip": [],
+   "startingEquipJP": [],
+   "slotsJP": [
+    "剣",
+    "大盾",
+    "アクセ１",
+    "アクセ２"
+   ],
+   "initClsJP": "ダークマーキス(剣)",
+   "advClsJP": "なし",
+   "lv50Ref": {
+    "hp": 100,
+    "pAtk": 46,
+    "pDef": 37,
+    "mAtk": 38,
+    "mDef": 45,
+    "acc": 152,
+    "eva": 45,
+    "crit": 19,
+    "guard": 28,
+    "spd": 35,
+    "mov": 100
+   },
+   "classJPs": [
+    "ダークマーキス(剣)"
+   ]
   }
+ },
+ "equipment": [
+  {
+   "slot": "sword",
+   "name": "青銅の剣",
+   "phys": 8,
+   "magic": 0,
+   "price": 500,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "新兵の短剣",
+   "phys": 11,
+   "magic": 0,
+   "price": 1500,
+   "effect": "HPアップ[3]キャラ取得経験値アップ[20%]",
+   "bonus": {
+    "hp": 3
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "バロックソード",
+   "phys": 13,
+   "magic": 0,
+   "price": 2000,
+   "effect": "命中アップ[5]",
+   "bonus": {
+    "acc": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "鉄の剣",
+   "phys": 15,
+   "magic": 0,
+   "price": 2000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "黒鉄の剣",
+   "phys": 17,
+   "magic": 0,
+   "price": 3000,
+   "effect": "会心率アップ[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "カルナットソード",
+   "phys": 19,
+   "magic": 0,
+   "price": 4000,
+   "effect": "行動速度アップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "大樹の剣",
+   "phys": 8,
+   "magic": 16,
+   "price": 4000,
+   "effect": "魔法防御力アップ[3]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "鋼の剣",
+   "phys": 22,
+   "magic": 0,
+   "price": 4000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "魔鉄の剣",
+   "phys": 9,
+   "magic": 18,
+   "price": 6000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "ヴォーパルソード",
+   "phys": 23,
+   "magic": 0,
+   "price": 6000,
+   "effect": "HPアップ[5]行動速度アップ[3]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "大竜骨の剣",
+   "phys": 15,
+   "magic": 0,
+   "price": 8000,
+   "effect": "PPアップ[1]行動速度ダウン[10]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "茨の棘剣",
+   "phys": 17,
+   "magic": 0,
+   "price": 10000,
+   "effect": "PPアップ[1]HPダウン[15]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "氷瀑剣",
+   "phys": 19,
+   "magic": 0,
+   "price": 12000,
+   "effect": "PPアップ[1]ガード率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "翼紋章の剣",
+   "phys": 21,
+   "magic": 0,
+   "price": 14000,
+   "effect": "PPアップ[1]会心率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "神殿騎士の剣",
+   "phys": 15,
+   "magic": 0,
+   "price": 0,
+   "effect": "物理防御力アップ[1]ガード率アップ[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "幻影騎士の剣",
+   "phys": 0,
+   "magic": 16,
+   "price": 0,
+   "effect": "魔法防御力アップ[5]ファントムウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "ゼノイラ兵の剣",
+   "phys": 14,
+   "magic": 0,
+   "price": 5000,
+   "effect": "HPアップ[10]物理防御力アップ[2]魔法防御力アップ[2]",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "ゼノイラ騎士の剣",
+   "phys": 20,
+   "magic": 0,
+   "price": 10000,
+   "effect": "HPアップ[15]物理防御力アップ[4]魔法防御力アップ[4]",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "天翼騎士の剣",
+   "phys": 16,
+   "magic": 0,
+   "price": 0,
+   "effect": "命中アップ[10]回避アップ[10]",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "猟兵のクレイモア",
+   "phys": 22,
+   "magic": 0,
+   "price": 8000,
+   "effect": "追撃スキル威力アップ[20]会心率アップ[10%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "祝福の直剣",
+   "phys": 14,
+   "magic": 0,
+   "price": 5000,
+   "effect": "HP回復：最大HP[10%]HPアップ[5]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "闘神の緋石剣",
+   "phys": 21,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "メテオライトソード",
+   "phys": 24,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPアップ[20]ガード率アップ[10%]",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "毒蛇の剣",
+   "phys": 12,
+   "magic": 0,
+   "price": 3000,
+   "effect": "ポイズンスラッシュ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "蠍の刺剣",
+   "phys": 21,
+   "magic": 0,
+   "price": 10000,
+   "effect": "毒無効[0]ゴアポイズン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "灼熱の細剣",
+   "phys": 15,
+   "magic": 0,
+   "price": 3000,
+   "effect": "ファイアスラッシュ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "フランベルジュ",
+   "phys": 21,
+   "magic": 0,
+   "price": 10000,
+   "effect": "炎上無効[0]ゴアファイア",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "蛮族の剣",
+   "phys": 14,
+   "magic": 0,
+   "price": 3000,
+   "effect": "HPアップ[5]ヘイトスラッシュ",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "踊り子の曲刀",
+   "phys": 16,
+   "magic": 0,
+   "price": 8000,
+   "effect": "会心率アップ[10%]リープスラッシュ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "深紅の突剣",
+   "phys": 14,
+   "magic": 0,
+   "price": 10000,
+   "effect": "行動速度アップ[3]アクティブブレイク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "ミストシミター",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "回避アップ[10]イヴェイド",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "風断ちの刃",
+   "phys": 16,
+   "magic": 0,
+   "price": 5000,
+   "effect": "回避アップ[10]ソニックブーム",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "風断のファルシオン",
+   "phys": 22,
+   "magic": 0,
+   "price": 12000,
+   "effect": "回避アップ[20]ダブルソニック",
+   "bonus": {
+    "eva": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "氷雨の直剣",
+   "phys": 20,
+   "magic": 0,
+   "price": 8000,
+   "effect": "命中アップ[20]凍結無効[0]アイシクルダート",
+   "bonus": {
+    "acc": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "追撃者の刺剣",
+   "phys": 20,
+   "magic": 0,
+   "price": 10000,
+   "effect": "チェイス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "暗殺者の利刃",
+   "phys": 21,
+   "magic": 0,
+   "price": 12000,
+   "effect": "回避アップ[10]暗闇無効[0]アサシンネイル",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "月光のレイピア",
+   "phys": 21,
+   "magic": 0,
+   "price": 12000,
+   "effect": "ナイトストライク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "ブラッドソード",
+   "phys": 16,
+   "magic": 0,
+   "price": 15000,
+   "effect": "ブラッドウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "ルーンソード",
+   "phys": 8,
+   "magic": 14,
+   "price": 12000,
+   "effect": "魔法防御力アップ[3]マジックウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "飛竜の細剣",
+   "phys": 14,
+   "magic": 0,
+   "price": 0,
+   "effect": "会心率アップ[10%]会心ダメージアップ[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "スティングレイ",
+   "phys": 14,
+   "magic": 0,
+   "price": 0,
+   "effect": "会心率アップ[15%]毒無効[0]アーテニーストライク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "薔薇騎士の剣",
+   "phys": 14,
+   "magic": 0,
+   "price": 0,
+   "effect": "行動速度アップ[3]命中アップ[10]",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "盗賊騎士の大剣",
+   "phys": 18,
+   "magic": 0,
+   "price": 0,
+   "effect": "行動速度アップ[3]回避アップ[10]取得金アップ[1]",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "王家のサーベル",
+   "phys": 18,
+   "magic": 0,
+   "price": 0,
+   "effect": "行動速度アップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "グレートソード",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "深淵の呪剣",
+   "phys": 23,
+   "magic": 0,
+   "price": 0,
+   "effect": "パッシブ封じ無効[0]即死無効[0]毒ダメージ軽減[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "深淵の呪剣",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "パッシブ封じ無効[0]即死無効[0]毒ダメージ軽減[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "深淵のグレートソード",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "パッシブ封じ無効[0]即死無効[0]毒ダメージ軽減[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "レッドローズ",
+   "phys": 20,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]会心ダメージアップ[15%]ファイアネイト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "ブルーローズ",
+   "phys": 20,
+   "magic": 0,
+   "price": 0,
+   "effect": "PPアップ[1]会心ダメージアップ[15%]アイスネイト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "王剣コルニクス",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "全ステータスアップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "風剣ノトス",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]行動速度アップ[10]回避アップ[10]",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "ロスラリスの花剣",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "PPアップ[1]HP回復量アップ[30%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "セイクリッドソード",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "状態異常無効[0]HP回復：最大HP[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "sword",
+   "name": "一角獣の聖剣",
+   "phys": 28,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]PPアップ[1]デバフ無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "青銅の斧",
+   "phys": 8,
+   "magic": 0,
+   "price": 500,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "新兵の手斧",
+   "phys": 11,
+   "magic": 0,
+   "price": 1500,
+   "effect": "HPアップ[3]キャラ取得経験値アップ[20%]",
+   "bonus": {
+    "hp": 3
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "バロックアクス",
+   "phys": 13,
+   "magic": 0,
+   "price": 2000,
+   "effect": "命中アップ[5]",
+   "bonus": {
+    "acc": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "鉄の斧",
+   "phys": 15,
+   "magic": 0,
+   "price": 2000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "黒鉄の斧",
+   "phys": 17,
+   "magic": 0,
+   "price": 3000,
+   "effect": "会心率アップ[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "カルナットアックス",
+   "phys": 19,
+   "magic": 0,
+   "price": 4000,
+   "effect": "行動速度アップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "大樹の斧",
+   "phys": 8,
+   "magic": 16,
+   "price": 4000,
+   "effect": "魔法防御力アップ[3]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "鋼の斧",
+   "phys": 22,
+   "magic": 0,
+   "price": 4000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "魔鉄の斧",
+   "phys": 9,
+   "magic": 18,
+   "price": 6000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "ヴォーパルアクス",
+   "phys": 23,
+   "magic": 0,
+   "price": 6000,
+   "effect": "HPアップ[5]行動速度アップ[3]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "大竜骨の斧",
+   "phys": 15,
+   "magic": 0,
+   "price": 8000,
+   "effect": "PPアップ[1]行動速度ダウン[10]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "茨の棘斧",
+   "phys": 17,
+   "magic": 0,
+   "price": 10000,
+   "effect": "PPアップ[1]HPダウン[15]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "氷瀑斧",
+   "phys": 19,
+   "magic": 0,
+   "price": 12000,
+   "effect": "PPアップ[1]ガード率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "翼紋章の斧",
+   "phys": 21,
+   "magic": 0,
+   "price": 14000,
+   "effect": "PPアップ[1]会心率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "神殿騎士の斧",
+   "phys": 15,
+   "magic": 0,
+   "price": 0,
+   "effect": "物理防御力アップ[1]ガード率アップ[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "幻影騎士の斧",
+   "phys": 0,
+   "magic": 16,
+   "price": 0,
+   "effect": "魔法防御力アップ[5]ファントムウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "ゼノイラ兵の斧",
+   "phys": 14,
+   "magic": 0,
+   "price": 5000,
+   "effect": "HPアップ[10]物理防御力アップ[2]魔法防御力アップ[2]",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "ゼノイラ騎士の斧",
+   "phys": 20,
+   "magic": 0,
+   "price": 10000,
+   "effect": "HPアップ[15]物理防御力アップ[4]魔法防御力アップ[4]",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "盗賊騎士の手斧",
+   "phys": 16,
+   "magic": 0,
+   "price": 5000,
+   "effect": "取得金アップ[1]回避アップ[10]",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "金羊騎士の斧",
+   "phys": 17,
+   "magic": 0,
+   "price": 0,
+   "effect": "命中アップ[20]物理防御力アップ[4]",
+   "bonus": {
+    "acc": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "黒曜の斧",
+   "phys": 10,
+   "magic": 0,
+   "price": 0,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "無名の大斧",
+   "phys": 10,
+   "magic": 0,
+   "price": 0,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "老兵の古斧",
+   "phys": 10,
+   "magic": 0,
+   "price": 0,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "猟兵のハルバード",
+   "phys": 21,
+   "magic": 0,
+   "price": 8000,
+   "effect": "追撃スキル威力アップ[20]会心率アップ[10%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "破滅の黒塊",
+   "phys": 22,
+   "magic": 0,
+   "price": 12000,
+   "effect": "APアップ[1]HPダウン[30]行動速度ダウン[10]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "闘神の緋石斧",
+   "phys": 21,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "メテオライトアックス",
+   "phys": 24,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPアップ[20]ガード率アップ[10%]",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "クラッシュアックス",
+   "phys": 13,
+   "magic": 0,
+   "price": 3000,
+   "effect": "クラッシュ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "樹氷の斧",
+   "phys": 13,
+   "magic": 0,
+   "price": 6000,
+   "effect": "アイスブロウ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "凍てついた戦斧",
+   "phys": 21,
+   "magic": 0,
+   "price": 10000,
+   "effect": "凍結無効[0]アイスクラッシュ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "蛮族の斧",
+   "phys": 13,
+   "magic": 0,
+   "price": 3000,
+   "effect": "ヘイトスラッシュ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "石工の槌",
+   "phys": 10,
+   "magic": 0,
+   "price": 0,
+   "effect": "マッスルインパクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "スパイクハンマー",
+   "phys": 13,
+   "magic": 0,
+   "price": 3000,
+   "effect": "スパイクブロウ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "処刑人の断斧",
+   "phys": 16,
+   "magic": 0,
+   "price": 5000,
+   "effect": "魔法防御力ダウン[10]エクスキューション",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "エリミネーター",
+   "phys": 23,
+   "magic": 0,
+   "price": 15000,
+   "effect": "魔法防御力ダウン[10]エクスキューション",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "グッドモーニングスター",
+   "phys": 18,
+   "magic": 0,
+   "price": 8000,
+   "effect": "ペインスマッシュ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "銀月の斧",
+   "phys": 20,
+   "magic": 0,
+   "price": 10000,
+   "effect": "ビーストスレイ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "巨人の大斧",
+   "phys": 18,
+   "magic": 0,
+   "price": 10000,
+   "effect": "HPアップ[20]行動速度ダウン[10]ヘヴィスマッシュ",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "バニッシュハンマー",
+   "phys": 21,
+   "magic": 0,
+   "price": 12000,
+   "effect": "バニッシュスマイト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "暗黒騎士の戦斧",
+   "phys": 9,
+   "magic": 18,
+   "price": 50000,
+   "effect": "デスペレイト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "狂戦士の戦斧",
+   "phys": 10,
+   "magic": 0,
+   "price": 0,
+   "effect": "デモリッション",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "ブラッドアックス",
+   "phys": 16,
+   "magic": 0,
+   "price": 15000,
+   "effect": "ブラッドウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "ルーンアックス",
+   "phys": 8,
+   "magic": 14,
+   "price": 12000,
+   "effect": "魔法防御力アップ[3]マジックウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "薔薇騎士の斧",
+   "phys": 14,
+   "magic": 0,
+   "price": 0,
+   "effect": "行動速度アップ[3]命中アップ[10]",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "薔薇騎士の槌",
+   "phys": 15,
+   "magic": 0,
+   "price": 0,
+   "effect": "行動速度アップ[3]命中アップ[10]",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "ラブリュス",
+   "phys": 18,
+   "magic": 0,
+   "price": 0,
+   "effect": "行動速度アップ[5]ガード率アップ[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "ウォーハンマー",
+   "phys": 13,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPアップ[5]ガード率アップ[10%]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "深淵の黒斧",
+   "phys": 13,
+   "magic": 0,
+   "price": 0,
+   "effect": "命中アップ[5]毒ダメージ軽減[50%]",
+   "bonus": {
+    "acc": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "深淵の黒斧",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[2]命中アップ[10]毒ダメージ軽減[70%]",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "深淵の呪斧",
+   "phys": 20,
+   "magic": 0,
+   "price": 0,
+   "effect": "パッシブ封じ無効[0]即死無効[0]毒ダメージ軽減[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "深淵の呪斧",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "パッシブ封じ無効[0]即死無効[0]毒ダメージ軽減[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "ジャガーノート",
+   "phys": 24,
+   "magic": 0,
+   "price": 30000,
+   "effect": "会心ダメージアップ[30%]気絶無効[0]グランドストライク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "王斧ドランガッシュ",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "全ステータスアップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "風斧ボレアス",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]行動速度アップ[10]回避アップ[10]",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "ヘレボルスの花斧",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "PPアップ[1]HP回復量アップ[30%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "axe",
+   "name": "セイクリッドアクス",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "状態異常無効[0]HP回復：最大HP[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "青銅の槍",
+   "phys": 8,
+   "magic": 0,
+   "price": 500,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "新兵の短槍",
+   "phys": 11,
+   "magic": 0,
+   "price": 1500,
+   "effect": "HPアップ[3]\nキャラ取得経験値アップ[20%]",
+   "bonus": {
+    "hp": 3
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "バロックスピア",
+   "phys": 13,
+   "magic": 0,
+   "price": 2000,
+   "effect": "命中アップ[5]",
+   "bonus": {
+    "acc": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "鉄の槍",
+   "phys": 15,
+   "magic": 0,
+   "price": 2000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "黒鉄の槍",
+   "phys": 17,
+   "magic": 0,
+   "price": 3000,
+   "effect": "会心率アップ[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "カルナットスピア",
+   "phys": 19,
+   "magic": 0,
+   "price": 4000,
+   "effect": "行動速度アップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "大樹の槍",
+   "phys": 8,
+   "magic": 16,
+   "price": 4000,
+   "effect": "魔法防御力アップ[3]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "鋼の槍",
+   "phys": 22,
+   "magic": 0,
+   "price": 4000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "魔鉄の槍",
+   "phys": 9,
+   "magic": 18,
+   "price": 6000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "ヴォーパルスピア",
+   "phys": 23,
+   "magic": 0,
+   "price": 6000,
+   "effect": "HPアップ[5]\n行動速度アップ[3]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "大竜骨の槍",
+   "phys": 15,
+   "magic": 0,
+   "price": 8000,
+   "effect": "PPアップ[1]\n行動速度ダウン[10]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "茨の棘槍",
+   "phys": 17,
+   "magic": 0,
+   "price": 10000,
+   "effect": "PPアップ[1]\nHPダウン[15]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "氷瀑槍",
+   "phys": 19,
+   "magic": 0,
+   "price": 12000,
+   "effect": "PPアップ[1]\nガード率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "翼紋章の槍",
+   "phys": 21,
+   "magic": 0,
+   "price": 14000,
+   "effect": "PPアップ[1]\n会心率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "塔守の長槍",
+   "phys": 14,
+   "magic": 0,
+   "price": 0,
+   "effect": "暗闇無効[0]\n命中アップ[10]\nイーグルアイ",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "名もなき塔守の槍",
+   "phys": 21,
+   "magic": 0,
+   "price": 0,
+   "effect": "暗闇無効[0]\n命中アップ[20]\nイーグルアイ",
+   "bonus": {
+    "acc": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "神殿騎士の槍",
+   "phys": 15,
+   "magic": 0,
+   "price": 0,
+   "effect": "物理防御力アップ[1]\nガード率アップ[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "幻影騎士の槍",
+   "phys": 0,
+   "magic": 16,
+   "price": 0,
+   "effect": "魔法防御力アップ[5]\nファントムウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "ゼノイラ兵の槍",
+   "phys": 14,
+   "magic": 0,
+   "price": 5000,
+   "effect": "HPアップ[10]\n物理防御力アップ[2]\n魔法防御力アップ[2]",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "ゼノイラ騎士の槍",
+   "phys": 20,
+   "magic": 0,
+   "price": 10000,
+   "effect": "HPアップ[15]\n物理防御力アップ[4]\n魔法防御力アップ[4]",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "紅龍騎士の槍",
+   "phys": 17,
+   "magic": 0,
+   "price": 0,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "聖心騎士の槍",
+   "phys": 23,
+   "magic": 0,
+   "price": 0,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "猟兵のグレイブ",
+   "phys": 21,
+   "magic": 0,
+   "price": 8000,
+   "effect": "追撃スキル威力アップ[20]\n会心率アップ[10%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "技巧者の短槍",
+   "phys": 21,
+   "magic": 0,
+   "price": 0,
+   "effect": "パッシブ封じ無効[0]\n会心率アップ[15%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "闘神の緋石槍",
+   "phys": 21,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "メテオライトランス",
+   "phys": 24,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPアップ[20]\nガード率アップ[10%]",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "トゥルースピア",
+   "phys": 12,
+   "magic": 0,
+   "price": 3000,
+   "effect": "命中アップ[10]\nトゥルースラスト",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "氷雨の直槍",
+   "phys": 20,
+   "magic": 0,
+   "price": 8000,
+   "effect": "命中アップ[20]\n凍結無効[0]\nアイシクルダート",
+   "bonus": {
+    "acc": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "錆びた黒槍",
+   "phys": 17,
+   "magic": 0,
+   "price": 8000,
+   "effect": "シェイドスラスト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "戦姫のパルチザン",
+   "phys": 14,
+   "magic": 0,
+   "price": 15000,
+   "effect": "行動速度アップ[5]\nパッシブブレイク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "突撃兵の短槍",
+   "phys": 13,
+   "magic": 0,
+   "price": 5000,
+   "effect": "ランペイジ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "簒奪者の槍",
+   "phys": 18,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPアップ[10]\nヘイトストライク",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "エルフイーター",
+   "phys": 20,
+   "magic": 0,
+   "price": 10000,
+   "effect": "魔法防御力アップ[5]\nエルフスレイ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "名将の長槍",
+   "phys": 17,
+   "magic": 0,
+   "price": 15000,
+   "effect": "PPアップ[1]\nファランクスシフト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "キャニオンランス",
+   "phys": 21,
+   "magic": 0,
+   "price": 12000,
+   "effect": "クラックチェイス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "大旋槍",
+   "phys": 23,
+   "magic": 0,
+   "price": 10000,
+   "effect": "ガード率アップ[10%]\nペネトレート",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "竜騎士の戦槍",
+   "phys": 20,
+   "magic": 0,
+   "price": 15000,
+   "effect": "HPアップ[15]\n行動速度アップ[5]\nドラグーンダイブ",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "ブラッドスピア",
+   "phys": 16,
+   "magic": 0,
+   "price": 15000,
+   "effect": "ブラッドウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "ルーンスピア",
+   "phys": 8,
+   "magic": 14,
+   "price": 12000,
+   "effect": "魔法防御力アップ[3]\nマジックウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "霊樹の双子槍",
+   "phys": 8,
+   "magic": 16,
+   "price": 0,
+   "effect": "魔法防御力アップ[5]\n行動速度アップ[5]\nサンダースラスト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "霊樹の双子槍",
+   "phys": 8,
+   "magic": 16,
+   "price": 0,
+   "effect": "魔法防御力アップ[5]\n行動速度アップ[5]\nフリーズスラスト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "白銀のトライデント",
+   "phys": 16,
+   "magic": 8,
+   "price": 0,
+   "effect": "命中アップ[10]\nライトニングシェイカー",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "血濡れのサリッサ",
+   "phys": 13,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPアップ[15]\nガード率アップ[5%]\nブラッドウェポン",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "炎魔石の手槍",
+   "phys": 18,
+   "magic": 0,
+   "price": 0,
+   "effect": "炎上無効[0]\nフレイムジャベリン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "デスピラー",
+   "phys": 20,
+   "magic": 0,
+   "price": 20000,
+   "effect": "APダウン[1]\nHPダウン％[50%]\nリーサルヴェノム",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "深淵の呪槍",
+   "phys": 22,
+   "magic": 0,
+   "price": 0,
+   "effect": "パッシブ封じ無効[0]\n即死無効[0]\n毒ダメージ軽減[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "深淵の呪槍",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "パッシブ封じ無効[0]\n即死無効[0]\n毒ダメージ軽減[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "テスタロッサ",
+   "phys": 24,
+   "magic": 0,
+   "price": 0,
+   "effect": "会心ダメージアップ[30%]\n気絶無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "王槍エルヘリム",
+   "phys": 10,
+   "magic": 20,
+   "price": 0,
+   "effect": "全ステータスアップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "風槍ゼピュロス",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]\n行動速度アップ[10]\n回避アップ[10]",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "オーキスの花槍",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "PPアップ[1]\nHP回復量アップ[30%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "セイクリッドスピア",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "状態異常無効[0]\nHP回復：最大HP[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "lance",
+   "name": "ランスオブデヴォーション",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "青銅の弓",
+   "phys": 8,
+   "magic": 0,
+   "price": 500,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "新兵の短弓",
+   "phys": 11,
+   "magic": 0,
+   "price": 1500,
+   "effect": "HPアップ[3]キャラ取得経験値アップ[20%]",
+   "bonus": {
+    "hp": 3
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "バロックボウ",
+   "phys": 13,
+   "magic": 0,
+   "price": 2000,
+   "effect": "命中アップ[5]",
+   "bonus": {
+    "acc": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "鉄の弓",
+   "phys": 15,
+   "magic": 0,
+   "price": 2000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "黒鉄の弓",
+   "phys": 17,
+   "magic": 0,
+   "price": 3000,
+   "effect": "会心率アップ[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "カルナットボウ",
+   "phys": 19,
+   "magic": 0,
+   "price": 4000,
+   "effect": "行動速度アップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "大樹の弓",
+   "phys": 8,
+   "magic": 16,
+   "price": 4000,
+   "effect": "魔法防御力アップ[3]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "鋼の弓",
+   "phys": 22,
+   "magic": 0,
+   "price": 4000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "魔鉄の弓",
+   "phys": 9,
+   "magic": 18,
+   "price": 6000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "ヴォーパルボウ",
+   "phys": 23,
+   "magic": 0,
+   "price": 6000,
+   "effect": "HPアップ[5]行動速度アップ[3]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "大竜骨の弓",
+   "phys": 15,
+   "magic": 0,
+   "price": 8000,
+   "effect": "PPアップ[1]行動速度ダウン[10]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "茨の棘弓",
+   "phys": 17,
+   "magic": 0,
+   "price": 10000,
+   "effect": "PPアップ[1]HPダウン[15]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "氷瀑弓",
+   "phys": 19,
+   "magic": 0,
+   "price": 12000,
+   "effect": "PPアップ[1]ガード率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "翼紋章の弓",
+   "phys": 21,
+   "magic": 0,
+   "price": 14000,
+   "effect": "PPアップ[1]会心率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "塔守の長弓",
+   "phys": 14,
+   "magic": 0,
+   "price": 0,
+   "effect": "暗闇無効[0]命中アップ[10]イーグルアイ",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "名もなき塔守の弓",
+   "phys": 21,
+   "magic": 0,
+   "price": 0,
+   "effect": "暗闇無効[0]命中アップ[20]イーグルアイ",
+   "bonus": {
+    "acc": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "神殿騎士の弓",
+   "phys": 15,
+   "magic": 0,
+   "price": 0,
+   "effect": "物理防御力アップ[1]ガード率アップ[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "幻影騎士の弓",
+   "phys": 0,
+   "magic": 16,
+   "price": 0,
+   "effect": "魔法防御力アップ[5]ファントムウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "ゼノイラ兵の弓",
+   "phys": 14,
+   "magic": 0,
+   "price": 5000,
+   "effect": "HPアップ[10]物理防御力アップ[2]魔法防御力アップ[2]",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "ゼノイラ騎士の弓",
+   "phys": 20,
+   "magic": 0,
+   "price": 10000,
+   "effect": "HPアップ[15]物理防御力アップ[4]魔法防御力アップ[4]",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "闘神の緋石弓",
+   "phys": 21,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "メテオライトボウ",
+   "phys": 24,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPアップ[20]ガード率アップ[10%]",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "名射手の古弓",
+   "phys": 18,
+   "magic": 0,
+   "price": 5000,
+   "effect": "命中アップ[50]会心率ダウン[30%]",
+   "bonus": {
+    "acc": 50
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "毒蛇の弓",
+   "phys": 11,
+   "magic": 0,
+   "price": 3000,
+   "effect": "ポイズンアロー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "フレイムボウ",
+   "phys": 11,
+   "magic": 0,
+   "price": 3000,
+   "effect": "フレイムアロー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "火竜の大弓",
+   "phys": 21,
+   "magic": 0,
+   "price": 10000,
+   "effect": "炎上無効[0]フレイムアロー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "暗夜の弓",
+   "phys": 11,
+   "magic": 0,
+   "price": 3000,
+   "effect": "シェイドアロー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "轟きの弓",
+   "phys": 14,
+   "magic": 0,
+   "price": 3000,
+   "effect": "パワーブレイク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "轟きの剛弓",
+   "phys": 21,
+   "magic": 0,
+   "price": 12000,
+   "effect": "命中アップ[5]会心率アップ[20%]パワーブレイクⅡ",
+   "bonus": {
+    "acc": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "貫きの弓",
+   "phys": 14,
+   "magic": 0,
+   "price": 3000,
+   "effect": "アーマーブレイク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "貫きの剛弓",
+   "phys": 21,
+   "magic": 0,
+   "price": 12000,
+   "effect": "命中アップ[5]会心率アップ[20%]アーマーブレイクⅡ",
+   "bonus": {
+    "acc": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "魔封じの弓",
+   "phys": 18,
+   "magic": 0,
+   "price": 10000,
+   "effect": "マジックブレイク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "フェザントボウ",
+   "phys": 13,
+   "magic": 0,
+   "price": 5000,
+   "effect": "パッシブブレイク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "異端審問官の弓",
+   "phys": 16,
+   "magic": 0,
+   "price": 12000,
+   "effect": "PPアップ[1]魔法防御力アップ[3]ヒールハント",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "インクイジター",
+   "phys": 21,
+   "magic": 0,
+   "price": 20000,
+   "effect": "PPアップ[1]魔法防御力アップ[5]ヒールハント",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "ラピッドボウ",
+   "phys": 16,
+   "magic": 0,
+   "price": 10000,
+   "effect": "ラピッドショット",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "銀月の弓",
+   "phys": 19,
+   "magic": 0,
+   "price": 10000,
+   "effect": "ビーストスレイ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "名将の長弓",
+   "phys": 17,
+   "magic": 0,
+   "price": 15000,
+   "effect": "PPアップ[1]エリアルシフト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "クレインボウ",
+   "phys": 22,
+   "magic": 0,
+   "price": 20000,
+   "effect": "行動速度アップ[5]トリプルブレイク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "狩人の戦弓",
+   "phys": 20,
+   "magic": 0,
+   "price": 15000,
+   "effect": "HPアップ[15]行動速度アップ[5]アローレイン",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "ガリアクロスボウ",
+   "phys": 21,
+   "magic": 0,
+   "price": 15000,
+   "effect": "命中アップ[10]会心ダメージアップ[30%]ハープーンボルト",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "ブラッドボウ",
+   "phys": 16,
+   "magic": 0,
+   "price": 15000,
+   "effect": "ブラッドウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "ルーンボウ",
+   "phys": 8,
+   "magic": 14,
+   "price": 12000,
+   "effect": "魔法防御力アップ[3]マジックウェポン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "大樹の霊弓",
+   "phys": 10,
+   "magic": 16,
+   "price": 0,
+   "effect": "魔法防御力アップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "デザートボウ",
+   "phys": 15,
+   "magic": 0,
+   "price": 0,
+   "effect": "会心率アップ[10%]命中アップ[20]",
+   "bonus": {
+    "acc": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "雪花弓",
+   "phys": 21,
+   "magic": 0,
+   "price": 0,
+   "effect": "会心率アップ[15%]回避アップ[20]",
+   "bonus": {
+    "eva": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "ウッドペッカー",
+   "phys": 23,
+   "magic": 0,
+   "price": 0,
+   "effect": "会心ダメージアップ[30%]気絶無効[0]スパイクボルト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "贋作アルミニスタ",
+   "phys": 22,
+   "magic": 0,
+   "price": 0,
+   "effect": "命中アップ[30]APダウン[1]",
+   "bonus": {
+    "acc": 30
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "王弓バストリーク",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "全ステータスアップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "風弓アペリオテス",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]行動速度アップ[10]回避アップ[10]",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "クインスの花弓",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "PPアップ[1]HP回復量アップ[30%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "セイクリッドボウ",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "状態異常無効[0]HP回復：最大HP[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bow",
+   "name": "アルミニスタ",
+   "phys": 25,
+   "magic": 0,
+   "price": 0,
+   "effect": "命中アップ[30]チェックメイト",
+   "bonus": {
+    "acc": 30
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "青銅の杖",
+   "phys": 0,
+   "magic": 8,
+   "price": 500,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "新兵の杖",
+   "phys": 0,
+   "magic": 11,
+   "price": 1500,
+   "effect": "HPアップ[3]\nキャラ取得経験値アップ[20%]",
+   "bonus": {
+    "hp": 3
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "バロックロッド",
+   "phys": 0,
+   "magic": 13,
+   "price": 2000,
+   "effect": "命中アップ[5]",
+   "bonus": {
+    "acc": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "鉄の杖",
+   "phys": 0,
+   "magic": 15,
+   "price": 2000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "黒鉄の杖",
+   "phys": 0,
+   "magic": 17,
+   "price": 3000,
+   "effect": "会心率アップ[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "カルナットロッド",
+   "phys": 0,
+   "magic": 19,
+   "price": 4000,
+   "effect": "行動速度アップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "大樹の杖",
+   "phys": 8,
+   "magic": 16,
+   "price": 4000,
+   "effect": "魔法防御力アップ[3]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "鋼の杖",
+   "phys": 0,
+   "magic": 22,
+   "price": 4000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "魔鉄の杖",
+   "phys": 9,
+   "magic": 18,
+   "price": 6000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "ヴォーパルロッド",
+   "phys": 0,
+   "magic": 23,
+   "price": 6000,
+   "effect": "HPアップ[5]\n行動速度アップ[3]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "大竜骨の杖",
+   "phys": 0,
+   "magic": 15,
+   "price": 8000,
+   "effect": "PPアップ[1]\n行動速度ダウン[10]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "茨の棘杖",
+   "phys": 0,
+   "magic": 17,
+   "price": 10000,
+   "effect": "PPアップ[1]\nHPダウン[15]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "氷瀑杖",
+   "phys": 0,
+   "magic": 19,
+   "price": 12000,
+   "effect": "PPアップ[1]\nガード率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "翼紋章の杖",
+   "phys": 0,
+   "magic": 21,
+   "price": 14000,
+   "effect": "PPアップ[1]\n会心率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "神殿騎士の杖",
+   "phys": 0,
+   "magic": 15,
+   "price": 0,
+   "effect": "物理防御力アップ[1]\nガード率アップ[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "幻影騎士の杖",
+   "phys": 0,
+   "magic": 16,
+   "price": 0,
+   "effect": "魔法防御力アップ[5]\nファントムヴェール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "ゼノイラ兵の杖",
+   "phys": 0,
+   "magic": 14,
+   "price": 5000,
+   "effect": "HPアップ[10]\n物理防御力アップ[2]\n魔法防御力アップ[2]",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "ゼノイラ騎士の杖",
+   "phys": 0,
+   "magic": 20,
+   "price": 10000,
+   "effect": "HPアップ[15]\n物理防御力アップ[4]\n魔法防御力アップ[4]",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "黒鳥騎士の杖",
+   "phys": 0,
+   "magic": 20,
+   "price": 0,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "逢魔騎士の杖",
+   "phys": 0,
+   "magic": 23,
+   "price": 0,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "魔障壁の杖",
+   "phys": 0,
+   "magic": 16,
+   "price": 8000,
+   "effect": "物理防御力アップ[15]\n魔法防御力ダウン[15]\nガード軽減率アップ[25%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "闘神の緋石杖",
+   "phys": 0,
+   "magic": 21,
+   "price": 0,
+   "effect": "APアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "メテオライトロッド",
+   "phys": 0,
+   "magic": 24,
+   "price": 0,
+   "effect": "HPアップ[20]\nガード率アップ[10%]",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "メルトセプター",
+   "phys": 0,
+   "magic": 13,
+   "price": 10000,
+   "effect": "ガードハント",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "病毒の黒杖",
+   "phys": 0,
+   "magic": 15,
+   "price": 8000,
+   "effect": "ポイズンバースト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "血月のロッド",
+   "phys": 0,
+   "magic": 18,
+   "price": 8000,
+   "effect": "ブラッドダーツ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "ウインドセプター",
+   "phys": 0,
+   "magic": 20,
+   "price": 20000,
+   "effect": "回避アップ[20]\nエアスラスト",
+   "bonus": {
+    "eva": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "大地の石杖",
+   "phys": 0,
+   "magic": 19,
+   "price": 14000,
+   "effect": "アースクエイク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "大魔術師の杖",
+   "phys": 0,
+   "magic": 20,
+   "price": 20000,
+   "effect": "マジックバースト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "氷嵐の杖",
+   "phys": 0,
+   "magic": 22,
+   "price": 0,
+   "effect": "凍結無効[0]\n回避アップ[10]\nブリザード",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "クォーツロッド",
+   "phys": 0,
+   "magic": 15,
+   "price": 20000,
+   "effect": "グラビティ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "守護のメイス",
+   "phys": 0,
+   "magic": 13,
+   "price": 10000,
+   "effect": "PPアップ[1]\nクイックバリア",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "聖職者の守杖",
+   "phys": 0,
+   "magic": 18,
+   "price": 15000,
+   "effect": "PPアップ[1]\nプロテクション",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "リリックワンド",
+   "phys": 0,
+   "magic": 13,
+   "price": 15000,
+   "effect": "APアップ[1]\nアクトヒール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "祝福のメイス",
+   "phys": 0,
+   "magic": 13,
+   "price": 5000,
+   "effect": "HP回復：最大HP[10%]\nHPアップ[5]\nリヒール",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "双癒の杖",
+   "phys": 0,
+   "magic": 16,
+   "price": 8000,
+   "effect": "ダブルヒール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "円燐の杖",
+   "phys": 0,
+   "magic": 20,
+   "price": 10000,
+   "effect": "行動速度アップ[5]\nサークルヒール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "光燐の杖",
+   "phys": 0,
+   "magic": 20,
+   "price": 20000,
+   "effect": "行動速度アップ[5]\nレイディアントヒール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "プレシャスロッド",
+   "phys": 0,
+   "magic": 20,
+   "price": 20000,
+   "effect": "リミテッドヒール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "生命の杖",
+   "phys": 0,
+   "magic": 13,
+   "price": 10000,
+   "effect": "HPアップ[10]\nリザレクション",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "ピュリファイアー",
+   "phys": 0,
+   "magic": 20,
+   "price": 20000,
+   "effect": "セイクリッドキュア",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "解放者の秘杖",
+   "phys": 0,
+   "magic": 14,
+   "price": 20000,
+   "effect": "オールディスペル",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "呪速の枝杖",
+   "phys": 0,
+   "magic": 16,
+   "price": 5000,
+   "effect": "ファストカース",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "呪毒の枝杖",
+   "phys": 0,
+   "magic": 16,
+   "price": 8000,
+   "effect": "ポイズンカース",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "呪炎の枝杖",
+   "phys": 0,
+   "magic": 16,
+   "price": 8000,
+   "effect": "ファイアカース",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "砂塵の杖",
+   "phys": 0,
+   "magic": 16,
+   "price": 12000,
+   "effect": "サンドストーム",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "呪術師の骨杖",
+   "phys": 18,
+   "magic": 0,
+   "price": 20000,
+   "effect": "カースストライク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "閃光のメイス",
+   "phys": 0,
+   "magic": 18,
+   "price": 12000,
+   "effect": "ホーリースマイト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "蝙蝠の杖",
+   "phys": 0,
+   "magic": 12,
+   "price": 0,
+   "effect": "回避アップ[5]\n行動速度アップ[3]",
+   "bonus": {
+    "eva": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "レリア司祭の儀仗",
+   "phys": 0,
+   "magic": 15,
+   "price": 0,
+   "effect": "PPアップ[1]\nエンドリザレクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "イチイの賢杖",
+   "phys": 0,
+   "magic": 21,
+   "price": 0,
+   "effect": "パッシブ封じ無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "クロロティック",
+   "phys": 0,
+   "magic": 13,
+   "price": 0,
+   "effect": "ファイアバースト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "死者の杖",
+   "phys": 0,
+   "magic": 20,
+   "price": 0,
+   "effect": "HPアップ[20]\n魔法防御力アップ[10]",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "アインシーカー",
+   "phys": 0,
+   "magic": 21,
+   "price": 0,
+   "effect": "マジックシェル",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "天翼の儀仗",
+   "phys": 0,
+   "magic": 23,
+   "price": 0,
+   "effect": "HPアップ[20]\n行動速度アップ[10]",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "サングイスメア",
+   "phys": 0,
+   "magic": 25,
+   "price": 0,
+   "effect": "APアップ[2]\nHPアップ[20]\nブラッドレイン",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "深淵の呪杖",
+   "phys": 0,
+   "magic": 20,
+   "price": 0,
+   "effect": "パッシブ封じ無効[0]\n即死無効[0]\n毒ダメージ軽減[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "深淵の呪杖",
+   "phys": 0,
+   "magic": 25,
+   "price": 0,
+   "effect": "パッシブ封じ無効[0]\n即死無効[0]\n毒ダメージ軽減[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "サウザンドセプター",
+   "phys": 0,
+   "magic": 24,
+   "price": 0,
+   "effect": "トリニティレイン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "リベールライト",
+   "phys": 0,
+   "magic": 20,
+   "price": 0,
+   "effect": "リンカネーション",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "カーディナルメイス",
+   "phys": 0,
+   "magic": 20,
+   "price": 0,
+   "effect": "ホーリークレイドル",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "王杖アルビオール",
+   "phys": 0,
+   "magic": 25,
+   "price": 0,
+   "effect": "全ステータスアップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "風杖エウロス",
+   "phys": 0,
+   "magic": 25,
+   "price": 0,
+   "effect": "APアップ[1]\n行動速度アップ[10]\n回避アップ[10]",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "ルピナスの花杖",
+   "phys": 0,
+   "magic": 25,
+   "price": 0,
+   "effect": "PPアップ[1]\nHP回復量アップ[30%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "セイクリッドロッド",
+   "phys": 0,
+   "magic": 25,
+   "price": 0,
+   "effect": "状態異常無効[0]\nHP回復：最大HP[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "rod",
+   "name": "教皇の権杖",
+   "phys": 0,
+   "magic": 25,
+   "price": 0,
+   "effect": "APアップ[1]\nPPアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "青銅の盾",
+   "phys": 3,
+   "magic": 15,
+   "price": 500,
+   "effect": "ガード軽減率アップ[25%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "新兵の盾",
+   "phys": 3,
+   "magic": 16,
+   "price": 1500,
+   "effect": "ガード軽減率アップ[25%]\nHPアップ[3]\nキャラ取得経験値アップ[10%]",
+   "bonus": {
+    "hp": 3
+   },
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "バロックシールド",
+   "phys": 4,
+   "magic": 18,
+   "price": 2000,
+   "effect": "ガード軽減率アップ[25%]\n命中アップ[5]",
+   "bonus": {
+    "acc": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "バトルシールド",
+   "phys": 2,
+   "magic": 5,
+   "price": 2000,
+   "effect": "ガード軽減率アップ[25%]\n物理攻撃力アップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "鉄の盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 1500,
+   "effect": "ガード軽減率アップ[25%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "黒鉄の盾",
+   "phys": 6,
+   "magic": 22,
+   "price": 3000,
+   "effect": "ガード軽減率アップ[25%]\n会心率アップ[4%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "カルナットシールド",
+   "phys": 6,
+   "magic": 24,
+   "price": 4000,
+   "effect": "ガード軽減率アップ[25%]\n行動速度アップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "大樹の盾",
+   "phys": 4,
+   "magic": 15,
+   "price": 4000,
+   "effect": "ガード軽減率アップ[25%]\n魔法防御力アップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "鋼の盾",
+   "phys": 7,
+   "magic": 25,
+   "price": 3000,
+   "effect": "ガード軽減率アップ[25%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "魔鉄の盾",
+   "phys": 6,
+   "magic": 20,
+   "price": 6000,
+   "effect": "ガード軽減率アップ[25%]\n魔法防御力アップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "ヴォーパルシールド",
+   "phys": 7,
+   "magic": 25,
+   "price": 6000,
+   "effect": "ガード軽減率アップ[25%]\nHPアップ[5]\n行動速度アップ[3]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "大竜骨の盾",
+   "phys": 5,
+   "magic": 15,
+   "price": 8000,
+   "effect": "ガード軽減率アップ[25%]\nPPアップ[1]\n行動速度ダウン[10]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "茨の棘盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[25%]\nPPアップ[1]\nHPダウン[15]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "氷瀑盾",
+   "phys": 7,
+   "magic": 20,
+   "price": 12000,
+   "effect": "ガード軽減率アップ[25%]\nPPアップ[1]\nガード率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "翼紋章の盾",
+   "phys": 7,
+   "magic": 25,
+   "price": 14000,
+   "effect": "ガード軽減率アップ[25%]\nPPアップ[1]\n会心率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "塔守の小盾",
+   "phys": 4,
+   "magic": 20,
+   "price": 0,
+   "effect": "ガード軽減率アップ[25%]\n暗闇無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "名もなき塔守の盾",
+   "phys": 6,
+   "magic": 25,
+   "price": 0,
+   "effect": "ガード軽減率アップ[25%]\n暗闇無効[0]\nグロウカバー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "神殿騎士の盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 0,
+   "effect": "ガード軽減率アップ[25%]\nHP回復量アップ[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "幻影騎士の盾",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "ガード軽減率アップ[25%]\n魔法防御力アップ[20]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "ゼノイラ兵の盾",
+   "phys": 3,
+   "magic": 15,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[25%]\nHPアップ[10]",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "ゼノイラ騎士の盾",
+   "phys": 6,
+   "magic": 25,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[25%]\nHPアップ[15]\nエンデュランスガード",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "金羊騎士の盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 0,
+   "effect": "ガード軽減率アップ[25%]\nHPアップ[10]\n気絶無効[0]",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "天翼騎士の盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 0,
+   "effect": "ガード軽減率アップ[25%]\n命中アップ[10]\n回避アップ[10]",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "黒曜の盾",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "ガード軽減率アップ[25%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "蒼紋の盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 8000,
+   "effect": "ガード軽減率アップ[25%]\nPPアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "緋紋の盾",
+   "phys": 6,
+   "magic": 25,
+   "price": 15000,
+   "effect": "ガード軽減率アップ[25%]\nAPアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "猟兵のバックラー",
+   "phys": 6,
+   "magic": 25,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[25%]\n追撃スキル威力アップ[20]\n会心率アップ[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "祝福の円盾",
+   "phys": 2,
+   "magic": 20,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[25%]\nHP回復：最大HP[10%]\nHPアップ[5]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "毒蛇の盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 3000,
+   "effect": "ガード軽減率アップ[25%]\n毒無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "灼熱の盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 3000,
+   "effect": "ガード軽減率アップ[25%]\n炎上無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "樹氷の盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 3000,
+   "effect": "ガード軽減率アップ[25%]\n凍結無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "光輝の盾",
+   "phys": 6,
+   "magic": 25,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[25%]\n毒無効[0]\n暗闇無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "双竜紋の盾",
+   "phys": 6,
+   "magic": 25,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[25%]\n炎上無効[0]\n凍結無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "アンフェッター",
+   "phys": 6,
+   "magic": 25,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[25%]\nガード封じ無効[0]\nパッシブ封じ無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "ナイツシールド",
+   "phys": 6,
+   "magic": 25,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[25%]\n気絶無効[0]\nガード封じ無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "衛兵の盾",
+   "phys": 4,
+   "magic": 20,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[25%]\nクイックガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "傭兵のウッドシールド",
+   "phys": 6,
+   "magic": 18,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[25%]\n会心率アップ[5%]\nリベンジガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "聖騎士の盾",
+   "phys": 7,
+   "magic": 30,
+   "price": 20000,
+   "effect": "ガード軽減率アップ[25%]\nHP回復：最大HP[10%]\nホーリーガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "騎馬狩りの小盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 8000,
+   "effect": "ガード軽減率アップ[25%]\nキャバルリーガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "羽狩りの小盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 8000,
+   "effect": "ガード軽減率アップ[25%]\nエアリアルガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "獣狩りの小盾",
+   "phys": 6,
+   "magic": 20,
+   "price": 8000,
+   "effect": "ガード軽減率アップ[25%]\nビーストガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "月光の盾",
+   "phys": 6,
+   "magic": 25,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[25%]\nノクターナルガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "不屈の盾",
+   "phys": 7,
+   "magic": 25,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[25%]\nエンデュランスガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "従騎士の盾",
+   "phys": 5,
+   "magic": 20,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[25%]\nクイックカバー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "アローシールド",
+   "phys": 2,
+   "magic": 20,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[25%]\nアローカバー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "鉄壁のバックラー",
+   "phys": 5,
+   "magic": 20,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[25%]\nウォール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "魔石のバックラー",
+   "phys": 5,
+   "magic": 20,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[25%]\nマジックウォール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "パリングシールド",
+   "phys": 2,
+   "magic": 10,
+   "price": 12000,
+   "effect": "ガード軽減率アップ[25%]\n反撃スキル威力アップ[50]\nパリィ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "白騎士の盾",
+   "phys": 4,
+   "magic": 15,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[25%]\nHPアップ[15]\nライフディバイド",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "青薔薇の盾",
+   "phys": 6,
+   "magic": 20,
+   "price": 0,
+   "effect": "ガード軽減率アップ[25%]\nPPアップ[1]\nロイヤルガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "白馬の騎士盾",
+   "phys": 7,
+   "magic": 25,
+   "price": 0,
+   "effect": "ガード軽減率アップ[25%]\n気絶無効[0]\nガード封じ無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "風盾カイキアス",
+   "phys": 8,
+   "magic": 30,
+   "price": 0,
+   "effect": "ガード軽減率アップ[25%]\n行動速度アップ[10]\nファストカバー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "shield",
+   "name": "一角獣の聖盾",
+   "phys": 8,
+   "magic": 30,
+   "price": 0,
+   "effect": "ガード軽減率アップ[25%]\nデバフ無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "緋石のペンダント",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "APアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "緋晶石のペンダント",
+   "phys": 0,
+   "magic": 0,
+   "price": 40000,
+   "effect": "APアップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "蒼石のペンダント",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "PPアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "蒼晶石のペンダント",
+   "phys": 0,
+   "magic": 0,
+   "price": 40000,
+   "effect": "PPアップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "紫晶石のペンダント",
+   "phys": 0,
+   "magic": 0,
+   "price": 80000,
+   "effect": "APアップ[1]\nPPアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "黒晶石のペンダント",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[2]\nPPアップ[2]\n全ステータスダウン[15]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ブロンズバングル",
+   "phys": 2,
+   "magic": 2,
+   "price": 1000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "シルバーバングル",
+   "phys": 4,
+   "magic": 4,
+   "price": 3000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ゴールドバングル",
+   "phys": 6,
+   "magic": 6,
+   "price": 6000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ブロンズサークレット",
+   "phys": 0,
+   "magic": 4,
+   "price": 1000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "シルバーサークレット",
+   "phys": 0,
+   "magic": 6,
+   "price": 2500,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ゴールドサークレット",
+   "phys": 0,
+   "magic": 8,
+   "price": 5000,
+   "effect": "",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ブラウンベレー",
+   "phys": 1,
+   "magic": 0,
+   "price": 1500,
+   "effect": "物理攻撃力アップ％[8%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "グリーンベレー",
+   "phys": 2,
+   "magic": 0,
+   "price": 3000,
+   "effect": "物理攻撃力アップ％[10%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "エリートベレー",
+   "phys": 3,
+   "magic": 0,
+   "price": 6000,
+   "effect": "物理攻撃力アップ％[12%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "レザーフード",
+   "phys": 0,
+   "magic": 1,
+   "price": 1500,
+   "effect": "魔法攻撃力アップ％[8%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "シルクフード",
+   "phys": 0,
+   "magic": 2,
+   "price": 3000,
+   "effect": "魔法攻撃力アップ％[10%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "セイジフード",
+   "phys": 0,
+   "magic": 3,
+   "price": 6000,
+   "effect": "魔法攻撃力アップ％[12%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "命のタリスマン",
+   "phys": 0,
+   "magic": 0,
+   "price": 5000,
+   "effect": "HPアップ[10]",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "生命のタリスマン",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "HPアップ[20]",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "神樹のタリスマン",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPアップ[30]\nHPアップ％[10%]",
+   "bonus": {
+    "hp": 30
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "白鳥の羽飾り",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "行動速度アップ[10]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "黒鳥の羽飾り",
+   "phys": 0,
+   "magic": 0,
+   "price": 20000,
+   "effect": "行動速度アップ[15]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "天使の羽飾り",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "行動速度アップ[20]\nフォローウインド",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "鉄の足枷",
+   "phys": 0,
+   "magic": 0,
+   "price": 3000,
+   "effect": "行動速度ダウン[10]\nダメージ軽減[5%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "狂人の足枷",
+   "phys": 0,
+   "magic": 0,
+   "price": 6000,
+   "effect": "行動速度ダウン[15]\nダメージ軽減[10%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "悪魔の足枷",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "行動速度ダウン[20]\nダメージ軽減[15%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ブルーグラス",
+   "phys": 1,
+   "magic": 0,
+   "price": 1500,
+   "effect": "命中アップ[20]",
+   "bonus": {
+    "acc": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ミラードグラス",
+   "phys": 2,
+   "magic": 0,
+   "price": 4000,
+   "effect": "命中アップ[30]",
+   "bonus": {
+    "acc": 30
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "シルクスカーフ",
+   "phys": 1,
+   "magic": 0,
+   "price": 1500,
+   "effect": "回避アップ[20]",
+   "bonus": {
+    "eva": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ロイヤルスカーフ",
+   "phys": 2,
+   "magic": 0,
+   "price": 4000,
+   "effect": "回避アップ[30]",
+   "bonus": {
+    "eva": 30
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "傭兵の眼帯",
+   "phys": 1,
+   "magic": 0,
+   "price": 1500,
+   "effect": "会心率アップ[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "猛者の眼帯",
+   "phys": 2,
+   "magic": 0,
+   "price": 4000,
+   "effect": "会心率アップ[30%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "幸運のコイン",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "会心率アップ[20%]\n回避アップ[20]",
+   "bonus": {
+    "eva": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ガントレット",
+   "phys": 1,
+   "magic": 0,
+   "price": 1500,
+   "effect": "ガード率アップ[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "クロスガントレット",
+   "phys": 2,
+   "magic": 0,
+   "price": 4000,
+   "effect": "ガード率アップ[30%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "リーフシンボル",
+   "phys": 1,
+   "magic": 1,
+   "price": 6000,
+   "effect": "HP回復：最大HP[10%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ローズシンボル",
+   "phys": 1,
+   "magic": 1,
+   "price": 10000,
+   "effect": "HP回復：最大HP[15%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ホーリーシンボル",
+   "phys": 2,
+   "magic": 2,
+   "price": 0,
+   "effect": "HP回復：最大HP[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "セイクリッドシンボル",
+   "phys": 3,
+   "magic": 3,
+   "price": 0,
+   "effect": "HP回復：最大HP[20%]\n状態異常無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "スカーレットのリボン",
+   "phys": 0,
+   "magic": 1,
+   "price": 0,
+   "effect": "HPアップ[3]\n回避アップ[10]\nクイックヒール",
+   "bonus": {
+    "hp": 3
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "血塗られたリボン",
+   "phys": 0,
+   "magic": 5,
+   "price": 0,
+   "effect": "全ステータスアップ[3]\nブラッド系効果アップ[30%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "戦士のメダリオン",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "物理攻撃力アップ[2]\n物理攻撃力アップ％[10%]\n会心率アップ[10%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "魔術師のメダリオン",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "魔法攻撃力アップ[2]\n魔法攻撃力アップ％[10%]\n会心率アップ[10%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "重装兵のメダリオン",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "物理防御力アップ[2]\n物理防御力アップ％[10%]\nガード率アップ[10%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "神官のメダリオン",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "魔法防御力アップ[2]\n魔法防御力アップ％[10%]\nガード率アップ[10%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "英雄のメダリオン",
+   "phys": 1,
+   "magic": 1,
+   "price": 0,
+   "effect": "APアップ[1]\nPPアップ[1]\n物理攻撃力アップ％[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "大地と海のチャーム",
+   "phys": 2,
+   "magic": 2,
+   "price": 10000,
+   "effect": "HPアップ[10]\n物理攻撃力アップ[4]",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "太陽と月のチャーム",
+   "phys": 2,
+   "magic": 2,
+   "price": 10000,
+   "effect": "HPアップ[10]\n魔法攻撃力アップ[4]",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ライオンハート",
+   "phys": 3,
+   "magic": 3,
+   "price": 0,
+   "effect": "物理攻撃力アップ％[10%]\n会心率アップ[10%]\n命中アップ[20]",
+   "bonus": {
+    "acc": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "宿り木のチャーム",
+   "phys": 1,
+   "magic": 1,
+   "price": 0,
+   "effect": "ガード封じ無効[0]\nパッシブ封じ無効[0]\n回避アップ[20]",
+   "bonus": {
+    "eva": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "灯火の指輪",
+   "phys": 0,
+   "magic": 1,
+   "price": 0,
+   "effect": "暗闇無効[0]\nHP回復：最大HP[10%]\nグロウライト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "塔守のランタン",
+   "phys": 0,
+   "magic": 1,
+   "price": 0,
+   "effect": "暗闇無効[0]\n炎上無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "塔守の角笛",
+   "phys": 0,
+   "magic": 1,
+   "price": 0,
+   "effect": "暗闇無効[0]\n炎上無効[0]\nドーンホルン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "墓守のランタン",
+   "phys": 0,
+   "magic": 1,
+   "price": 0,
+   "effect": "毒無効[0]\n即死無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "墓守のブーツ",
+   "phys": 0,
+   "magic": 1,
+   "price": 10000,
+   "effect": "毒無効[0]\n即死無効[0]\nグレイブアクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "死者の指輪",
+   "phys": 0,
+   "magic": 1,
+   "price": 0,
+   "effect": "毒無効[0]\n即死無効[0]\nPPアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "死霊術師のランタン",
+   "phys": 0,
+   "magic": 1,
+   "price": 0,
+   "effect": "毒無効[0]\n即死無効[0]\nヴァニタス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "血月のイヤリング",
+   "phys": 1,
+   "magic": 0,
+   "price": 5000,
+   "effect": "ブラッド系効果アップ[30%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "反撃のイヤリング",
+   "phys": 1,
+   "magic": 0,
+   "price": 5000,
+   "effect": "反撃スキル威力アップ[40]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "追撃のイヤリング",
+   "phys": 1,
+   "magic": 0,
+   "price": 5000,
+   "effect": "追撃スキル威力アップ[40]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "追い風のケープ",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "クイックムーブ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "リプスの風環",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "ファストムーブ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "疾風のブレスレット",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "ファストストライク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "突風のブレスレット",
+   "phys": 0,
+   "magic": 0,
+   "price": 15000,
+   "effect": "ファストブレイク",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "荒くれタセット",
+   "phys": 2,
+   "magic": 0,
+   "price": 5000,
+   "effect": "ウォークライ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "堅盾の指輪",
+   "phys": 1,
+   "magic": 1,
+   "price": 10000,
+   "effect": "シールドエンハンス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "曲芸師の靴",
+   "phys": 1,
+   "magic": 0,
+   "price": 10000,
+   "effect": "アクトスタンス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "戦列の軍旗",
+   "phys": 0,
+   "magic": 0,
+   "price": 12000,
+   "effect": "ヘヴィアライン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "翼列の軍旗",
+   "phys": 0,
+   "magic": 0,
+   "price": 12000,
+   "effect": "フェザーアライン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "精鋭の軍旗",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "リミットフォース",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "群狼の篭手",
+   "phys": 2,
+   "magic": 0,
+   "price": 0,
+   "effect": "ウルフパック",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "穴熊のガントレット",
+   "phys": 2,
+   "magic": 0,
+   "price": 0,
+   "effect": "ベアキャッスル",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "エイドキット",
+   "phys": 0,
+   "magic": 0,
+   "price": 3000,
+   "effect": "ファーストエイド",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "メディカルキット",
+   "phys": 0,
+   "magic": 0,
+   "price": 5000,
+   "effect": "メディカルエイド",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ラージエイドキット",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "パーティーエイド",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "休息のショール",
+   "phys": 1,
+   "magic": 0,
+   "price": 3000,
+   "effect": "ウイングレスト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "守りの指輪",
+   "phys": 1,
+   "magic": 0,
+   "price": 5000,
+   "effect": "クイックバリア",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "極光の指輪",
+   "phys": 1,
+   "magic": 0,
+   "price": 40000,
+   "effect": "マイティシールド",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "魔除けのチャーム",
+   "phys": 0,
+   "magic": 3,
+   "price": 10000,
+   "effect": "マジックバリア",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "風精の鈴",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "シルフィードバリア",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "盗賊の鈴",
+   "phys": 0,
+   "magic": 0,
+   "price": 8000,
+   "effect": "イヴェイドアタッチ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "炎剣の術書",
+   "phys": 0,
+   "magic": 0,
+   "price": 5000,
+   "effect": "魔法攻撃力アップ[2]\nフレイムセイバー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "氷剣の術書",
+   "phys": 0,
+   "magic": 0,
+   "price": 5000,
+   "effect": "魔法攻撃力アップ[2]\nアイスセイバー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "雷剣の術書",
+   "phys": 0,
+   "magic": 0,
+   "price": 5000,
+   "effect": "魔法攻撃力アップ[2]\nサンダーセイバー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "血剣の術書",
+   "phys": 0,
+   "magic": 0,
+   "price": 8000,
+   "effect": "魔法攻撃力アップ[2]\nブラッドセイバー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "栄光のサッシュ",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "リィンフォース",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "踊り子の腕輪",
+   "phys": 0,
+   "magic": 0,
+   "price": 2000,
+   "effect": "パワーエール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "賭博師のコイン",
+   "phys": 0,
+   "magic": 0,
+   "price": 2000,
+   "effect": "チャンス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "色褪せた賭博師のコイン",
+   "phys": 1,
+   "magic": 1,
+   "price": 5000,
+   "effect": "ワイドチャンス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "使い魔のチョーカー",
+   "phys": 0,
+   "magic": 0,
+   "price": 3000,
+   "effect": "ソーサリーコネクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "必中の星章",
+   "phys": 0,
+   "magic": 0,
+   "price": 15000,
+   "effect": "フォーカサイト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "賢梟のショール",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "クイックディスペル",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "狙撃手のレンズ",
+   "phys": 1,
+   "magic": 0,
+   "price": 5000,
+   "effect": "命中アップ[10]\nイーグルアイ",
+   "bonus": {
+    "acc": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "狙撃手のアンバーレンズ",
+   "phys": 1,
+   "magic": 0,
+   "price": 15000,
+   "effect": "命中アップ[20]\nホークアイ",
+   "bonus": {
+    "acc": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "飛竜の手綱",
+   "phys": 1,
+   "magic": 1,
+   "price": 8000,
+   "effect": "行動速度アップ[3]\nエリアルウイング",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "神竜の手綱",
+   "phys": 3,
+   "magic": 3,
+   "price": 0,
+   "effect": "行動速度アップ[6]\nHPアップ[10]\nエリアルウイング",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "重戦士の篭手",
+   "phys": 3,
+   "magic": 0,
+   "price": 10000,
+   "effect": "物理攻撃力アップ[3]\nガードバインド",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "追撃者の腕輪",
+   "phys": 0,
+   "magic": 0,
+   "price": 5000,
+   "effect": "チェイス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "解放者の腕輪",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "バニッシュチェイス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "無法者の腕輪",
+   "phys": 0,
+   "magic": 0,
+   "price": 20000,
+   "effect": "ワイドチェイス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "狼牙の腕輪",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "キリングチェイス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "聖職者の腕輪",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "チェイスヒール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "カウンターベルト",
+   "phys": 1,
+   "magic": 0,
+   "price": 3000,
+   "effect": "カウンター",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ライオットベルト",
+   "phys": 1,
+   "magic": 0,
+   "price": 0,
+   "effect": "ワイドカウンター",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "飛竜の爪",
+   "phys": 0,
+   "magic": 0,
+   "price": 3000,
+   "effect": "グランドカウンター",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "メイジグローブ",
+   "phys": 1,
+   "magic": 0,
+   "price": 5000,
+   "effect": "カウンターマジック",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "解放者の帯革",
+   "phys": 1,
+   "magic": 0,
+   "price": 10000,
+   "effect": "バニッシュカウンター",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "修道士の聖帽",
+   "phys": 1,
+   "magic": 1,
+   "price": 5000,
+   "effect": "クイックヒール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "大司教の聖帽",
+   "phys": 1,
+   "magic": 1,
+   "price": 10000,
+   "effect": "魔法攻撃力アップ[5]\nレリックヒール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "精霊の首飾り",
+   "phys": 1,
+   "magic": 0,
+   "price": 10000,
+   "effect": "クイックキュア",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "セルフキット",
+   "phys": 0,
+   "magic": 0,
+   "price": 5000,
+   "effect": "HPアップ[3]\nセルフケア",
+   "bonus": {
+    "hp": 3
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "蒼石の鈴",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "パッシブギフト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "踊り子の足環",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "会心率アップ[5%]\nブレイドダンス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "陽光のローブ",
+   "phys": 1,
+   "magic": 1,
+   "price": 15000,
+   "effect": "ダイアーナルアクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "月光のローブ",
+   "phys": 1,
+   "magic": 1,
+   "price": 15000,
+   "effect": "ノクターナルアクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "マッスルベルト",
+   "phys": 1,
+   "magic": 0,
+   "price": 10000,
+   "effect": "HPアップ[10]\nタフネス",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "守りの篭手",
+   "phys": 3,
+   "magic": 0,
+   "price": 5000,
+   "effect": "クイックガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "盗賊のマント",
+   "phys": 1,
+   "magic": 1,
+   "price": 20000,
+   "effect": "イヴェイド",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "宵闇のマント",
+   "phys": 1,
+   "magic": 1,
+   "price": 30000,
+   "effect": "ナイトイヴェイド",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "幻影のマント",
+   "phys": 1,
+   "magic": 1,
+   "price": 0,
+   "effect": "ファントムステップ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "駿馬の手綱",
+   "phys": 1,
+   "magic": 1,
+   "price": 8000,
+   "effect": "行動速度アップ[3]\nダイナミックライド",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "神馬の手綱",
+   "phys": 3,
+   "magic": 3,
+   "price": 0,
+   "effect": "行動速度アップ[6]\nHPアップ[10]\nダイナミックライド",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "老魔女の指輪",
+   "phys": 0,
+   "magic": 3,
+   "price": 0,
+   "effect": "魔法攻撃力アップ[2]\nマジックコンバート",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "達人の篭手",
+   "phys": 1,
+   "magic": 0,
+   "price": 5000,
+   "effect": "回避アップ[10]\nインファイト",
+   "bonus": {
+    "eva": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ガーディアングローブ",
+   "phys": 2,
+   "magic": 0,
+   "price": 5000,
+   "effect": "ガード率アップ[10%]\nガードファイト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "復讐鬼のカリガ",
+   "phys": 1,
+   "magic": 0,
+   "price": 12000,
+   "effect": "物理攻撃力アップ[2]\nリベンジアクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "城塞兵のサバトン",
+   "phys": 2,
+   "magic": 0,
+   "price": 12000,
+   "effect": "ガードアクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ドルイドローブ",
+   "phys": 1,
+   "magic": 1,
+   "price": 12000,
+   "effect": "カースアクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "魔術師のガントレット",
+   "phys": 3,
+   "magic": 0,
+   "price": 10000,
+   "effect": "ソーサリーブロウ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "癒しの羽飾り",
+   "phys": 0,
+   "magic": 0,
+   "price": 20000,
+   "effect": "行動速度アップ[5]\nヒールウインド",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "不死鳥の羽飾り",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "行動速度アップ[5]\nリンカネーション",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "解毒のアミュレット",
+   "phys": 0,
+   "magic": 1,
+   "price": 1000,
+   "effect": "毒無効[0]\nキュアポイズン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "火消のアミュレット",
+   "phys": 0,
+   "magic": 1,
+   "price": 1000,
+   "effect": "炎上無効[0]\nキュアファイア",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "氷解のアミュレット",
+   "phys": 0,
+   "magic": 1,
+   "price": 1000,
+   "effect": "凍結無効[0]\nキュアフリーズ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "気付けのアミュレット",
+   "phys": 0,
+   "magic": 1,
+   "price": 1000,
+   "effect": "気絶無効[0]\nキュアスタン",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "可視のアミュレット",
+   "phys": 0,
+   "magic": 1,
+   "price": 1000,
+   "effect": "暗闇無効[0]\nキュアシェイド",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "封防のアミュレット",
+   "phys": 0,
+   "magic": 1,
+   "price": 1000,
+   "effect": "ガード封じ無効[0]\nキュアガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "封技のアミュレット",
+   "phys": 0,
+   "magic": 1,
+   "price": 1000,
+   "effect": "パッシブ封じ無効[0]\nキュアパッシブ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "一角獣の聖印",
+   "phys": 3,
+   "magic": 3,
+   "price": 0,
+   "effect": "デバフ無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "火竜の指輪",
+   "phys": 0,
+   "magic": 8,
+   "price": 15000,
+   "effect": "炎上無効[0]\nHPアップ[5]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "氷雪の指輪",
+   "phys": 0,
+   "magic": 8,
+   "price": 15000,
+   "effect": "凍結無効[0]\nHPアップ[5]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "雷鳴の指輪",
+   "phys": 0,
+   "magic": 8,
+   "price": 15000,
+   "effect": "気絶無効[0]\nHPアップ[5]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ひんやりバンダナ",
+   "phys": 1,
+   "magic": 1,
+   "price": 3000,
+   "effect": "炎上無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "とげとげリボン",
+   "phys": 1,
+   "magic": 1,
+   "price": 3000,
+   "effect": "気絶無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "もこもこミトン",
+   "phys": 1,
+   "magic": 1,
+   "price": 3000,
+   "effect": "凍結無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ふんわりケープ",
+   "phys": 1,
+   "magic": 1,
+   "price": 3000,
+   "effect": "毒無効[0]\n暗闇無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "クロエのお守り",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "キャラ取得経験値アップ[30%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ルーキーエッグ",
+   "phys": 0,
+   "magic": 0,
+   "price": 10000,
+   "effect": "キャラ取得経験値アップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "ゴールデンエッグ",
+   "phys": 0,
+   "magic": 0,
+   "price": 30000,
+   "effect": "取得金アップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "守銭奴の腕輪",
+   "phys": 1,
+   "magic": 1,
+   "price": 0,
+   "effect": "取得金アップ[2]\nPPダウン[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "銀のゴブレット",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "キャラ取得経験値アップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "金のゴブレット",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "取得金アップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "深淵の篭手",
+   "phys": 3,
+   "magic": 3,
+   "price": 0,
+   "effect": "ダメージ軽減[10%]\nガード率アップ[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "深淵の王冠",
+   "phys": 3,
+   "magic": 3,
+   "price": 0,
+   "effect": "PPアップ[2]\n全ステータスアップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "深淵のタリスマン",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "暗闇無効[0]\n即死無効[0]\nパッシブ封じ無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "星辰のタリスマン",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "APダウン[1]\nファストチャージ",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "マギアソウル",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPダウン％[20%]\nリスペル",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "マギアハーツ",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPダウン％[20%]\nファストキャスト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "白ネコミミフード",
+   "phys": 0,
+   "magic": 5,
+   "price": 0,
+   "effect": "PPアップ[1]\n行動速度アップ[10]\nクイックアクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "黒ネコミミフード",
+   "phys": 0,
+   "magic": 5,
+   "price": 0,
+   "effect": "PPアップ[1]\n行動速度アップ[10]\nクイックアクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "夢幻の王冠",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]\n全ステータスアップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "古代の王冠",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "PPアップ[1]\n全ステータスアップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "一角獣の指輪",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPアップ[5]\nガード率アップ[10%]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "一角獣の指輪",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]\n全ステータスアップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "一角獣の指輪",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "APアップ[1]\n全ステータスアップ[5]\nアストラルブレード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "乙女の指輪",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "PPアップ[1]\n全ステータスアップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "乙女の指輪",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "PPアップ[1]\n全ステータスアップ[5]\nセレスティアルライト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "HP＋50",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPアップ[50]",
+   "bonus": {
+    "hp": 50
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "HP＋200",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "HPアップ[200]",
+   "bonus": {
+    "hp": 200
+   },
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "STR＋100",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "物理攻撃力アップ[100]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "物理攻撃力＋",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "物理攻撃力アップ％[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "魔法攻撃力＋",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "魔法攻撃力アップ％[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "accessory",
+   "name": "会心ダメージ＋",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "会心ダメージアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "青銅の大盾",
+   "phys": 6,
+   "magic": 25,
+   "price": 500,
+   "effect": "ガード軽減率アップ[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "新兵の大盾",
+   "phys": 6,
+   "magic": 27,
+   "price": 1500,
+   "effect": "ガード軽減率アップ[50%]\nHPアップ[3]\nキャラ取得経験値アップ[10%]",
+   "bonus": {
+    "hp": 3
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "バロックラージシールド",
+   "phys": 8,
+   "magic": 28,
+   "price": 2000,
+   "effect": "ガード軽減率アップ[50%]\n命中アップ[5]",
+   "bonus": {
+    "acc": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "ライトラージシールド",
+   "phys": 5,
+   "magic": 10,
+   "price": 2000,
+   "effect": "ガード軽減率アップ[50%]\n行動速度アップ[3]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "鉄の大盾",
+   "phys": 10,
+   "magic": 30,
+   "price": 1500,
+   "effect": "ガード軽減率アップ[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "黒鉄の大盾",
+   "phys": 11,
+   "magic": 32,
+   "price": 3000,
+   "effect": "ガード軽減率アップ[50%]\n会心率アップ[4%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "カルナットラージシールド",
+   "phys": 12,
+   "magic": 33,
+   "price": 4000,
+   "effect": "ガード軽減率アップ[50%]\n行動速度アップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "大樹の大盾",
+   "phys": 11,
+   "magic": 30,
+   "price": 4000,
+   "effect": "ガード軽減率アップ[50%]\n魔法防御力アップ[2]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "鋼の大盾",
+   "phys": 14,
+   "magic": 35,
+   "price": 3000,
+   "effect": "ガード軽減率アップ[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "魔鉄の大盾",
+   "phys": 13,
+   "magic": 30,
+   "price": 6000,
+   "effect": "ガード軽減率アップ[50%]\n魔法防御力アップ[5]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "ヴォーパルラージシールド",
+   "phys": 15,
+   "magic": 35,
+   "price": 6000,
+   "effect": "ガード軽減率アップ[50%]\nHPアップ[5]\n行動速度アップ[3]",
+   "bonus": {
+    "hp": 5
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "大竜骨の大盾",
+   "phys": 11,
+   "magic": 25,
+   "price": 8000,
+   "effect": "ガード軽減率アップ[50%]\nPPアップ[1]\n行動速度ダウン[10]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "茨の大棘盾",
+   "phys": 12,
+   "magic": 30,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[50%]\nPPアップ[1]\nHPダウン[15]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "大氷瀑盾",
+   "phys": 14,
+   "magic": 30,
+   "price": 12000,
+   "effect": "ガード軽減率アップ[50%]\nPPアップ[1]\nガード率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "翼紋章の大盾",
+   "phys": 15,
+   "magic": 35,
+   "price": 14000,
+   "effect": "ガード軽減率アップ[50%]\nPPアップ[1]\n会心率ダウン[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "神殿騎士の大盾",
+   "phys": 10,
+   "magic": 30,
+   "price": 2500,
+   "effect": "ガード軽減率アップ[50%]\nHP回復量アップ[20%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "幻影騎士の大盾",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "ガード軽減率アップ[50%]\n魔法防御力アップ[30]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "ゼノイラ兵の大盾",
+   "phys": 8,
+   "magic": 25,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[50%]\nHPアップ[10]",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "ゼノイラ騎士の大盾",
+   "phys": 13,
+   "magic": 35,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[50%]\nHPアップ[15]\nエンデュランスカバー",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "天翼騎士の大盾",
+   "phys": 0,
+   "magic": 0,
+   "price": 0,
+   "effect": "ガード軽減率アップ[50%]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "蒼紋の大盾",
+   "phys": 10,
+   "magic": 30,
+   "price": 20000,
+   "effect": "ガード軽減率アップ[50%]\nPPアップ[1]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "蜃気楼の大盾",
+   "phys": 3,
+   "magic": 20,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[50%]\n回避アップ[50]",
+   "bonus": {
+    "eva": 50
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "毒蛇の大盾",
+   "phys": 10,
+   "magic": 30,
+   "price": 3000,
+   "effect": "ガード軽減率アップ[50%]\n毒無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "灼熱の大盾",
+   "phys": 10,
+   "magic": 30,
+   "price": 3000,
+   "effect": "ガード軽減率アップ[50%]\n炎上無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "樹氷の大盾",
+   "phys": 10,
+   "magic": 30,
+   "price": 3000,
+   "effect": "ガード軽減率アップ[50%]\n凍結無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "光輝の大盾",
+   "phys": 13,
+   "magic": 35,
+   "price": 8000,
+   "effect": "ガード軽減率アップ[50%]\n毒無効[0]\n暗闇無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "城塞兵の大盾",
+   "phys": 14,
+   "magic": 30,
+   "price": 15000,
+   "effect": "ガード軽減率アップ[50%]\nHPアップ[10]\nヘヴィガード",
+   "bonus": {
+    "hp": 10
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "月光の大盾",
+   "phys": 13,
+   "magic": 35,
+   "price": 15000,
+   "effect": "ガード軽減率アップ[50%]\nノクターナルガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "不屈の大盾",
+   "phys": 14,
+   "magic": 40,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[50%]\nエンデュランスガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "騎馬狩りの大盾",
+   "phys": 10,
+   "magic": 30,
+   "price": 8000,
+   "effect": "ガード軽減率アップ[50%]\nキャバルリーガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "羽狩りの大盾",
+   "phys": 10,
+   "magic": 30,
+   "price": 8000,
+   "effect": "ガード軽減率アップ[50%]\nエアリアルガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "獣狩りの大盾",
+   "phys": 13,
+   "magic": 30,
+   "price": 8000,
+   "effect": "ガード軽減率アップ[50%]\nビーストガード",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "従騎士の大盾",
+   "phys": 10,
+   "magic": 30,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[50%]\nクイックカバー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "重装歩兵の大盾",
+   "phys": 13,
+   "magic": 35,
+   "price": 15000,
+   "effect": "ガード軽減率アップ[50%]\nヘヴィカバー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "鉄壁のタワーシールド",
+   "phys": 10,
+   "magic": 30,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[50%]\nウォール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "巨壁のタワーシールド",
+   "phys": 13,
+   "magic": 35,
+   "price": 20000,
+   "effect": "ガード軽減率アップ[50%]\nグレートウォール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "白騎士の大盾",
+   "phys": 9,
+   "magic": 25,
+   "price": 5000,
+   "effect": "ガード軽減率アップ[50%]\nHPアップ[15]\nライフディバイド",
+   "bonus": {
+    "hp": 15
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "黒銀のパビス",
+   "phys": 14,
+   "magic": 30,
+   "price": 10000,
+   "effect": "ガード軽減率アップ[50%]\n気絶無効[0]\nバンカースタンス",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "天鏡の大盾",
+   "phys": 6,
+   "magic": 10,
+   "price": 0,
+   "effect": "ガード軽減率アップ[50%]\nマジックリフレクト",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "竜岩の氷盾",
+   "phys": 16,
+   "magic": 40,
+   "price": 0,
+   "effect": "ガード軽減率アップ[50%]\n凍結無効[0]\n気絶無効[0]",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "深淵の大盾",
+   "phys": 13,
+   "magic": 35,
+   "price": 0,
+   "effect": "ガード軽減率アップ[50%]\nHPアップ[20]\nダメージ軽減[20%]",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "深淵の大盾",
+   "phys": 16,
+   "magic": 40,
+   "price": 0,
+   "effect": "ガード軽減率アップ[50%]\nHPアップ[20]\nダメージ軽減[20%]",
+   "bonus": {
+    "hp": 20
+   },
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "風大盾スキーローン",
+   "phys": 16,
+   "magic": 40,
+   "price": 0,
+   "effect": "ガード軽減率アップ[50%]\n行動速度アップ[5]\nファストカバー",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "英雄の大盾",
+   "phys": 16,
+   "magic": 40,
+   "price": 0,
+   "effect": "ガード軽減率アップ[50%]\nPPアップ[1]\nインビンシブル",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "王者のタワーシールド",
+   "phys": 16,
+   "magic": 40,
+   "price": 0,
+   "effect": "ガード軽減率アップ[50%]\nアトラクトウォール",
+   "bonus": {},
+   "detail": ""
+  },
+  {
+   "slot": "bigshield",
+   "name": "グラン・バリス",
+   "phys": 16,
+   "magic": 40,
+   "price": 0,
+   "effect": "ガード軽減率アップ[50%]\nデバフ無効[0]",
+   "bonus": {},
+   "detail": ""
+  }
+ ],
+ "equipBySlot": {
+  "sword": [
+   "青銅の剣",
+   "新兵の短剣",
+   "バロックソード",
+   "鉄の剣",
+   "黒鉄の剣",
+   "カルナットソード",
+   "大樹の剣",
+   "鋼の剣",
+   "魔鉄の剣",
+   "ヴォーパルソード",
+   "大竜骨の剣",
+   "茨の棘剣",
+   "氷瀑剣",
+   "翼紋章の剣",
+   "神殿騎士の剣",
+   "幻影騎士の剣",
+   "ゼノイラ兵の剣",
+   "ゼノイラ騎士の剣",
+   "天翼騎士の剣",
+   "猟兵のクレイモア",
+   "祝福の直剣",
+   "闘神の緋石剣",
+   "メテオライトソード",
+   "毒蛇の剣",
+   "蠍の刺剣",
+   "灼熱の細剣",
+   "フランベルジュ",
+   "蛮族の剣",
+   "踊り子の曲刀",
+   "深紅の突剣",
+   "ミストシミター",
+   "風断ちの刃",
+   "風断のファルシオン",
+   "氷雨の直剣",
+   "追撃者の刺剣",
+   "暗殺者の利刃",
+   "月光のレイピア",
+   "ブラッドソード",
+   "ルーンソード",
+   "飛竜の細剣",
+   "スティングレイ",
+   "薔薇騎士の剣",
+   "盗賊騎士の大剣",
+   "王家のサーベル",
+   "グレートソード",
+   "深淵の呪剣",
+   "深淵の呪剣",
+   "深淵のグレートソード",
+   "レッドローズ",
+   "ブルーローズ",
+   "王剣コルニクス",
+   "風剣ノトス",
+   "ロスラリスの花剣",
+   "セイクリッドソード",
+   "一角獣の聖剣"
+  ],
+  "axe": [
+   "青銅の斧",
+   "新兵の手斧",
+   "バロックアクス",
+   "鉄の斧",
+   "黒鉄の斧",
+   "カルナットアックス",
+   "大樹の斧",
+   "鋼の斧",
+   "魔鉄の斧",
+   "ヴォーパルアクス",
+   "大竜骨の斧",
+   "茨の棘斧",
+   "氷瀑斧",
+   "翼紋章の斧",
+   "神殿騎士の斧",
+   "幻影騎士の斧",
+   "ゼノイラ兵の斧",
+   "ゼノイラ騎士の斧",
+   "盗賊騎士の手斧",
+   "金羊騎士の斧",
+   "黒曜の斧",
+   "無名の大斧",
+   "老兵の古斧",
+   "猟兵のハルバード",
+   "破滅の黒塊",
+   "闘神の緋石斧",
+   "メテオライトアックス",
+   "クラッシュアックス",
+   "樹氷の斧",
+   "凍てついた戦斧",
+   "蛮族の斧",
+   "石工の槌",
+   "スパイクハンマー",
+   "処刑人の断斧",
+   "エリミネーター",
+   "グッドモーニングスター",
+   "銀月の斧",
+   "巨人の大斧",
+   "バニッシュハンマー",
+   "暗黒騎士の戦斧",
+   "狂戦士の戦斧",
+   "ブラッドアックス",
+   "ルーンアックス",
+   "薔薇騎士の斧",
+   "薔薇騎士の槌",
+   "ラブリュス",
+   "ウォーハンマー",
+   "深淵の黒斧",
+   "深淵の黒斧",
+   "深淵の呪斧",
+   "深淵の呪斧",
+   "ジャガーノート",
+   "王斧ドランガッシュ",
+   "風斧ボレアス",
+   "ヘレボルスの花斧",
+   "セイクリッドアクス"
+  ],
+  "lance": [
+   "青銅の槍",
+   "新兵の短槍",
+   "バロックスピア",
+   "鉄の槍",
+   "黒鉄の槍",
+   "カルナットスピア",
+   "大樹の槍",
+   "鋼の槍",
+   "魔鉄の槍",
+   "ヴォーパルスピア",
+   "大竜骨の槍",
+   "茨の棘槍",
+   "氷瀑槍",
+   "翼紋章の槍",
+   "塔守の長槍",
+   "名もなき塔守の槍",
+   "神殿騎士の槍",
+   "幻影騎士の槍",
+   "ゼノイラ兵の槍",
+   "ゼノイラ騎士の槍",
+   "紅龍騎士の槍",
+   "聖心騎士の槍",
+   "猟兵のグレイブ",
+   "技巧者の短槍",
+   "闘神の緋石槍",
+   "メテオライトランス",
+   "トゥルースピア",
+   "氷雨の直槍",
+   "錆びた黒槍",
+   "戦姫のパルチザン",
+   "突撃兵の短槍",
+   "簒奪者の槍",
+   "エルフイーター",
+   "名将の長槍",
+   "キャニオンランス",
+   "大旋槍",
+   "竜騎士の戦槍",
+   "ブラッドスピア",
+   "ルーンスピア",
+   "霊樹の双子槍",
+   "霊樹の双子槍",
+   "白銀のトライデント",
+   "血濡れのサリッサ",
+   "炎魔石の手槍",
+   "デスピラー",
+   "深淵の呪槍",
+   "深淵の呪槍",
+   "テスタロッサ",
+   "王槍エルヘリム",
+   "風槍ゼピュロス",
+   "オーキスの花槍",
+   "セイクリッドスピア",
+   "ランスオブデヴォーション"
+  ],
+  "bow": [
+   "青銅の弓",
+   "新兵の短弓",
+   "バロックボウ",
+   "鉄の弓",
+   "黒鉄の弓",
+   "カルナットボウ",
+   "大樹の弓",
+   "鋼の弓",
+   "魔鉄の弓",
+   "ヴォーパルボウ",
+   "大竜骨の弓",
+   "茨の棘弓",
+   "氷瀑弓",
+   "翼紋章の弓",
+   "塔守の長弓",
+   "名もなき塔守の弓",
+   "神殿騎士の弓",
+   "幻影騎士の弓",
+   "ゼノイラ兵の弓",
+   "ゼノイラ騎士の弓",
+   "闘神の緋石弓",
+   "メテオライトボウ",
+   "名射手の古弓",
+   "毒蛇の弓",
+   "フレイムボウ",
+   "火竜の大弓",
+   "暗夜の弓",
+   "轟きの弓",
+   "轟きの剛弓",
+   "貫きの弓",
+   "貫きの剛弓",
+   "魔封じの弓",
+   "フェザントボウ",
+   "異端審問官の弓",
+   "インクイジター",
+   "ラピッドボウ",
+   "銀月の弓",
+   "名将の長弓",
+   "クレインボウ",
+   "狩人の戦弓",
+   "ガリアクロスボウ",
+   "ブラッドボウ",
+   "ルーンボウ",
+   "大樹の霊弓",
+   "デザートボウ",
+   "雪花弓",
+   "ウッドペッカー",
+   "贋作アルミニスタ",
+   "王弓バストリーク",
+   "風弓アペリオテス",
+   "クインスの花弓",
+   "セイクリッドボウ",
+   "アルミニスタ"
+  ],
+  "rod": [
+   "青銅の杖",
+   "新兵の杖",
+   "バロックロッド",
+   "鉄の杖",
+   "黒鉄の杖",
+   "カルナットロッド",
+   "大樹の杖",
+   "鋼の杖",
+   "魔鉄の杖",
+   "ヴォーパルロッド",
+   "大竜骨の杖",
+   "茨の棘杖",
+   "氷瀑杖",
+   "翼紋章の杖",
+   "神殿騎士の杖",
+   "幻影騎士の杖",
+   "ゼノイラ兵の杖",
+   "ゼノイラ騎士の杖",
+   "黒鳥騎士の杖",
+   "逢魔騎士の杖",
+   "魔障壁の杖",
+   "闘神の緋石杖",
+   "メテオライトロッド",
+   "メルトセプター",
+   "病毒の黒杖",
+   "血月のロッド",
+   "ウインドセプター",
+   "大地の石杖",
+   "大魔術師の杖",
+   "氷嵐の杖",
+   "クォーツロッド",
+   "守護のメイス",
+   "聖職者の守杖",
+   "リリックワンド",
+   "祝福のメイス",
+   "双癒の杖",
+   "円燐の杖",
+   "光燐の杖",
+   "プレシャスロッド",
+   "生命の杖",
+   "ピュリファイアー",
+   "解放者の秘杖",
+   "呪速の枝杖",
+   "呪毒の枝杖",
+   "呪炎の枝杖",
+   "砂塵の杖",
+   "呪術師の骨杖",
+   "閃光のメイス",
+   "蝙蝠の杖",
+   "レリア司祭の儀仗",
+   "イチイの賢杖",
+   "クロロティック",
+   "死者の杖",
+   "アインシーカー",
+   "天翼の儀仗",
+   "サングイスメア",
+   "深淵の呪杖",
+   "深淵の呪杖",
+   "サウザンドセプター",
+   "リベールライト",
+   "カーディナルメイス",
+   "王杖アルビオール",
+   "風杖エウロス",
+   "ルピナスの花杖",
+   "セイクリッドロッド",
+   "教皇の権杖"
+  ],
+  "shield": [
+   "青銅の盾",
+   "新兵の盾",
+   "バロックシールド",
+   "バトルシールド",
+   "鉄の盾",
+   "黒鉄の盾",
+   "カルナットシールド",
+   "大樹の盾",
+   "鋼の盾",
+   "魔鉄の盾",
+   "ヴォーパルシールド",
+   "大竜骨の盾",
+   "茨の棘盾",
+   "氷瀑盾",
+   "翼紋章の盾",
+   "塔守の小盾",
+   "名もなき塔守の盾",
+   "神殿騎士の盾",
+   "幻影騎士の盾",
+   "ゼノイラ兵の盾",
+   "ゼノイラ騎士の盾",
+   "金羊騎士の盾",
+   "天翼騎士の盾",
+   "黒曜の盾",
+   "蒼紋の盾",
+   "緋紋の盾",
+   "猟兵のバックラー",
+   "祝福の円盾",
+   "毒蛇の盾",
+   "灼熱の盾",
+   "樹氷の盾",
+   "光輝の盾",
+   "双竜紋の盾",
+   "アンフェッター",
+   "ナイツシールド",
+   "衛兵の盾",
+   "傭兵のウッドシールド",
+   "聖騎士の盾",
+   "騎馬狩りの小盾",
+   "羽狩りの小盾",
+   "獣狩りの小盾",
+   "月光の盾",
+   "不屈の盾",
+   "従騎士の盾",
+   "アローシールド",
+   "鉄壁のバックラー",
+   "魔石のバックラー",
+   "パリングシールド",
+   "白騎士の盾",
+   "青薔薇の盾",
+   "白馬の騎士盾",
+   "風盾カイキアス",
+   "一角獣の聖盾"
+  ],
+  "accessory": [
+   "緋石のペンダント",
+   "緋晶石のペンダント",
+   "蒼石のペンダント",
+   "蒼晶石のペンダント",
+   "紫晶石のペンダント",
+   "黒晶石のペンダント",
+   "ブロンズバングル",
+   "シルバーバングル",
+   "ゴールドバングル",
+   "ブロンズサークレット",
+   "シルバーサークレット",
+   "ゴールドサークレット",
+   "ブラウンベレー",
+   "グリーンベレー",
+   "エリートベレー",
+   "レザーフード",
+   "シルクフード",
+   "セイジフード",
+   "命のタリスマン",
+   "生命のタリスマン",
+   "神樹のタリスマン",
+   "白鳥の羽飾り",
+   "黒鳥の羽飾り",
+   "天使の羽飾り",
+   "鉄の足枷",
+   "狂人の足枷",
+   "悪魔の足枷",
+   "ブルーグラス",
+   "ミラードグラス",
+   "シルクスカーフ",
+   "ロイヤルスカーフ",
+   "傭兵の眼帯",
+   "猛者の眼帯",
+   "幸運のコイン",
+   "ガントレット",
+   "クロスガントレット",
+   "リーフシンボル",
+   "ローズシンボル",
+   "ホーリーシンボル",
+   "セイクリッドシンボル",
+   "スカーレットのリボン",
+   "血塗られたリボン",
+   "戦士のメダリオン",
+   "魔術師のメダリオン",
+   "重装兵のメダリオン",
+   "神官のメダリオン",
+   "英雄のメダリオン",
+   "大地と海のチャーム",
+   "太陽と月のチャーム",
+   "ライオンハート",
+   "宿り木のチャーム",
+   "灯火の指輪",
+   "塔守のランタン",
+   "塔守の角笛",
+   "墓守のランタン",
+   "墓守のブーツ",
+   "死者の指輪",
+   "死霊術師のランタン",
+   "血月のイヤリング",
+   "反撃のイヤリング",
+   "追撃のイヤリング",
+   "追い風のケープ",
+   "リプスの風環",
+   "疾風のブレスレット",
+   "突風のブレスレット",
+   "荒くれタセット",
+   "堅盾の指輪",
+   "曲芸師の靴",
+   "戦列の軍旗",
+   "翼列の軍旗",
+   "精鋭の軍旗",
+   "群狼の篭手",
+   "穴熊のガントレット",
+   "エイドキット",
+   "メディカルキット",
+   "ラージエイドキット",
+   "休息のショール",
+   "守りの指輪",
+   "極光の指輪",
+   "魔除けのチャーム",
+   "風精の鈴",
+   "盗賊の鈴",
+   "炎剣の術書",
+   "氷剣の術書",
+   "雷剣の術書",
+   "血剣の術書",
+   "栄光のサッシュ",
+   "踊り子の腕輪",
+   "賭博師のコイン",
+   "色褪せた賭博師のコイン",
+   "使い魔のチョーカー",
+   "必中の星章",
+   "賢梟のショール",
+   "狙撃手のレンズ",
+   "狙撃手のアンバーレンズ",
+   "飛竜の手綱",
+   "神竜の手綱",
+   "重戦士の篭手",
+   "追撃者の腕輪",
+   "解放者の腕輪",
+   "無法者の腕輪",
+   "狼牙の腕輪",
+   "聖職者の腕輪",
+   "カウンターベルト",
+   "ライオットベルト",
+   "飛竜の爪",
+   "メイジグローブ",
+   "解放者の帯革",
+   "修道士の聖帽",
+   "大司教の聖帽",
+   "精霊の首飾り",
+   "セルフキット",
+   "蒼石の鈴",
+   "踊り子の足環",
+   "陽光のローブ",
+   "月光のローブ",
+   "マッスルベルト",
+   "守りの篭手",
+   "盗賊のマント",
+   "宵闇のマント",
+   "幻影のマント",
+   "駿馬の手綱",
+   "神馬の手綱",
+   "老魔女の指輪",
+   "達人の篭手",
+   "ガーディアングローブ",
+   "復讐鬼のカリガ",
+   "城塞兵のサバトン",
+   "ドルイドローブ",
+   "魔術師のガントレット",
+   "癒しの羽飾り",
+   "不死鳥の羽飾り",
+   "解毒のアミュレット",
+   "火消のアミュレット",
+   "氷解のアミュレット",
+   "気付けのアミュレット",
+   "可視のアミュレット",
+   "封防のアミュレット",
+   "封技のアミュレット",
+   "一角獣の聖印",
+   "火竜の指輪",
+   "氷雪の指輪",
+   "雷鳴の指輪",
+   "ひんやりバンダナ",
+   "とげとげリボン",
+   "もこもこミトン",
+   "ふんわりケープ",
+   "クロエのお守り",
+   "ルーキーエッグ",
+   "ゴールデンエッグ",
+   "守銭奴の腕輪",
+   "銀のゴブレット",
+   "金のゴブレット",
+   "深淵の篭手",
+   "深淵の王冠",
+   "深淵のタリスマン",
+   "星辰のタリスマン",
+   "マギアソウル",
+   "マギアハーツ",
+   "白ネコミミフード",
+   "黒ネコミミフード",
+   "夢幻の王冠",
+   "古代の王冠",
+   "一角獣の指輪",
+   "一角獣の指輪",
+   "一角獣の指輪",
+   "乙女の指輪",
+   "乙女の指輪",
+   "HP＋50",
+   "HP＋200",
+   "STR＋100",
+   "物理攻撃力＋",
+   "魔法攻撃力＋",
+   "会心ダメージ＋"
+  ],
+  "bigshield": [
+   "青銅の大盾",
+   "新兵の大盾",
+   "バロックラージシールド",
+   "ライトラージシールド",
+   "鉄の大盾",
+   "黒鉄の大盾",
+   "カルナットラージシールド",
+   "大樹の大盾",
+   "鋼の大盾",
+   "魔鉄の大盾",
+   "ヴォーパルラージシールド",
+   "大竜骨の大盾",
+   "茨の大棘盾",
+   "大氷瀑盾",
+   "翼紋章の大盾",
+   "神殿騎士の大盾",
+   "幻影騎士の大盾",
+   "ゼノイラ兵の大盾",
+   "ゼノイラ騎士の大盾",
+   "天翼騎士の大盾",
+   "蒼紋の大盾",
+   "蜃気楼の大盾",
+   "毒蛇の大盾",
+   "灼熱の大盾",
+   "樹氷の大盾",
+   "光輝の大盾",
+   "城塞兵の大盾",
+   "月光の大盾",
+   "不屈の大盾",
+   "騎馬狩りの大盾",
+   "羽狩りの大盾",
+   "獣狩りの大盾",
+   "従騎士の大盾",
+   "重装歩兵の大盾",
+   "鉄壁のタワーシールド",
+   "巨壁のタワーシールド",
+   "白騎士の大盾",
+   "黒銀のパビス",
+   "天鏡の大盾",
+   "竜岩の氷盾",
+   "深淵の大盾",
+   "深淵の大盾",
+   "風大盾スキーローン",
+   "英雄の大盾",
+   "王者のタワーシールド",
+   "グラン・バリス"
+  ]
+ },
+ "slotCat": {
+  "剣": "sword",
+  "斧": "axe",
+  "槍": "lance",
+  "弓": "bow",
+  "杖": "rod",
+  "盾": "shield",
+  "大盾": "bigshield",
+  "アクセ": "accessory",
+  "アクセ１": "accessory",
+  "アクセ２": "accessory",
+  "アクセサリ": "accessory"
+ },
+ "clsName": {
+  "ロード": "Lord",
+  "ハイロード": "High Lord",
+  "プリーステス": "Priestess",
+  "ハイプリーステス": "High Priestess",
+  "ファイター": "Fighter",
+  "ヴァンガード": "Vanguard",
+  "パラディン": "Paladin",
+  "ソルジャー": "Soldier",
+  "サージェント": "Sergeant",
+  "ホプリタイ": "Hoplite",
+  "カタフラクト": "Legionnaire",
+  "ナイト": "Knight",
+  "グレートナイト": "Great Knight",
+  "ハンター": "Hunter",
+  "スナイパー": "Sniper",
+  "クレリック": "Cleric",
+  "ビショップ": "Bishop",
+  "ウィッチ": "Witch",
+  "ソーサレス": "Sorceress",
+  "ウィザード": "Wizard",
+  "ウォーロック": "Warlock",
+  "ウォーリア": "Warrior",
+  "ブレイカー": "Breaker",
+  "マーセナリー": "Sellsword",
+  "ランツクネヒト": "Landsknecht",
+  "ホワイトナイト": "Radiant Knight",
+  "セイントナイト": "Sainted Knight",
+  "グリフォンナイト": "Gryphon Knight",
+  "グリフォンルーラー": "Gryphon Master",
+  "ソードマン": "Swordfighter",
+  "ソードマスター": "Swordmaster",
+  "クルセイダー": "Crusader",
+  "ヴァルキュリア": "Valkyria",
+  "シャーマン": "Shaman",
+  "ドルイド": "Druid",
+  "ローグ": "Thief",
+  "ダークマーキス(杖)": "Dark Marquess (Staff)",
+  "シーフ": "Thief",
+  "ハスカール": "Housecarl",
+  "ヴァイキング": "Viking",
+  "グラディエーター": "Gladiator",
+  "バーサーカー": "Berserker",
+  "ダークマーキス(斧)": "Dark Marquess (Axe)",
+  "シューター": "Arbalist",
+  "シールドシューター": "Shieldshooter",
+  "ブラックナイト": "Dark Knight",
+  "ドゥームナイト": "Doom Knight",
+  "ワイバーンナイト": "Wyvern Knight",
+  "ワイバーンルーラー": "Wyvern Master",
+  "プリンス": "Prince",
+  "ドレッドノート": "Dreadnought",
+  "エルフアウグル": "Elven Augur",
+  "エルフアーチャー": "Elven Archer",
+  "エルフシビュラ": "Elven Sibyl",
+  "エルフフェンサー": "Elven Fencer",
+  "スノーレンジャー": "Snow Ranger",
+  "ワーライオン": "Werelion",
+  "ワーオウル": "Wereowl",
+  "ワーフォックス": "Werefox",
+  "ワーウルフ": "Werewolf",
+  "ワーベア": "Werebear",
+  "ダークマーキス(獣)": "Dark Marquess (Spear)",
+  "フェザーソード": "Feathersword",
+  "フェザーボウ": "Featherbow",
+  "フェザーシールド": "Feathershield",
+  "フェザーロッド": "Featherstaff",
+  "ダークマーキス(剣)": "Dark Marquess (Sword)"
  }
 }

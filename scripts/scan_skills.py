@@ -3,7 +3,7 @@
 import os
 import re
 
-OUT = r'G:\CODEX\战棋站复刻知识包-UNICORN-OVERLORD\04-Skill清单\skills.md'
+OUT = r'G:\CODEX\战棋站复刻知识包-UNICORN-OVERLORD-v2\04-Skill清单\skills.md'
 
 SOURCES = [
     ('Codex 专用（SEO 建站全家桶）', r'C:\Users\Admin\.codex\skills'),
