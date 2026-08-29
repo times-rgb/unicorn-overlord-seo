@@ -38,6 +38,15 @@
 .ul-dews{display:inline-flex;gap:8px;flex-wrap:wrap}
 .ul-dewt{color:#c9a45c!important;text-transform:uppercase;letter-spacing:.06em;font-size:12px}
 .ul-dw{width:44px;padding:4px 6px!important;font-size:13px!important;text-align:center}
+.ul-skills{margin-top:14px;max-width:460px}
+.ul-skills h3{font-family:Cinzel,serif;color:#c9a45c;font-size:15px;letter-spacing:.05em;margin:14px 0 6px;text-transform:uppercase}
+.ul-sk{margin-bottom:8px}
+.ul-sk b{display:block;font-size:11px;color:#8a93a5;letter-spacing:.08em;text-transform:uppercase;margin-bottom:2px}
+.ul-sk ul{list-style:none;margin:0;padding:0}
+.ul-sk li{padding:5px 8px;border-left:2px solid rgba(212,175,55,.35);margin:4px 0;background:rgba(255,255,255,.02);border-radius:0 6px 6px 0;font-size:12.5px;color:#cfd3dc}
+.ul-sk .sk-n{color:#f0e6cf;font-weight:600}
+.ul-sk .sk-l{color:#7bc47f;font-size:11px;margin-left:6px}
+.ul-sk .sk-e{display:block;color:#8a93a5;font-size:11.5px;margin-top:2px;line-height:1.45}
 </style></head><body><header class="nav"><a class="brand" href="/">UNICORN <i>OVERLORD</i><small>SEO ENGINE</small></a><nav><a href="/guides/">Guides</a><a href="/guides/#playable">Characters</a><a href="/guides/#classes">Classes</a><a href="/guides/#equipment">Equipment</a><a class="button small" href="/team-builder/">Team Builder</a></nav></header><main class="builder"><p class="eyebrow">INTERACTIVE SQUAD PLANNER</p><h1>Team Builder</h1><p class="lede">Select five units, save the formation in this browser, then create a portable URL that restores the exact squad.</p><div class="builder-grid"><section class="formation"><h2>Formation</h2><div class="slots"><div class="slot" id="front-left"></div><div class="slot" id="front-center"></div><div class="slot" id="front-right"></div><div class="slot" id="back-left"></div><div class="slot" id="back-right"></div></div></section><aside class="side-panel"><h2>Squad record</h2><label for="team-name">Formation name</label><input id="team-name" maxlength="40"><div class="builder-actions"><button class="button" id="save">Save squad</button><button class="ghost" id="share">Generate share URL</button><button class="ghost" id="reset">Reset</button></div><p class="notice" id="notice" aria-live="polite"></p><p>Start with the <a class="text-link" href="/characters/alain/">Alain build</a> or review the <a class="text-link" href="/classes/warrior/">Warrior counter guide</a>.</p></aside></div><section class="ul-lab" id="ul-lab"><div class="crumb"><a href="/">Home</a> / <a href="/guides/">Guides</a> / Unit Lab</div><p class="eyebrow">UNIT LAB · NUMERIC SIMULATOR</p><h2>Level 50 Stat Lab</h2><p class="lede">Simulate any unit's exact stats — level, class, equipment and dews. All 70 characters, growth tables from HyperWiki(JP).</p><div class="ul-controls"><label>Unit
 <select id="ul-unit"></select></label><label>Class
 <select id="ul-class"></select></label><label>Level
@@ -178,6 +187,23 @@
   }
 
   // 6) 渲染
+  function skillsHTML(clsJP) {
+    const sk = (data.classSkills || {})[clsJP];
+    if (!sk) return '';
+    const groups = [['active', 'Active'], ['passive', 'Passive'], ['brave', 'Brave'], ['leader', 'Leader']];
+    let h = '<div class="ul-skills"><h3>Class Skills</h3>';
+    groups.forEach(function (g) {
+      const list = sk[g[0]] || [];
+      if (!list.length) return;
+      h += '<div class="ul-sk"><b>' + g[1] + '</b><ul>' + list.map(function (s) {
+        return '<li><span class="sk-n">' + s.name + '</span>' +
+          (s.learn && s.learn !== '–' && s.learn !== '-' ? '<span class="sk-l">' + s.learn + '</span>' : '') +
+          '<span class="sk-e">' + s.effect + '</span></li>';
+      }).join('') + '</ul></div>';
+    });
+    h += '<div class="ul-foot">Skill data (JP) from HyperWiki class pages.</div></div>';
+    return h;
+  }
   function render() {
     const key = unitSel.value;
     if (!key) { out.innerHTML = ''; return; }
@@ -188,7 +214,7 @@
     const stats = lab.calcUnit(data, key, cls, lv, dewState, equips);
     const hasDew = Object.keys(dewState).some(function (k) { return dewState[k] > 0; });
     const eqNames = equips.map(function (e) { return e.name; });
-    out.innerHTML = lab.statsPanel(ch, stats, clsName[cls] || cls, lv, hasDew, eqNames);
+    out.innerHTML = lab.statsPanel(ch, stats, clsName[cls] || cls, lv, hasDew, eqNames) + skillsHTML(cls);
     syncLabURL();
   }
 
