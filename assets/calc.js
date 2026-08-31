@@ -64,11 +64,12 @@ function equipStats(item) {
   return b;
 }
 
-function calcUnit(data, charKey, clsKey, level, dew, equipItems) {
+function calcUnit(data, charKey, clsKey, level, dew, equipItems, hearts) {
   const ch = data.characters[charKey];
   if (!ch || !ch.growth1) return null;
   // clsKey 支持 JP 键（新数据）或英文名（经 CLS_JP 映射）
-  const cls = data.classes[clsKey] || data.classes[CLS_JP[clsKey]];
+  const resolvedKey = data.classes[clsKey] ? clsKey : (CLS_JP[clsKey] || '');
+  const cls = data.classes[resolvedKey];
   const lv = data.expTable[String(level)];
   if (!cls || !lv) return null;
   const g1 = data.growthTypes.A[ch.growth1], g2 = data.growthTypes.A[ch.growth2];
@@ -97,11 +98,16 @@ function calcUnit(data, charKey, clsKey, level, dew, equipItems) {
       if (n > 0) out[k] += DEW_PER[k] * Math.min(n, 5);
     }
   }
+  // 编成加成（亲密度 ♥ × 职业基础值）
+  if (hearts && data.unitBonus && data.unitBonus[resolvedKey]) {
+    const ub = data.unitBonus[resolvedKey];
+    for (const k in ub) if (out[k] !== undefined) out[k] += ub[k] * hearts;
+  }
   return out;
 }
 
 // 生成卡牌风属性面板（RPG/TCG 风）
-function statsPanel(ch, stats, clsLabel, level, dew, equipNames) {
+function statsPanel(ch, stats, clsLabel, level, dew, equipNames, hearts) {
   const ava = (ch && ch.img) || (ch ? '/assets/chars/' + (ch.faction || '') + '_' + ch.name + '.webp' : '');
   const maxes = { hp: 150, pAtk: 80, pDef: 70, mAtk: 80, mDef: 70, acc: 190, eva: 100, crit: 40, guard: 50, spd: 80, mov: 100 };
   const ic = { hp: '❤️', pAtk: '⚔️', pDef: '🛡️', mAtk: '🔮', mDef: '🛡', acc: '🎯', eva: '💨', crit: '💥', guard: '🗡️', spd: '⚡', mov: '👢' };
@@ -113,12 +119,13 @@ function statsPanel(ch, stats, clsLabel, level, dew, equipNames) {
       '<td class="ul-bar"><i class="' + col + '" style="width:' + w + '%"></i></td></tr>';
   }
   const equipLine = (equipNames && equipNames.length) ? ' · ' + equipNames.join(' + ') : '';
+  const heartLine = hearts ? ' · ♥' + hearts + ' formation' : '';
   return '<div class="ul-card"><div class="ul-head"><img class="ul-ava" src="' + ava + '" alt="' + (ch ? ch.name : '') + '">' +
     '<div class="ul-id"><b>' + (ch ? ch.name : '?') + '</b><span>' + (clsLabel || '') + ' · ' + ((ch && ch.faction) || '') + '</span>' +
     '<span class="ul-gt">' + ((ch && ch.growth1) || '?') + ' / ' + ((ch && ch.growth2) || '?') + '</span></div>' +
     '<div class="ul-lv">LV ' + level + (dew ? '<small>+ dews</small>' : '<small>base</small>') + '</div></div>' +
     '<table class="ul-stats">' + rows + '</table>' +
-    '<div class="ul-foot">Precise level-' + level + ' stats · HyperWiki formula' + equipLine + '</div></div>';
+    '<div class="ul-foot">Precise level-' + level + ' stats · HyperWiki formula' + equipLine + heartLine + '</div></div>';
 }
 
 window.UOLab = { loadUOData, calcUnit, statsPanel, equipStats, STAT_LABEL, STAT_KEYS, CLS_JP, DEW_PER, DEW_FULL };

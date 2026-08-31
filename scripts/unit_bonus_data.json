@@ -1,0 +1,732 @@
+{
+ "ロード": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ファイター": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ソルジャー": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "ハスカール": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ソードマン": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 1,
+  "guard": 0
+ },
+ "マーセナリー": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "ホプリタイ": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "グラディエーター": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "ウォーリア": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "ハンター": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "シューター": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "シーフ": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "ナイト": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ホワイトナイト": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ブラックナイト": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 1,
+  "guard": 1
+ },
+ "クレリック": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "ウィザード": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 1,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "ウィッチ": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 1,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "シャーマン": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 0,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "ワイバーンナイト": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "グリフォンナイト": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "プリーステス": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 1,
+  "mDef": 1,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "クルセイダー": {
+  "pAtk": 1,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "エルフシビュラ": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 2,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "エルフアウグル": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 1,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "スノーレンジャー": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 2,
+  "crit": 1,
+  "guard": 0
+ },
+ "ハイロード": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ヴァンガード": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "サージェント": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "ヴァイキング": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ソードマスター": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 1,
+  "guard": 0
+ },
+ "ランツクネヒト": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "カタフラクト": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "バーサーカー": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "ブレイカー": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "スナイパー": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "シールドシューター": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ローグ": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "グレートナイト": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "セイントナイト": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ドゥームナイト": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 1,
+  "guard": 1
+ },
+ "ビショップ": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "ウォーロック": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 1,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "ソーサレス": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 1,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "ドルイド": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 0,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "ワイバーンルーラー": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "グリフォンルーラー": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "エルフフェンサー": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 1,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "エルフアーチャー": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "ワーウルフ": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "ワーフォックス": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "ワーベア": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ワーオウル": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "フェザーソード": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 1
+ },
+ "フェザーボウ": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 1,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "フェザーロッド": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 1,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "フェザーシールド": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ハイプリーステス": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 1,
+  "mDef": 1,
+  "acc": 0,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "ヴァルキュリア": {
+  "pAtk": 1,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ワーライオン": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "パラディン": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 1,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "プリンス": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 1,
+  "guard": 0
+ },
+ "ドレッドノート": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 1,
+  "guard": 0
+ },
+ "憑依ドレッドノート": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 2,
+  "crit": 1,
+  "guard": 0
+ },
+ "ネクロマンサー": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "ネクロマンサー(Z)": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "ダークロード": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "オーバーロード": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 0,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ },
+ "ダークマーキス(剣)": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 1
+ },
+ "ダークマーキス(斧)": {
+  "pAtk": 1,
+  "pDef": 0,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 0,
+  "crit": 1,
+  "guard": 0
+ },
+ "ダークマーキス(槍)": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "ダークマーキス(獣)": {
+  "pAtk": 0,
+  "pDef": 1,
+  "mAtk": 0,
+  "mDef": 0,
+  "acc": 2,
+  "eva": 2,
+  "crit": 0,
+  "guard": 0
+ },
+ "ダークマーキス(杖)": {
+  "pAtk": 0,
+  "pDef": 0,
+  "mAtk": 1,
+  "mDef": 1,
+  "acc": 2,
+  "eva": 0,
+  "crit": 0,
+  "guard": 0
+ }
+}
